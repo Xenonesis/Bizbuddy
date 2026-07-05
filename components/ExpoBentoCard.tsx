@@ -26,8 +26,8 @@ export const ExpoBentoCard: React.FC<BentoCardProps> = ({
     ? "card-dark border-[#262626] bg-[#171717] hover:border-[#404040]"
     : "card-surface border-[#dcdee0] bg-white hover:border-[#171717]";
     
-  const textTitleClasses = isDark ? "text-white" : "text-[#171717]";
-  const textDescClasses = isDark ? "text-[#a1a1aa]" : "text-[#60646c]";
+  const textTitleClasses = isDark ? "text-white" : "text-[#171717] dark:text-[#f4f4f5]";
+  const textDescClasses = isDark ? "text-[#a1a1aa]" : "text-[#60646c] dark:text-zinc-400";
   
   const CardWrapper = href ? "a" : "div";
   const wrapperProps = href ? { href, className: "block group cursor-pointer" } : { className: "group" };
@@ -41,7 +41,7 @@ export const ExpoBentoCard: React.FC<BentoCardProps> = ({
             <div className={`w-10 h-10 rounded-lg flex items-center justify-center transition-colors ${
               isDark 
                 ? "bg-[#262626] text-white group-hover:bg-[#404040]" 
-                : "bg-[#f0f0f3] text-[#171717] group-hover:bg-black group-hover:text-white"
+                : "bg-[#f0f0f3] dark:bg-[#27272a] text-[#171717] dark:text-[#f4f4f5] group-hover:bg-black dark:group-hover:bg-[#f4f4f5] group-hover:text-white dark:group-hover:text-black"
             }`}>
               <Icon className="w-5 h-5" />
             </div>
