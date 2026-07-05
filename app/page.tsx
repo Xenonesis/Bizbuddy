@@ -23,6 +23,7 @@ import {
 } from "lucide-react";
 
 import { DeviceMockupHero } from "../components/DeviceMockupHero";
+import { ExpoBentoCard } from "../components/ExpoBentoCard";
 import { QuoteCalculator } from "../components/QuoteCalculator";
 import { FaqAccordion } from "../components/FaqAccordion";
 import { PORTFOLIO_ITEMS, TESTIMONIALS, SOCIAL_MEDIA_PLANS } from "../lib/data";
@@ -105,217 +106,242 @@ export default function Home({ onOpenConsultation, onOpenLeadModal }: PageProps)
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {/* Card 1: Social Media */}
-          <div className="card-surface p-6 flex flex-col justify-between group">
-            <div className="space-y-4">
-              <div className="w-12 h-12 rounded-lg bg-[#f0f0f3] text-[#171717] flex items-center justify-center group-hover:bg-black group-hover:text-white transition-colors">
-                <TrendingUp className="w-6 h-6" />
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+          {/* Main Massive Card (Dark Inversion) spans 2 columns */}
+          <div className="lg:col-span-2">
+            <ExpoBentoCard
+              theme="dark"
+              title="Web Development & Systems"
+              description="Responsive landing pages, multi-page business websites, e-commerce storefronts, and specialized QR ordering systems with zero-hassle cloud deployment."
+              icon={Code2}
+              href="/services/website-development"
+              className="min-h-[420px]"
+            >
+              {/* Expo Style Code Mockup Panel inside the card */}
+              <div className="mt-6 border border-[#262626] bg-[#0c0d10] rounded-xl overflow-hidden shadow-2xl flex flex-col w-full opacity-90 group-hover:opacity-100 transition-opacity">
+                <div className="flex items-center px-4 py-3 bg-[#121418] border-b border-[#262626] gap-2">
+                  <div className="flex gap-1.5">
+                    <div className="w-2.5 h-2.5 rounded-full bg-[#3f3f46]"></div>
+                    <div className="w-2.5 h-2.5 rounded-full bg-[#3f3f46]"></div>
+                    <div className="w-2.5 h-2.5 rounded-full bg-[#3f3f46]"></div>
+                  </div>
+                  <div className="text-[11px] font-mono text-[#a1a1aa] ml-2">app/page.tsx</div>
+                </div>
+                <div className="p-5 font-mono text-xs md:text-sm text-[#e4e4e7] overflow-hidden whitespace-pre-wrap leading-relaxed">
+                  <span className="text-[#818cf8]">export default function</span> <span className="text-[#38bdf8]">BusinessSite</span>() {"{"}<br/>
+                  {"  "}return (<br/>
+                  {"    "}&lt;<span className="text-[#38bdf8]">BizBuddy.LandingPage</span><br/>
+                  {"      "}theme=<span className="text-[#16a34a]">"premium"</span><br/>
+                  {"      "}seoOptimized=<span className="text-[#38bdf8]">{"{true}"}</span><br/>
+                  {"      "}mobileResponsive=<span className="text-[#38bdf8]">{"{true}"}</span><br/>
+                  {"    "}/&gt;<br/>
+                  {"  "});<br/>
+                  {"}"}
+                </div>
               </div>
-              <h3 className="text-xl font-semibold text-[#171717]">
-                Social Media Management
-              </h3>
-              <p className="text-sm text-[#60646c] leading-relaxed">
-                High-converting Instagram & Facebook posts, viral reels editing, daily stories, comment replies, and Meta ads management.
-              </p>
-              <div className="pt-2 text-xs font-mono text-[#0d74ce] font-semibold">
-                Starting ₹1,499/month
-              </div>
-            </div>
-            <div className="pt-6">
-              <Link
-                href="/services/social-media"
-                className="btn-secondary w-full justify-center text-xs"
-              >
-                View Social Media Plans
-                <ArrowRight className="w-3.5 h-3.5 ml-1" />
-              </Link>
-            </div>
+            </ExpoBentoCard>
           </div>
 
-          {/* Card 2: Accounts & Tax */}
-          <div className="card-surface p-6 flex flex-col justify-between group">
-            <div className="space-y-4">
-              <div className="w-12 h-12 rounded-lg bg-[#f0f0f3] text-[#171717] flex items-center justify-center group-hover:bg-black group-hover:text-white transition-colors">
-                <FileText className="w-6 h-6" />
+          {/* Secondary Stack (1 column) */}
+          <div className="flex flex-col gap-6 lg:col-span-1">
+            <ExpoBentoCard
+              theme="light"
+              title="Social Media Management"
+              description="High-converting Instagram & Facebook posts, viral reels editing, and Meta ads."
+              icon={TrendingUp}
+              href="/services/social-media"
+              className="flex-1"
+            >
+              <div className="flex items-center gap-2 mt-4 text-[#0d74ce] dark:text-[#38bdf8] text-sm font-medium group-hover:underline">
+                View Plans <ArrowRight className="w-4 h-4" />
               </div>
-              <h3 className="text-xl font-semibold text-[#171717]">
-                Accounts & Tax Solutions
-              </h3>
-              <p className="text-sm text-[#60646c] leading-relaxed">
-                PF return filing, quarterly TDS, Income Tax Return (ITR), cloud bookkeeping, company incorporation, and GST returns.
-              </p>
-              <div className="pt-2 text-xs font-mono text-[#0d74ce] font-semibold">
-                Starting ₹999/month · CA Verified
-              </div>
-            </div>
-            <div className="pt-6">
-              <Link
-                href="/services/accounts"
-                className="btn-secondary w-full justify-center text-xs"
-              >
-                Explore Tax Services
-                <ArrowRight className="w-3.5 h-3.5 ml-1" />
-              </Link>
-            </div>
-          </div>
+            </ExpoBentoCard>
 
-          {/* Card 3: Website Development */}
-          <div className="card-surface p-6 flex flex-col justify-between group">
-            <div className="space-y-4">
-              <div className="w-12 h-12 rounded-lg bg-[#f0f0f3] text-[#171717] flex items-center justify-center group-hover:bg-black group-hover:text-white transition-colors">
-                <Code2 className="w-6 h-6" />
+            <ExpoBentoCard
+              theme="light"
+              title="Accounts & Tax"
+              description="PF returns, TDS, ITR filing, and GST returns handled by verified CAs."
+              icon={FileText}
+              href="/services/accounts"
+              className="flex-1"
+            >
+              <div className="flex items-center gap-2 mt-4 text-[#0d74ce] dark:text-[#38bdf8] text-sm font-medium group-hover:underline">
+                Explore Tax Services <ArrowRight className="w-4 h-4" />
               </div>
-              <h3 className="text-xl font-semibold text-[#171717]">
-                Website Development
-              </h3>
-              <p className="text-sm text-[#60646c] leading-relaxed">
-                Responsive landing pages, multi-page business websites, e-commerce storefronts, and specialized QR ordering systems.
-              </p>
-              <div className="pt-2 text-xs font-mono text-[#0d74ce] font-semibold">
-                Starting ₹3,999 (Domain & SSL Included)
-              </div>
-            </div>
-            <div className="pt-6">
-              <Link
-                href="/services/website-development"
-                className="btn-secondary w-full justify-center text-xs"
-              >
-                Build My Website
-                <ArrowRight className="w-3.5 h-3.5 ml-1" />
-              </Link>
-            </div>
+            </ExpoBentoCard>
           </div>
         </div>
 
-        {/* 2-Column Row for Editing & Other Services */}
+        {/* 2-Column Standard Row for Editing & Other Services */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div className="card-surface p-6 flex flex-col justify-between group">
-            <div className="space-y-4">
-              <div className="w-12 h-12 rounded-lg bg-[#f0f0f3] text-[#171717] flex items-center justify-center group-hover:bg-black group-hover:text-white transition-colors">
-                <Video className="w-6 h-6" />
+          <ExpoBentoCard
+            theme="light"
+            title="Reels & Graphic Editing Services"
+            description="Viral subtitles for Reels & Shorts, YouTube thumbnails, banner design, and AI-generated avatar videos."
+            icon={Video}
+            href="/services/editing"
+          >
+             <div className="flex items-center gap-2 mt-4 text-[#0d74ce] dark:text-[#38bdf8] text-sm font-medium group-hover:underline">
+                View Editing Packs <ArrowRight className="w-4 h-4" />
               </div>
-              <h3 className="text-xl font-semibold text-[#171717]">
-                Reels & Graphic Editing Services
-              </h3>
-              <p className="text-sm text-[#60646c] leading-relaxed">
-                Viral subtitles for Reels & Shorts, YouTube thumbnails, banner design, poster design, and AI-generated avatar videos.
-              </p>
-            </div>
-            <div className="pt-6">
-              <Link
-                href="/services/editing"
-                className="btn-secondary w-full sm:w-auto text-xs"
-              >
-                View Editing Packs
-                <ArrowRight className="w-3.5 h-3.5 ml-1" />
-              </Link>
-            </div>
-          </div>
+          </ExpoBentoCard>
 
-          <div className="card-surface p-6 flex flex-col justify-between group">
-            <div className="space-y-4">
-              <div className="w-12 h-12 rounded-lg bg-[#f0f0f3] text-[#171717] flex items-center justify-center group-hover:bg-black group-hover:text-white transition-colors">
-                <LayoutGrid className="w-6 h-6" />
+          <ExpoBentoCard
+            theme="light"
+            title="Other Business Support"
+            description="Visiting card printing, basic accounting support, customer helpline integration, and growth consulting."
+            icon={LayoutGrid}
+            href="/services/other"
+          >
+             <div className="flex items-center gap-2 mt-4 text-[#0d74ce] dark:text-[#38bdf8] text-sm font-medium group-hover:underline">
+                Learn More <ArrowRight className="w-4 h-4" />
               </div>
-              <h3 className="text-xl font-semibold text-[#171717]">
-                Other Business Support Services
-              </h3>
-              <p className="text-sm text-[#60646c] leading-relaxed">
-                Visiting card printing, basic accounting support, customer helpline integration, and growth consulting.
-              </p>
+          </ExpoBentoCard>
+        </div>
+      </section>
+
+      {/* 4. WHY CHOOSE US (Expo Workflow Layout) */}
+      <section className="bg-[#fafafa] dark:bg-[#0c0d10] border-y border-[#dcdee0] dark:border-[#27272a] py-24">
+        <div className="max-w-[1280px] mx-auto px-4 sm:px-6">
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
+            {/* Left: Text & Features */}
+            <div className="space-y-10">
+              <div className="space-y-4">
+                <div className="badge-pill border border-[#dcdee0] dark:border-zinc-800">
+                  DEVELOP & GROW
+                </div>
+                <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold tracking-tighter text-[#171717] dark:text-[#f4f4f5] leading-[1.1]">
+                  Built for affordable, measurable business growth.
+                </h2>
+                <p className="text-base sm:text-lg text-[#60646c] dark:text-zinc-400 max-w-lg leading-relaxed">
+                  Transparent pricing starting from ₹1,499/mo with zero hidden setup fees or contracts. Your dedicated account manager scales with you.
+                </p>
+              </div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <div className="space-y-3">
+                  <div className="w-10 h-10 rounded-md bg-[#f0f0f3] dark:bg-[#27272a] text-[#0d74ce] dark:text-blue-400 flex items-center justify-center font-bold">
+                    <Zap className="w-5 h-5" />
+                  </div>
+                  <h4 className="font-semibold text-lg text-[#171717] dark:text-[#f4f4f5]">Fast Delivery</h4>
+                  <p className="text-sm text-[#60646c] dark:text-zinc-400 leading-relaxed">
+                    3-day website turnarounds and 24-hour reel edits so your business never waits.
+                  </p>
+                </div>
+                
+                <div className="space-y-3">
+                  <div className="w-10 h-10 rounded-md bg-[#f0f0f3] dark:bg-[#27272a] text-[#0d74ce] dark:text-blue-400 flex items-center justify-center font-bold">
+                    <TrendingUp className="w-5 h-5" />
+                  </div>
+                  <h4 className="font-semibold text-lg text-[#171717] dark:text-[#f4f4f5]">Monthly Reports</h4>
+                  <p className="text-sm text-[#60646c] dark:text-zinc-400 leading-relaxed">
+                    Clear performance metrics, reach analytics, and tax filing receipts delivered every 30 days.
+                  </p>
+                </div>
+              </div>
             </div>
-            <div className="pt-6">
-              <Link
-                href="/services/other"
-                className="btn-secondary w-full sm:w-auto text-xs"
-              >
-                Learn More
-                <ArrowRight className="w-3.5 h-3.5 ml-1" />
-              </Link>
+
+            {/* Right: Large Mockup Panel */}
+            <div className="relative">
+              <div className="rounded-2xl border border-[#dcdee0] dark:border-[#27272a] bg-white dark:bg-[#14161b] p-2 shadow-2xl overflow-hidden group">
+                <div className="aspect-[4/3] rounded-xl border border-[#f0f0f3] dark:border-[#27272a] bg-[#fafafa] dark:bg-[#0c0d10] flex items-center justify-center overflow-hidden relative">
+                   <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(207,231,255,0.4)_0%,rgba(255,255,255,0)_70%)] dark:bg-[radial-gradient(ellipse_at_center,rgba(30,41,59,0.5)_0%,rgba(12,13,16,0)_70%)]"></div>
+                   
+                   {/* Abstract Dashboard Mockup */}
+                   <div className="w-3/4 bg-white dark:bg-[#171717] border border-[#dcdee0] dark:border-[#262626] rounded-lg shadow-lg flex flex-col overflow-hidden transform group-hover:scale-[1.02] transition-transform duration-500">
+                     <div className="h-8 border-b border-[#f0f0f3] dark:border-[#262626] bg-[#fafafa] dark:bg-[#14161b] flex items-center px-3 gap-1.5">
+                       <div className="w-2 h-2 rounded-full bg-[#dcdee0] dark:bg-[#3f3f46]"></div>
+                       <div className="w-2 h-2 rounded-full bg-[#dcdee0] dark:bg-[#3f3f46]"></div>
+                       <div className="w-2 h-2 rounded-full bg-[#dcdee0] dark:bg-[#3f3f46]"></div>
+                     </div>
+                     <div className="p-4 space-y-4">
+                       <div className="flex gap-4">
+                         <div className="flex-1 space-y-2">
+                           <div className="h-3 w-1/3 bg-[#f0f0f3] dark:bg-[#27272a] rounded"></div>
+                           <div className="h-6 w-2/3 bg-emerald-100 dark:bg-emerald-900/30 text-emerald-600 dark:text-emerald-400 rounded flex items-center px-2 text-[10px] font-mono">
+                             +125% Conversion Rate
+                           </div>
+                         </div>
+                         <div className="w-10 h-10 rounded-full border-2 border-[#cfe7ff] dark:border-blue-900/50 flex items-center justify-center">
+                           <Users className="w-4 h-4 text-[#0d74ce] dark:text-blue-400" />
+                         </div>
+                       </div>
+                       <div className="space-y-2 pt-2 border-t border-[#f0f0f3] dark:border-[#262626]">
+                         <div className="h-2 w-full bg-[#f0f0f3] dark:bg-[#27272a] rounded"></div>
+                         <div className="h-2 w-5/6 bg-[#f0f0f3] dark:bg-[#27272a] rounded"></div>
+                         <div className="h-2 w-4/6 bg-[#f0f0f3] dark:bg-[#27272a] rounded"></div>
+                       </div>
+                     </div>
+                   </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* 4. WHY CHOOSE US (4-Column Feature Cards) */}
-      <section className="bg-[#fafafa] border-y border-[#dcdee0] py-16">
-        <div className="max-w-[1280px] mx-auto px-4 sm:px-6 space-y-10">
-          <div className="text-center max-w-2xl mx-auto space-y-3">
-            <div className="badge-pill">WHY BIZBUDDY</div>
-            <h2 className="text-3xl font-semibold text-[#171717]">
-              Built for affordable, measurable business growth.
-            </h2>
+      {/* 5. 4-STEP PROCESS (Expo IDE / Terminal Mockup Layout) */}
+      <section className="max-w-[1024px] mx-auto px-4 sm:px-6 space-y-8">
+        <div className="text-center max-w-2xl mx-auto space-y-4">
+          <div className="badge-pill border border-[#dcdee0] dark:border-zinc-800">
+            SIMPLE WORKFLOW
           </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="bg-white p-6 rounded-xl border border-[#dcdee0] space-y-3">
-              <div className="w-10 h-10 rounded-md bg-[#cfe7ff] text-[#0d74ce] flex items-center justify-center font-bold">
-                <Percent className="w-5 h-5" />
-              </div>
-              <h4 className="font-semibold text-lg text-[#171717]">Affordable Plans</h4>
-              <p className="text-xs text-[#60646c] leading-relaxed">
-                Transparent pricing starting from ₹1,499/mo with zero hidden setup fees or contracts.
-              </p>
-            </div>
-
-            <div className="bg-white p-6 rounded-xl border border-[#dcdee0] space-y-3">
-              <div className="w-10 h-10 rounded-md bg-[#cfe7ff] text-[#0d74ce] flex items-center justify-center font-bold">
-                <Zap className="w-5 h-5" />
-              </div>
-              <h4 className="font-semibold text-lg text-[#171717]">Fast Delivery</h4>
-              <p className="text-xs text-[#60646c] leading-relaxed">
-                3-day website turnarounds and 24-hour reel edits so your business never waits.
-              </p>
-            </div>
-
-            <div className="bg-white p-6 rounded-xl border border-[#dcdee0] space-y-3">
-              <div className="w-10 h-10 rounded-md bg-[#cfe7ff] text-[#0d74ce] flex items-center justify-center font-bold">
-                <Users className="w-5 h-5" />
-              </div>
-              <h4 className="font-semibold text-lg text-[#171717]">Dedicated Team</h4>
-              <p className="text-xs text-[#60646c] leading-relaxed">
-                Personal account manager assigned to your brand for direct WhatsApp support.
-              </p>
-            </div>
-
-            <div className="bg-white p-6 rounded-xl border border-[#dcdee0] space-y-3">
-              <div className="w-10 h-10 rounded-md bg-[#cfe7ff] text-[#0d74ce] flex items-center justify-center font-bold">
-                <TrendingUp className="w-5 h-5" />
-              </div>
-              <h4 className="font-semibold text-lg text-[#171717]">Monthly Reports</h4>
-              <p className="text-xs text-[#60646c] leading-relaxed">
-                Clear performance metrics, reach analytics, and tax filing receipts delivered every 30 days.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* 5. 4-STEP PROCESS WORKFLOW */}
-      <section className="max-w-[1280px] mx-auto px-4 sm:px-6 space-y-10">
-        <div className="text-center max-w-2xl mx-auto space-y-3">
-          <div className="badge-pill">SIMPLE WORKFLOW</div>
-          <h2 className="text-3xl font-semibold text-[#171717]">
-            How we partner with your business in 4 simple steps.
+          <h2 className="text-3xl sm:text-4xl font-semibold tracking-tighter text-[#171717] dark:text-[#f4f4f5]">
+            How we partner with your business.
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {[
-            { step: "01", title: "Consultation", desc: "Share your business goals, target audience, or tax requirements in a free 15-min call." },
-            { step: "02", title: "Custom Strategy", desc: "We create your content calendar, website wireframe, or tax compliance schedule." },
-            { step: "03", title: "Execution", desc: "Our team designs posts, edits reels, writes code, and files tax returns seamlessly." },
-            { step: "04", title: "Reporting & Scaling", desc: "Review performance reports, track new client leads, and expand monthly budgets." }
-          ].map((item) => (
-            <div key={item.step} className="card-surface p-6 space-y-3 relative">
-              <div className="w-8 h-8 rounded-md bg-[#f0f0f3] text-[#171717] font-mono font-bold text-sm flex items-center justify-center">
-                {item.step}
-              </div>
-              <h4 className="text-lg font-semibold text-[#171717]">{item.title}</h4>
-              <p className="text-xs text-[#60646c] leading-relaxed">{item.desc}</p>
+        <div className="rounded-xl border border-[#262626] bg-[#0c0d10] shadow-2xl overflow-hidden font-mono text-sm">
+          {/* Terminal Header */}
+          <div className="h-10 border-b border-[#262626] bg-[#121418] flex items-center px-4 gap-4">
+            <div className="flex gap-1.5">
+              <div className="w-3 h-3 rounded-full bg-[#ef4444]"></div>
+              <div className="w-3 h-3 rounded-full bg-[#f59e0b]"></div>
+              <div className="w-3 h-3 rounded-full bg-[#10b981]"></div>
             </div>
-          ))}
+            <div className="text-xs text-[#a1a1aa] flex-1 text-center pr-12 flex items-center justify-center gap-2">
+              <Globe className="w-3.5 h-3.5" /> bizbuddy-workflow ~ /process
+            </div>
+          </div>
+          
+          {/* Terminal Body */}
+          <div className="p-6 sm:p-8 space-y-6 text-[#a1a1aa] overflow-x-auto">
+            <div className="flex items-start gap-4">
+              <div className="text-[#38bdf8] shrink-0">➜</div>
+              <div>
+                <span className="text-[#e4e4e7]">npx bizbuddy@latest init --step=1</span>
+                <div className="mt-2 text-[#10b981]">✔ Consultation & Discovery</div>
+                <div className="text-xs mt-1 text-[#60646c]">Analyzing business goals, target audience, and tax requirements in a free 15-min call.</div>
+              </div>
+            </div>
+
+            <div className="flex items-start gap-4">
+              <div className="text-[#38bdf8] shrink-0">➜</div>
+              <div>
+                <span className="text-[#e4e4e7]">npm run generate:strategy</span>
+                <div className="mt-2 text-[#10b981]">✔ Custom Strategy Blueprint</div>
+                <div className="text-xs mt-1 text-[#60646c]">Compiling content calendar, website wireframes, and tax compliance schedule... done.</div>
+              </div>
+            </div>
+
+            <div className="flex items-start gap-4">
+              <div className="text-[#38bdf8] shrink-0">➜</div>
+              <div>
+                <span className="text-[#e4e4e7]">bizbuddy build & deploy</span>
+                <div className="mt-2 text-[#10b981]">✔ Execution Phase Active</div>
+                <div className="text-xs mt-1 text-[#60646c]">[1/3] Designing social media posts... <br/> [2/3] Writing website code... <br/> [3/3] Filing GST returns seamlessly...</div>
+              </div>
+            </div>
+
+            <div className="flex items-start gap-4">
+              <div className="text-[#38bdf8] shrink-0 animate-pulse">_</div>
+              <div>
+                <span className="text-[#e4e4e7]">bizbuddy scale --monthly</span>
+                <div className="mt-2 text-[#818cf8]">⧗ Reporting & Scaling (In Progress)</div>
+                <div className="text-xs mt-1 text-[#60646c]">Reviewing performance metrics. Generating next month's targets.</div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 

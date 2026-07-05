@@ -32,19 +32,33 @@ export const DeviceMockupHero: React.FC<DeviceMockupHeroProps> = ({
   return (
     <section className="relative overflow-hidden hero-sky-wash pt-16 pb-20 border-b border-[#dcdee0]">
       <div className="max-w-[1280px] mx-auto px-4 sm:px-6">
-        {/* Top Eyebrow Badge */}
+        {/* Top Eyebrow Badge (Expo Clone) */}
         <div className="flex justify-center mb-6">
-          <div className="badge-pill inline-flex items-center gap-1.5 border border-[#dcdee0] bg-white/80 backdrop-blur-xs">
-            <span className="w-2 h-2 rounded-full bg-[#0d74ce] animate-pulse" />
-            <span className="font-mono text-[11px] tracking-widest text-[#171717]">
-              ALL-IN-ONE DIGITAL BUSINESS ENGINE
+          <a
+            href="#recent-updates"
+            className="group inline-flex items-center gap-2 rounded-full border border-[#dcdee0] dark:border-zinc-800 bg-[#f0f0f3]/80 dark:bg-zinc-800/80 py-1 pr-2.5 pl-1 backdrop-blur-sm transition duration-300 hover:border-[#171717] dark:hover:border-zinc-500 cursor-pointer"
+          >
+            <span className="inline-flex items-center gap-1.5 rounded-2xl border border-[#dcdee0] dark:border-zinc-700 bg-white dark:bg-zinc-900 px-2.5 py-1 shadow-sm">
+              <span className="relative flex w-2 h-2 shrink-0 items-center justify-center">
+                <span className="absolute inset-0 animate-ping rounded-full bg-emerald-400 opacity-75"></span>
+                <span className="relative w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+              </span>
+              <span className="text-[11px] font-semibold tracking-wide text-[#171717] dark:text-zinc-200">
+                What's new?
+              </span>
             </span>
-          </div>
+            <span className="inline-flex items-center gap-2 pr-px">
+              <span className="text-xs font-medium text-[#60646c] dark:text-zinc-400">
+                Introducing Managed SEO Services
+              </span>
+              <ArrowRight className="w-3.5 h-3.5 text-[#60646c] dark:text-zinc-400 transition-transform duration-300 group-hover:translate-x-0.5" />
+            </span>
+          </a>
         </div>
 
         {/* Display Mega Headline */}
         <div className="text-center max-w-4xl mx-auto space-y-6">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold tracking-tight text-[#171717] leading-[1.08]">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold tracking-tighter text-[#171717] dark:text-[#f4f4f5] leading-[1.08] lg:leading-[1.05]">
             Grow your business with marketing, tax compliance & custom websites.
           </h1>
           <p className="text-base sm:text-lg text-[#60646c] max-w-2xl mx-auto leading-relaxed">
