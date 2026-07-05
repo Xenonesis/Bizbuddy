@@ -55,29 +55,41 @@ export default function Home({ onOpenConsultation, onOpenLeadModal }: PageProps)
         onOpenLeadModal={triggerLead}
       />
 
-      {/* 2. TRUST LOGO WALL */}
-      <section className="max-w-[1280px] mx-auto px-4 sm:px-6">
+      {/* 2. TRUST LOGO WALL (Expo-Style Marquee) */}
+      <section className="max-w-[1280px] mx-auto px-4 sm:px-6 overflow-hidden">
         <div className="text-center mb-6">
           <span className="text-xs font-mono uppercase tracking-widest text-[#60646c]">
-            TRUSTED BY 250+ STARTUPS, RESTAURANTS, CLINICS & RETAIL STORES
+            TRUSTED IN PRODUCTION BY 250+ STARTUPS, RESTAURANTS, CLINICS & RETAIL BRANDS
           </span>
         </div>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-4 items-center justify-center opacity-85">
-          {[
-            "Dr. Apex Dental",
-            "UrbanBites Cafe",
-            "FitPulse Gym",
-            "Zenith Real Estate",
-            "Nova Tech Solutions",
-            "Aura Salon & Spa"
-          ].map((brand) => (
-            <div
-              key={brand}
-              className="ecosystem-tile flex items-center justify-center p-3 rounded-lg border border-[#dcdee0] bg-white text-[#171717] font-semibold text-xs tracking-tight shadow-xs hover:border-[#171717] transition-all"
-            >
-              {brand}
-            </div>
-          ))}
+        <div className="relative w-full overflow-hidden mask-x py-2">
+          <div className="animate-marquee flex items-center gap-6">
+            {[
+              "Dr. Apex Dental",
+              "UrbanBites Cafe",
+              "FitPulse Gym",
+              "Zenith Real Estate",
+              "Nova Tech Solutions",
+              "Aura Salon & Spa",
+              "Sharma Retail",
+              "Bloom Botanicals",
+              "Dr. Apex Dental",
+              "UrbanBites Cafe",
+              "FitPulse Gym",
+              "Zenith Real Estate",
+              "Nova Tech Solutions",
+              "Aura Salon & Spa",
+              "Sharma Retail",
+              "Bloom Botanicals"
+            ].map((brand, i) => (
+              <div
+                key={`${brand}-${i}`}
+                className="ecosystem-tile flex items-center justify-center px-5 py-2.5 rounded-lg border border-[#dcdee0] bg-white text-[#171717] font-semibold text-xs tracking-tight shadow-xs hover:border-[#171717] transition-all shrink-0 font-mono"
+              >
+                {brand}
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
