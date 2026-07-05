@@ -1,0 +1,140 @@
+"use client";
+
+import React, { useState } from "react";
+import { Check, ArrowRight, MessageSquare, Sparkles, TrendingUp } from "lucide-react";
+import { SOCIAL_MEDIA_PLANS } from "../../../lib/data";
+
+interface Props {
+  onOpenLeadModal?: (serviceName?: string, price?: string) => void;
+}
+
+export default function SocialMediaPage({ onOpenLeadModal }: Props) {
+  const triggerLead = (planName: string, price: string) => {
+    if (onOpenLeadModal) {
+      onOpenLeadModal(`Social Media - ${planName}`, price);
+    }
+  };
+
+  return (
+    <div className="space-y-16 pb-20">
+      {/* Sub-hero */}
+      <section className="hero-sky-wash pt-16 pb-14 border-b border-[#dcdee0]">
+        <div className="max-w-[1280px] mx-auto px-4 sm:px-6 text-center max-w-3xl mx-auto space-y-4">
+          <div className="badge-pill">MONTHLY SUBSCRIPTION PLANS</div>
+          <h1 className="text-4xl sm:text-5xl font-semibold tracking-tight text-[#171717]">
+            Social Media Management & Viral Reels Editing
+          </h1>
+          <p className="text-base text-[#60646c]">
+            Turn your Instagram & Facebook profiles into lead-generating machines. High-quality posts, custom reels, active DM replies, and targeted Meta ads.
+          </p>
+        </div>
+      </section>
+
+      {/* Pricing Cards */}
+      <section className="max-w-[1280px] mx-auto px-4 sm:px-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {SOCIAL_MEDIA_PLANS.map((plan) => (
+            <div
+              key={plan.id}
+              className={`p-8 rounded-xl border flex flex-col justify-between transition-all relative ${
+                plan.popular
+                  ? "card-dark border-black shadow-xl scale-[1.02]"
+                  : "card-surface bg-white border-[#dcdee0]"
+              }`}
+            >
+              {plan.badge && (
+                <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-[#0d74ce] text-white text-[10px] font-mono font-bold uppercase tracking-widest px-3 py-1 rounded-full">
+                  {plan.badge}
+                </div>
+              )}
+
+              <div className="space-y-6">
+                <div>
+                  <h3 className={`text-xl font-semibold ${plan.popular ? "text-white" : "text-[#171717]"}`}>
+                    {plan.name}
+                  </h3>
+                  <div className="mt-3 flex items-baseline gap-1 font-mono">
+                    <span className={`text-4xl font-bold ${plan.popular ? "text-white" : "text-[#171717]"}`}>
+                      {plan.price}
+                    </span>
+                    <span className={`text-xs ${plan.popular ? "text-zinc-400" : "text-[#60646c]"}`}>
+                      {plan.period}
+                    </span>
+                  </div>
+                </div>
+
+                <div className="border-t border-[#dcdee0]/20 pt-4 space-y-3">
+                  <div className={`text-xs font-mono uppercase tracking-wider ${plan.popular ? "text-zinc-400" : "text-[#60646c]"}`}>
+                    Included Deliverables:
+                  </div>
+                  <ul className="space-y-2.5 text-sm">
+                    {plan.features.map((feat) => (
+                      <li key={feat} className="flex items-start gap-2.5">
+                        <Check className={`w-4 h-4 shrink-0 mt-0.5 ${plan.popular ? "text-emerald-400" : "text-emerald-600"}`} />
+                        <span className={plan.popular ? "text-zinc-200" : "text-[#171717]"}>
+                          {feat}
+                        </span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+
+              <div className="pt-8 space-y-2">
+                <button
+                  onClick={() => triggerLead(plan.name, plan.price)}
+                  className={`w-full py-3 px-4 rounded-md font-semibold text-sm transition-all flex items-center justify-center gap-2 ${
+                    plan.popular
+                      ? "bg-white text-black hover:bg-zinc-200"
+                      : "btn-primary"
+                  }`}
+                >
+                  {plan.ctaText}
+                  <ArrowRight className="w-4 h-4" />
+                </button>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Feature Breakdown List */}
+      <section className="max-w-[1280px] mx-auto px-4 sm:px-6 bg-[#fafafa] border border-[#dcdee0] rounded-2xl p-8 sm:p-12">
+        <div className="max-w-2xl mx-auto text-center space-y-3 mb-8">
+          <h3 className="text-2xl font-semibold text-[#171717]">
+            What happens after you subscribe?
+          </h3>
+          <p className="text-sm text-[#60646c]">
+            We assign a dedicated social media content team to your business within 2 hours of sign-up.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
+          <div className="space-y-2">
+            <div className="w-10 h-10 rounded-full bg-[#cfe7ff] text-[#0d74ce] font-mono font-bold flex items-center justify-center mx-auto">
+              1
+            </div>
+            <h4 className="font-semibold text-base text-[#171717]">Content Calendar Approval</h4>
+            <p className="text-xs text-[#60646c]">We write captions, design graphics, and edit reels for your review 7 days in advance.</p>
+          </div>
+
+          <div className="space-y-2">
+            <div className="w-10 h-10 rounded-full bg-[#cfe7ff] text-[#0d74ce] font-mono font-bold flex items-center justify-center mx-auto">
+              2
+            </div>
+            <h4 className="font-semibold text-base text-[#171717]">Automated Posting & Reels</h4>
+            <p className="text-xs text-[#60646c]">We schedule posts, upload high-energy reels, manage story highlights, and run ads.</p>
+          </div>
+
+          <div className="space-y-2">
+            <div className="w-10 h-10 rounded-full bg-[#cfe7ff] text-[#0d74ce] font-mono font-bold flex items-center justify-center mx-auto">
+              3
+            </div>
+            <h4 className="font-semibold text-base text-[#171717]">Engagement & Monthly Report</h4>
+            <p className="text-xs text-[#60646c]">We actively reply to DMs, comments, and deliver a full growth breakdown every 30 days.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}

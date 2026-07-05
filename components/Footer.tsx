@@ -1,0 +1,168 @@
+"use client";
+
+import React from "react";
+import Link from "next/link";
+import { MessageSquare, Phone, Mail, MapPin, ArrowUpRight, ShieldCheck, Heart } from "lucide-react";
+
+export const Footer: React.FC = () => {
+  const whatsappUrl = "https://wa.me/919876543210?text=Hello%20BizBuddy,%20I%20want%20to%20know%20more%20about%20your%20services!";
+
+  return (
+    <footer className="bg-white border-t border-[#dcdee0] text-[#60646c]">
+      {/* WhatsApp Banner Strip */}
+      <div className="bg-[#f0f0f3] border-b border-[#dcdee0] py-3 px-4">
+        <div className="max-w-[1280px] mx-auto flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left">
+          <div className="flex items-center gap-2 text-sm text-[#171717]">
+            <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
+            <span className="font-medium">Instant Support Available:</span> Chat directly with our business expert on WhatsApp
+          </div>
+          <a
+            href={whatsappUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-[#25D366] text-white text-xs font-semibold px-4 py-2 rounded-md hover:bg-[#20bd5a] transition-colors"
+          >
+            <MessageSquare className="w-4 h-4 fill-white" />
+            Chat on WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <div className="max-w-[1280px] mx-auto px-4 sm:px-6 py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
+        {/* Col 1: Brand Info */}
+        <div className="lg:col-span-2 space-y-4">
+          <Link href="/" className="flex items-center gap-2.5">
+            <div className="w-8 h-8 rounded-lg bg-black text-white flex items-center justify-center font-bold text-lg">
+              B
+            </div>
+            <span className="font-semibold text-lg text-[#171717] tracking-tight">
+              BizBuddy
+            </span>
+          </Link>
+          <p className="text-sm leading-relaxed max-w-sm">
+            BizBuddy is your all-in-one digital growth platform. From social media marketing, viral reels editing, and custom web development to EPF, TDS return filings, and company incorporation.
+          </p>
+          <div className="pt-2 flex items-center gap-4 text-xs font-mono text-[#171717]">
+            <div className="flex items-center gap-1.5">
+              <ShieldCheck className="w-4 h-4 text-emerald-600" />
+              100% Tax Compliant
+            </div>
+            <div className="flex items-center gap-1.5">
+              <span className="w-2 h-2 rounded-full bg-blue-500" />
+              24/7 WhatsApp Response
+            </div>
+          </div>
+        </div>
+
+        {/* Col 2: Services */}
+        <div className="space-y-3">
+          <h4 className="text-xs font-semibold uppercase tracking-wider text-[#171717] font-mono">
+            Core Services
+          </h4>
+          <ul className="space-y-2 text-sm">
+            <li>
+              <Link href="/services/social-media" className="hover:text-[#0d74ce] transition-colors">
+                Social Media Management
+              </Link>
+            </li>
+            <li>
+              <Link href="/services/accounts" className="hover:text-[#0d74ce] transition-colors">
+                Accounts & Tax Returns
+              </Link>
+            </li>
+            <li>
+              <Link href="/services/website-development" className="hover:text-[#0d74ce] transition-colors">
+                Website Development
+              </Link>
+            </li>
+            <li>
+              <Link href="/services/editing" className="hover:text-[#0d74ce] transition-colors">
+                Reels & Video Editing
+              </Link>
+            </li>
+            <li>
+              <Link href="/services/other" className="hover:text-[#0d74ce] transition-colors">
+                Printing & Support
+              </Link>
+            </li>
+          </ul>
+        </div>
+
+        {/* Col 3: Company & Tools */}
+        <div className="space-y-3">
+          <h4 className="text-xs font-semibold uppercase tracking-wider text-[#171717] font-mono">
+            Company
+          </h4>
+          <ul className="space-y-2 text-sm">
+            <li>
+              <Link href="/pricing" className="hover:text-[#0d74ce] transition-colors">
+                Monthly Pricing Plans
+              </Link>
+            </li>
+            <li>
+              <Link href="/portfolio" className="hover:text-[#0d74ce] transition-colors">
+                Case Studies & Work
+              </Link>
+            </li>
+            <li>
+              <Link href="/testimonials" className="hover:text-[#0d74ce] transition-colors">
+                Client Testimonials
+              </Link>
+            </li>
+            <li>
+              <Link href="/about" className="hover:text-[#0d74ce] transition-colors">
+                About Our Team
+              </Link>
+            </li>
+            <li>
+              <Link href="/dashboard" className="hover:text-[#0d74ce] transition-colors flex items-center gap-1">
+                Client Dashboard <ArrowUpRight className="w-3 h-3 text-[#0d74ce]" />
+              </Link>
+            </li>
+          </ul>
+        </div>
+
+        {/* Col 4: Contact Details */}
+        <div className="space-y-3">
+          <h4 className="text-xs font-semibold uppercase tracking-wider text-[#171717] font-mono">
+            Get In Touch
+          </h4>
+          <ul className="space-y-2.5 text-sm">
+            <li className="flex items-center gap-2">
+              <Phone className="w-4 h-4 text-[#171717]" />
+              <span>+91 98765 43210</span>
+            </li>
+            <li className="flex items-center gap-2">
+              <Mail className="w-4 h-4 text-[#171717]" />
+              <span>support@bizbuddy.in</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <MapPin className="w-4 h-4 text-[#171717] shrink-0 mt-0.5" />
+              <span>Tech Tower, Cyber Hub, MG Road, New Delhi, India</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      {/* Bottom Bar */}
+      <div className="border-t border-[#f0f0f3] py-6 px-4 sm:px-6 bg-[#fafafa]">
+        <div className="max-w-[1280px] mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
+          <div>
+            © {new Date().getFullYear()} BizBuddy Solutions Technologies Pvt. Ltd. All rights reserved.
+          </div>
+          <div className="flex items-center gap-6 text-[#476cff]">
+            <Link href="/contact" className="hover:underline">
+              Privacy Policy
+            </Link>
+            <Link href="/contact" className="hover:underline">
+              Terms of Service
+            </Link>
+            <Link href="/contact" className="hover:underline">
+              Refund Policy
+            </Link>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+};
