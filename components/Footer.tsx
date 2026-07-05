@@ -3,6 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import { MessageSquare, Phone, Mail, MapPin, ArrowUpRight, ShieldCheck, Heart } from "lucide-react";
+import { ThemeToggle } from "./ThemeToggle";
 
 export const Footer: React.FC = () => {
   const whatsappUrl = "https://wa.me/919876543210?text=Hello%20BizBuddy,%20I%20want%20to%20know%20more%20about%20your%20services!";
@@ -145,12 +146,13 @@ export const Footer: React.FC = () => {
       </div>
 
       {/* Bottom Bar */}
-      <div className="border-t border-[#f0f0f3] py-6 px-4 sm:px-6 bg-[#fafafa]">
+      <div className="border-t border-[#f0f0f3] dark:border-zinc-800 py-6 px-4 sm:px-6 bg-[#fafafa] dark:bg-[#0c0d10]">
         <div className="max-w-[1280px] mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
           <div>
             © {new Date().getFullYear()} BizBuddy Solutions Technologies Pvt. Ltd. All rights reserved.
           </div>
           <div className="flex items-center gap-6 text-[#476cff]">
+            <ThemeToggle />
             <Link href="/contact" className="hover:underline">
               Privacy Policy
             </Link>

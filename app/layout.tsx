@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
+import { ThemeProvider } from "../components/ThemeProvider";
 import { LayoutWrapper } from "../components/LayoutWrapper";
 
 const inter = Inter({
@@ -28,9 +29,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} ${jetbrainsMono.variable} h-full antialiased`}>
-      <body className="min-h-full font-sans text-[#171717] bg-white selection:bg-[#cfe7ff] selection:text-black">
-        <LayoutWrapper>{children}</LayoutWrapper>
+    <html lang="en" className={`${inter.variable} ${jetbrainsMono.variable} h-full antialiased`} suppressHydrationWarning>
+      <body className="min-h-full font-sans text-[#171717] dark:text-[#f4f4f5] bg-white dark:bg-[#0c0d10] selection:bg-[#cfe7ff] selection:text-black transition-colors duration-200">
+        <ThemeProvider>
+          <LayoutWrapper>{children}</LayoutWrapper>
+        </ThemeProvider>
       </body>
     </html>
   );

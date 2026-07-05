@@ -17,6 +17,7 @@ import {
   Video,
   Code2
 } from "lucide-react";
+import { ThemeToggle } from "./ThemeToggle";
 
 interface NavbarProps {
   onOpenConsultation: () => void;
@@ -154,6 +155,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenConsultation, onOpenLeadMo
 
         {/* Action Buttons */}
         <div className="hidden sm:flex items-center gap-3">
+          <ThemeToggle />
           <button
             onClick={onOpenConsultation}
             className="btn-secondary text-xs sm:text-sm font-medium"
