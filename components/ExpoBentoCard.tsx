@@ -25,7 +25,7 @@ export const ExpoBentoCard: React.FC<BentoCardProps> = ({
   
   const baseClasses = isDark 
     ? "card-dark border-[#262626] bg-[#171717] hover:border-[#404040]"
-    : "card-surface border-[#dcdee0] bg-white hover:border-[#171717]";
+    : "card-surface hover:border-[#171717] dark:hover:border-[#52525b]";
     
   const textTitleClasses = isDark ? "text-white" : "text-[#171717] dark:text-[#f4f4f5]";
   const textDescClasses = isDark ? "text-[#a1a1aa]" : "text-[#60646c] dark:text-zinc-400";
