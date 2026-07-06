@@ -28,6 +28,7 @@ import { ExpoBentoCard } from "../components/ExpoBentoCard";
 import { QuoteCalculator } from "../components/QuoteCalculator";
 import { FaqAccordion } from "../components/FaqAccordion";
 import BorderGlow from "../components/BorderGlow";
+import LineWaves from "../components/LineWaves";
 import { PORTFOLIO_ITEMS, TESTIMONIALS, SOCIAL_MEDIA_PLANS } from "../lib/data";
 
 interface PageProps {
@@ -61,7 +62,7 @@ export default function Home({ onOpenConsultation, onOpenLeadModal }: PageProps)
       {/* 2. TRUST LOGO WALL (Expo-Style Marquee) */}
       <motion.section initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="max-w-[1280px] mx-auto px-4 sm:px-6 overflow-hidden">
         <div className="text-center mb-6">
-          <span className="text-xs font-mono uppercase tracking-widest text-[#60646c]">
+          <span className="text-xs font-mono uppercase tracking-widest text-[#60646c] dark:text-zinc-400">
             TRUSTED IN PRODUCTION BY 250+ STARTUPS, RESTAURANTS, CLINICS & RETAIL BRANDS
           </span>
         </div>
@@ -325,7 +326,7 @@ export default function Home({ onOpenConsultation, onOpenLeadModal }: PageProps)
               <div>
                 <span className="text-[#e4e4e7]">npx bizbuddy@latest init --step=1</span>
                 <div className="mt-2 text-[#10b981]">✔ Consultation & Discovery</div>
-                <div className="text-xs mt-1 text-[#60646c]">Analyzing business goals, target audience, and tax requirements in a free 15-min call.</div>
+                <div className="text-xs mt-1 text-[#60646c] dark:text-zinc-400">Analyzing business goals, target audience, and tax requirements in a free 15-min call.</div>
               </div>
             </div>
 
@@ -334,7 +335,7 @@ export default function Home({ onOpenConsultation, onOpenLeadModal }: PageProps)
               <div>
                 <span className="text-[#e4e4e7]">npm run generate:strategy</span>
                 <div className="mt-2 text-[#10b981]">✔ Custom Strategy Blueprint</div>
-                <div className="text-xs mt-1 text-[#60646c]">Compiling content calendar, website wireframes, and tax compliance schedule... done.</div>
+                <div className="text-xs mt-1 text-[#60646c] dark:text-zinc-400">Compiling content calendar, website wireframes, and tax compliance schedule... done.</div>
               </div>
             </div>
 
@@ -343,7 +344,7 @@ export default function Home({ onOpenConsultation, onOpenLeadModal }: PageProps)
               <div>
                 <span className="text-[#e4e4e7]">bizbuddy build & deploy</span>
                 <div className="mt-2 text-[#10b981]">✔ Execution Phase Active</div>
-                <div className="text-xs mt-1 text-[#60646c]">[1/3] Designing social media posts... <br/> [2/3] Writing website code... <br/> [3/3] Filing GST returns seamlessly...</div>
+                <div className="text-xs mt-1 text-[#60646c] dark:text-zinc-400">[1/3] Designing social media posts... <br/> [2/3] Writing website code... <br/> [3/3] Filing GST returns seamlessly...</div>
               </div>
             </div>
 
@@ -352,7 +353,7 @@ export default function Home({ onOpenConsultation, onOpenLeadModal }: PageProps)
               <div>
                 <span className="text-[#e4e4e7]">bizbuddy scale --monthly</span>
                 <div className="mt-2 text-[#818cf8]">⧗ Reporting & Scaling (In Progress)</div>
-                <div className="text-xs mt-1 text-[#60646c]">Reviewing performance metrics. Generating next month's targets.</div>
+                <div className="text-xs mt-1 text-[#60646c] dark:text-zinc-400">Reviewing performance metrics. Generating next month's targets.</div>
               </div>
             </div>
           </div>
@@ -480,6 +481,23 @@ export default function Home({ onOpenConsultation, onOpenLeadModal }: PageProps)
       {/* 10. PRE-FOOTER CTA BAND */}
       <motion.section initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="max-w-[1280px] mx-auto px-4 sm:px-6">
         <div className="bg-[#171717] text-white rounded-2xl p-10 sm:p-16 text-center space-y-6 relative overflow-hidden">
+          <div className="absolute inset-0 z-0 opacity-60">
+            <LineWaves
+              speed={0.15}
+              innerLineCount={20}
+              outerLineCount={24}
+              warpIntensity={1.5}
+              rotation={-45}
+              edgeFadeWidth={0.2}
+              colorCycleSpeed={0.5}
+              brightness={0.4}
+              color1="#38bdf8"
+              color2="#818cf8"
+              color3="#c084fc"
+              enableMouseInteraction={true}
+              mouseInfluence={2.0}
+            />
+          </div>
           <div className="relative z-10 max-w-2xl mx-auto space-y-4">
             <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight">
               Ready to scale your business with BizBuddy?

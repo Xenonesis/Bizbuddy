@@ -19,6 +19,9 @@ import {
   ArrowRight
 } from "lucide-react";
 
+import { useTheme } from "./ThemeProvider";
+import LineWaves from "./LineWaves";
+
 interface DeviceMockupHeroProps {
   onOpenConsultation: () => void;
   onOpenLeadModal: (serviceName?: string) => void;
@@ -29,10 +32,29 @@ export const DeviceMockupHero: React.FC<DeviceMockupHeroProps> = ({
   onOpenLeadModal
 }) => {
   const [activeTab, setActiveTab] = useState<"dashboard" | "social" | "website" | "tax">("dashboard");
+  const { resolvedTheme } = useTheme();
+  const isDark = resolvedTheme === "dark";
 
   return (
-    <section className="relative overflow-hidden hero-sky-wash pt-16 pb-20 border-b border-[#dcdee0]">
-      <div className="max-w-[1280px] mx-auto px-4 sm:px-6">
+    <section className="relative overflow-hidden hero-sky-wash pt-16 pb-20 border-b border-[#dcdee0] dark:border-zinc-800">
+      <div className="absolute inset-0 z-0 opacity-[0.15] dark:opacity-40">
+        <LineWaves
+          speed={0.15}
+          innerLineCount={20}
+          outerLineCount={24}
+          warpIntensity={1.5}
+          rotation={-45}
+          edgeFadeWidth={0.2}
+          colorCycleSpeed={0.5}
+          brightness={isDark ? 0.4 : 0.6}
+          color1={isDark ? "#38bdf8" : "#0d74ce"}
+          color2={isDark ? "#818cf8" : "#476cff"}
+          color3={isDark ? "#c084fc" : "#8918df"}
+          enableMouseInteraction={true}
+          mouseInfluence={2.0}
+        />
+      </div>
+      <div className="relative z-10 max-w-[1280px] mx-auto px-4 sm:px-6">
         {/* Top Eyebrow Badge (Expo Clone) */}
         <div className="flex justify-center mb-6">
           <a
@@ -67,7 +89,7 @@ export const DeviceMockupHero: React.FC<DeviceMockupHeroProps> = ({
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold tracking-tighter text-[#171717] dark:text-[#f4f4f5] leading-[1.08] lg:leading-[1.05]">
             Grow your business with marketing, tax compliance & custom websites.
           </h1>
-          <p className="text-base sm:text-lg text-[#60646c] max-w-2xl mx-auto leading-relaxed">
+          <p className="text-base sm:text-lg text-[#60646c] dark:text-zinc-400 max-w-2xl mx-auto leading-relaxed">
             BizBuddy provides startups, local retail, restaurants, and professionals with monthly social media management, tax returns, e-commerce stores, and video editing.
           </p>
 
@@ -89,7 +111,7 @@ export const DeviceMockupHero: React.FC<DeviceMockupHeroProps> = ({
           </div>
 
           {/* Micro Trust Indicators */}
-          <div className="pt-4 flex flex-wrap items-center justify-center gap-6 text-xs text-[#60646c] font-mono">
+          <div className="pt-4 flex flex-wrap items-center justify-center gap-6 text-xs text-[#60646c] dark:text-zinc-400 font-mono">
             <div className="flex items-center gap-1.5">
               <CheckCircle2 className="w-4 h-4 text-emerald-600" />
               <span>No Hidden Charges</span>
@@ -118,46 +140,46 @@ export const DeviceMockupHero: React.FC<DeviceMockupHeroProps> = ({
               onClick={() => setActiveTab("dashboard")}
               className={`px-4 py-1.5 rounded-full text-xs font-medium font-mono transition-all flex items-center gap-1.5 ${
                 activeTab === "dashboard"
-                  ? "bg-black text-white shadow-xs"
-                  : "bg-white text-[#60646c] border border-[#dcdee0] hover:bg-[#f0f0f3]"
+                  ? "bg-black text-white shadow-xs dark:bg-white dark:text-black"
+                  : "bg-white text-[#60646c] border border-[#dcdee0] hover:bg-[#f0f0f3] dark:bg-zinc-900 dark:text-zinc-400 dark:border-zinc-800 dark:hover:bg-zinc-800"
               }`}
             >
-              <BarChart3 className="w-3.5 h-3.5 text-[#0d74ce]" /> Client Analytics Dashboard
+              <BarChart3 className="w-3.5 h-3.5 text-[#0d74ce] dark:text-sky-400" /> Client Analytics Dashboard
             </button>
             <button
               onClick={() => setActiveTab("social")}
               className={`px-4 py-1.5 rounded-full text-xs font-medium font-mono transition-all flex items-center gap-1.5 ${
                 activeTab === "social"
-                  ? "bg-black text-white shadow-xs"
-                  : "bg-white text-[#60646c] border border-[#dcdee0] hover:bg-[#f0f0f3]"
+                  ? "bg-black text-white shadow-xs dark:bg-white dark:text-black"
+                  : "bg-white text-[#60646c] border border-[#dcdee0] hover:bg-[#f0f0f3] dark:bg-zinc-900 dark:text-zinc-400 dark:border-zinc-800 dark:hover:bg-zinc-800"
               }`}
             >
-              <Smartphone className="w-3.5 h-3.5 text-[#0d74ce]" /> Social Media Reels Manager
+              <Smartphone className="w-3.5 h-3.5 text-[#0d74ce] dark:text-sky-400" /> Social Media Reels Manager
             </button>
             <button
               onClick={() => setActiveTab("website")}
               className={`px-4 py-1.5 rounded-full text-xs font-medium font-mono transition-all flex items-center gap-1.5 ${
                 activeTab === "website"
-                  ? "bg-black text-white shadow-xs"
-                  : "bg-white text-[#60646c] border border-[#dcdee0] hover:bg-[#f0f0f3]"
+                  ? "bg-black text-white shadow-xs dark:bg-white dark:text-black"
+                  : "bg-white text-[#60646c] border border-[#dcdee0] hover:bg-[#f0f0f3] dark:bg-zinc-900 dark:text-zinc-400 dark:border-zinc-800 dark:hover:bg-zinc-800"
               }`}
             >
-              <Laptop className="w-3.5 h-3.5 text-[#0d74ce]" /> Dynamic Web Builder
+              <Laptop className="w-3.5 h-3.5 text-[#0d74ce] dark:text-sky-400" /> Dynamic Web Builder
             </button>
             <button
               onClick={() => setActiveTab("tax")}
               className={`px-4 py-1.5 rounded-full text-xs font-medium font-mono transition-all flex items-center gap-1.5 ${
                 activeTab === "tax"
-                  ? "bg-black text-white shadow-xs"
-                  : "bg-white text-[#60646c] border border-[#dcdee0] hover:bg-[#f0f0f3]"
+                  ? "bg-black text-white shadow-xs dark:bg-white dark:text-black"
+                  : "bg-white text-[#60646c] border border-[#dcdee0] hover:bg-[#f0f0f3] dark:bg-zinc-900 dark:text-zinc-400 dark:border-zinc-800 dark:hover:bg-zinc-800"
               }`}
             >
-              <FileText className="w-3.5 h-3.5 text-[#0d74ce]" /> GST & Tax Filing Hub
+              <FileText className="w-3.5 h-3.5 text-[#0d74ce] dark:text-sky-400" /> GST & Tax Filing Hub
             </button>
           </div>
 
           {/* Composite Surface Container */}
-          <div className="relative rounded-2xl border border-[#dcdee0] bg-white p-2 sm:p-4 shadow-xl">
+          <div className="relative rounded-2xl border border-[#dcdee0] dark:border-zinc-800 bg-white dark:bg-zinc-900 p-2 sm:p-4 shadow-xl">
             {/* Laptop Frame Header */}
             <div className="h-8 bg-[#171717] rounded-t-xl flex items-center justify-between px-4 text-white text-xs">
               <div className="flex items-center gap-1.5">
