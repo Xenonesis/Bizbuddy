@@ -71,7 +71,7 @@ export const ConsultationModal: React.FC<ConsultationModalProps> = ({ isOpen, on
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-xs animate-in fade-in duration-200">
-      <div className="bg-white rounded-xl border border-[#dcdee0] w-full max-w-lg shadow-2xl overflow-hidden relative">
+      <div className="bg-white dark:bg-[#14161b] rounded-xl border border-[#dcdee0] dark:border-[#27272a] w-full max-w-lg shadow-2xl overflow-hidden relative">
         {/* Header */}
         <div className="px-6 py-4 border-b border-[#f0f0f3] flex items-center justify-between bg-[#fafafa]">
           <div className="flex items-center gap-2">

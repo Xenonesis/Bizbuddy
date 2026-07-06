@@ -72,7 +72,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenConsultation, onOpenLeadMo
   ];
 
   return (
-    <header className="sticky top-0 z-40 w-full bg-white/95 backdrop-blur-md border-b border-[#dcdee0] transition-all">
+    <header className="sticky top-0 z-40 w-full bg-white/95 dark:bg-[#0c0d10]/95 backdrop-blur-md border-b border-[#dcdee0] dark:border-[#27272a] transition-all">
       <div className="max-w-[1280px] mx-auto px-4 sm:px-6 h-[64px] flex items-center justify-between">
         {/* Brand Wordmark */}
         <Link href="/" className="flex items-center gap-2.5 group">
@@ -100,7 +100,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenConsultation, onOpenLeadMo
           >
             <button
               className={`flex items-center gap-1.5 text-sm font-medium transition-colors py-2 ${
-                pathname.startsWith("/services") ? "text-black font-semibold" : "text-[#171717] hover:text-[#0d74ce]"
+                pathname.startsWith("/services") ? "text-black dark:text-white font-semibold" : "text-[#171717] dark:text-[#f4f4f5] hover:text-[#0d74ce] dark:hover:text-[#38bdf8]"
               }`}
             >
               Services
@@ -109,7 +109,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenConsultation, onOpenLeadMo
 
             {/* Dropdown Menu */}
             {servicesDropdownOpen && (
-              <div className="absolute top-full left-0 w-80 bg-white border border-[#dcdee0] rounded-xl shadow-lg p-2 grid gap-1 mt-1 animate-in fade-in slide-in-from-top-2 duration-150">
+              <div className="absolute top-full left-0 w-80 bg-white dark:bg-[#14161b] border border-[#dcdee0] dark:border-[#27272a] rounded-xl shadow-lg p-2 grid gap-1 mt-1 animate-in fade-in slide-in-from-top-2 duration-150">
                 {servicesMenu.map((item) => {
                   const Icon = item.icon;
                   return (
@@ -117,16 +117,16 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenConsultation, onOpenLeadMo
                       key={item.name}
                       href={item.href}
                       onClick={() => setServicesDropdownOpen(false)}
-                      className="flex items-start gap-3 p-2.5 rounded-lg hover:bg-[#f0f0f3] transition-colors group"
+                      className="flex items-start gap-3 p-2.5 rounded-lg hover:bg-[#f0f0f3] dark:hover:bg-[#1e2026] transition-colors group"
                     >
-                      <div className="w-8 h-8 rounded-md bg-[#f0f0f3] text-[#171717] flex items-center justify-center group-hover:bg-black group-hover:text-white transition-colors">
-                        <Icon className="w-4 h-4" />
-                      </div>
-                      <div>
-                        <div className="text-sm font-medium text-[#171717] group-hover:text-[#0d74ce] transition-colors">
-                          {item.name}
+                        <div className="w-8 h-8 rounded-md bg-[#f0f0f3] dark:bg-[#27272a] text-[#171717] dark:text-[#f4f4f5] flex items-center justify-center group-hover:bg-black dark:group-hover:bg-[#f4f4f5] group-hover:text-white dark:group-hover:text-black transition-colors">
+                          <Icon className="w-4 h-4" />
                         </div>
-                        <div className="text-xs text-[#60646c]">
+                        <div>
+                          <div className="text-sm font-medium text-[#171717] dark:text-[#f4f4f5] group-hover:text-[#0d74ce] dark:group-hover:text-[#38bdf8] transition-colors">
+                            {item.name}
+                          </div>
+                          <div className="text-xs text-[#60646c] dark:text-zinc-400">
                           {item.desc}
                         </div>
                       </div>
@@ -144,7 +144,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenConsultation, onOpenLeadMo
                 key={link.name}
                 href={link.href}
                 className={`text-sm font-medium transition-colors ${
-                  isActive ? "text-black font-semibold" : "text-[#171717] hover:text-[#0d74ce]"
+                  isActive ? "text-black dark:text-white font-semibold" : "text-[#171717] dark:text-[#f4f4f5] hover:text-[#0d74ce] dark:hover:text-[#38bdf8]"
                 }`}
               >
                 {link.name}
@@ -174,7 +174,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenConsultation, onOpenLeadMo
         {/* Mobile Hamburger Button */}
         <button
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          className="lg:hidden p-2 text-[#171717] hover:bg-[#f0f0f3] rounded-lg"
+          className="lg:hidden p-2 text-[#171717] dark:text-[#f4f4f5] hover:bg-[#f0f0f3] dark:hover:bg-[#27272a] rounded-lg"
           aria-label="Toggle Navigation"
         >
           {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -183,7 +183,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenConsultation, onOpenLeadMo
 
       {/* Mobile Drawer Menu */}
       {mobileMenuOpen && (
-        <div className="lg:hidden bg-white border-b border-[#dcdee0] px-4 pt-3 pb-6 space-y-4 animate-in fade-in slide-in-from-top-4 duration-200">
+        <div className="lg:hidden bg-white dark:bg-[#14161b] border-b border-[#dcdee0] dark:border-[#27272a] px-4 pt-3 pb-6 space-y-4 animate-in fade-in slide-in-from-top-4 duration-200">
           <div className="space-y-1">
             <div className="text-xs font-semibold uppercase tracking-wider text-[#60646c] px-3 py-1">
               Services
@@ -193,7 +193,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenConsultation, onOpenLeadMo
                 key={item.name}
                 href={item.href}
                 onClick={() => setMobileMenuOpen(false)}
-                className="flex items-center gap-3 px-3 py-2 text-sm font-medium text-[#171717] hover:bg-[#f0f0f3] rounded-md"
+                className="flex items-center gap-3 px-3 py-2 text-sm font-medium text-[#171717] dark:text-[#f4f4f5] hover:bg-[#f0f0f3] dark:hover:bg-[#27272a] rounded-md"
               >
                 <item.icon className="w-4 h-4 text-[#0d74ce]" />
                 {item.name}
@@ -210,7 +210,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenConsultation, onOpenLeadMo
                 key={link.name}
                 href={link.href}
                 onClick={() => setMobileMenuOpen(false)}
-                className="block px-3 py-2 text-sm font-medium text-[#171717] hover:bg-[#f0f0f3] rounded-md"
+                className="block px-3 py-2 text-sm font-medium text-[#171717] dark:text-[#f4f4f5] hover:bg-[#f0f0f3] dark:hover:bg-[#27272a] rounded-md"
               >
                 {link.name}
               </Link>

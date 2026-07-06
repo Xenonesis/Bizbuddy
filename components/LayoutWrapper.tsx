@@ -19,7 +19,7 @@ export const LayoutWrapper: React.FC<{ children: React.ReactNode }> = ({ childre
   };
 
   return (
-    <div className="min-h-screen flex flex-col justify-between bg-white text-[#171717]">
+    <div className="min-h-screen flex flex-col justify-between bg-white dark:bg-[#0c0d10] text-[#171717] dark:text-[#f4f4f5] transition-colors duration-200">
       <Navbar
         onOpenConsultation={() => setConsultationOpen(true)}
         onOpenLeadModal={(svc) => openLeadModal(svc)}

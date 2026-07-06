@@ -9,11 +9,11 @@ export const Footer: React.FC = () => {
   const whatsappUrl = "https://wa.me/919876543210?text=Hello%20BizBuddy,%20I%20want%20to%20know%20more%20about%20your%20services!";
 
   return (
-    <footer className="bg-white border-t border-[#dcdee0] text-[#60646c]">
+    <footer className="bg-white dark:bg-[#0c0d10] border-t border-[#dcdee0] dark:border-[#27272a] text-[#60646c] dark:text-zinc-400">
       {/* WhatsApp Banner Strip */}
-      <div className="bg-[#f0f0f3] border-b border-[#dcdee0] py-3 px-4">
+      <div className="bg-[#f0f0f3] dark:bg-[#14161b] border-b border-[#dcdee0] dark:border-[#27272a] py-3 px-4">
         <div className="max-w-[1280px] mx-auto flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left">
-          <div className="flex items-center gap-2 text-sm text-[#171717]">
+          <div className="flex items-center gap-2 text-sm text-[#171717] dark:text-[#f4f4f5]">
             <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
             <span className="font-medium">Instant Support Available:</span> Chat directly with our business expert on WhatsApp
           </div>
@@ -33,17 +33,17 @@ export const Footer: React.FC = () => {
         {/* Col 1: Brand Info */}
         <div className="lg:col-span-2 space-y-4">
           <Link href="/" className="flex items-center gap-2.5">
-            <div className="w-8 h-8 rounded-lg bg-black text-white flex items-center justify-center font-bold text-lg">
+            <div className="w-8 h-8 rounded-lg bg-black dark:bg-[#f4f4f5] text-white dark:text-black flex items-center justify-center font-bold text-lg">
               B
             </div>
-            <span className="font-semibold text-lg text-[#171717] tracking-tight">
+            <span className="font-semibold text-lg text-[#171717] dark:text-[#f4f4f5] tracking-tight">
               BizBuddy
             </span>
           </Link>
           <p className="text-sm leading-relaxed max-w-sm">
             BizBuddy is your all-in-one digital growth platform. From social media marketing, viral reels editing, and custom web development to EPF, TDS return filings, and company incorporation.
           </p>
-          <div className="pt-2 flex items-center gap-4 text-xs font-mono text-[#171717]">
+          <div className="pt-2 flex items-center gap-4 text-xs font-mono text-[#171717] dark:text-[#f4f4f5]">
             <div className="flex items-center gap-1.5">
               <ShieldCheck className="w-4 h-4 text-emerald-600" />
               100% Tax Compliant
@@ -57,7 +57,7 @@ export const Footer: React.FC = () => {
 
         {/* Col 2: Services */}
         <div className="space-y-3">
-          <h4 className="text-xs font-semibold uppercase tracking-wider text-[#171717] font-mono">
+          <h4 className="text-xs font-semibold uppercase tracking-wider text-[#171717] dark:text-[#f4f4f5] font-mono">
             Core Services
           </h4>
           <ul className="space-y-2 text-sm">
@@ -91,7 +91,7 @@ export const Footer: React.FC = () => {
 
         {/* Col 3: Company & Tools */}
         <div className="space-y-3">
-          <h4 className="text-xs font-semibold uppercase tracking-wider text-[#171717] font-mono">
+          <h4 className="text-xs font-semibold uppercase tracking-wider text-[#171717] dark:text-[#f4f4f5] font-mono">
             Company
           </h4>
           <ul className="space-y-2 text-sm">
@@ -125,20 +125,20 @@ export const Footer: React.FC = () => {
 
         {/* Col 4: Contact Details */}
         <div className="space-y-3">
-          <h4 className="text-xs font-semibold uppercase tracking-wider text-[#171717] font-mono">
+          <h4 className="text-xs font-semibold uppercase tracking-wider text-[#171717] dark:text-[#f4f4f5] font-mono">
             Get In Touch
           </h4>
           <ul className="space-y-2.5 text-sm">
             <li className="flex items-center gap-2">
-              <Phone className="w-4 h-4 text-[#171717]" />
+              <Phone className="w-4 h-4 text-[#171717] dark:text-[#f4f4f5]" />
               <span>+91 98765 43210</span>
             </li>
             <li className="flex items-center gap-2">
-              <Mail className="w-4 h-4 text-[#171717]" />
+              <Mail className="w-4 h-4 text-[#171717] dark:text-[#f4f4f5]" />
               <span>support@bizbuddy.in</span>
             </li>
             <li className="flex items-start gap-2">
-              <MapPin className="w-4 h-4 text-[#171717] shrink-0 mt-0.5" />
+              <MapPin className="w-4 h-4 text-[#171717] dark:text-[#f4f4f5] shrink-0 mt-0.5" />
               <span>Tech Tower, Cyber Hub, MG Road, New Delhi, India</span>
             </li>
           </ul>

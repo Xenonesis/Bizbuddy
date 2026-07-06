@@ -53,20 +53,20 @@ export const LeadModal: React.FC<LeadModalProps> = ({
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-xs animate-in fade-in duration-200">
-      <div className="bg-white rounded-xl border border-[#dcdee0] w-full max-w-md shadow-2xl overflow-hidden relative">
+      <div className="bg-white dark:bg-[#14161b] rounded-xl border border-[#dcdee0] dark:border-[#27272a] w-full max-w-md shadow-2xl overflow-hidden relative">
         {/* Header */}
-        <div className="px-6 py-4 border-b border-[#f0f0f3] flex items-center justify-between bg-[#fafafa]">
+        <div className="px-6 py-4 border-b border-[#f0f0f3] dark:border-[#27272a] flex items-center justify-between bg-[#fafafa] dark:bg-[#0c0d10]">
           <div>
-            <span className="text-[10px] font-mono uppercase tracking-widest text-[#0d74ce] font-semibold block">
+            <span className="text-[10px] font-mono uppercase tracking-widest text-[#0d74ce] dark:text-[#38bdf8] font-semibold block">
               Direct Order & Inquiry
             </span>
-            <h3 className="font-semibold text-base text-[#171717]">
+            <h3 className="font-semibold text-base text-[#171717] dark:text-[#f4f4f5]">
               {serviceName}
             </h3>
           </div>
           <button
             onClick={onClose}
-            className="p-1 text-[#60646c] hover:text-black rounded-md hover:bg-[#f0f0f3]"
+            className="p-1 text-[#60646c] dark:text-zinc-400 hover:text-black dark:hover:text-white rounded-md hover:bg-[#f0f0f3] dark:hover:bg-[#27272a]"
           >
             <X className="w-5 h-5" />
           </button>
@@ -75,11 +75,11 @@ export const LeadModal: React.FC<LeadModalProps> = ({
         {/* Content */}
         <div className="p-6">
           {price && (
-            <div className="bg-[#f0f0f3] p-3 rounded-lg flex items-center justify-between mb-4 border border-[#dcdee0]">
-              <span className="text-xs font-semibold uppercase text-[#60646c]">
+            <div className="bg-[#f0f0f3] dark:bg-[#0c0d10] p-3 rounded-lg flex items-center justify-between mb-4 border border-[#dcdee0] dark:border-[#27272a]">
+              <span className="text-xs font-semibold uppercase text-[#60646c] dark:text-zinc-400">
                 Selected Service Price:
               </span>
-              <span className="text-base font-bold text-black font-mono">
+              <span className="text-base font-bold text-black dark:text-white font-mono">
                 {price}
               </span>
             </div>
@@ -90,11 +90,11 @@ export const LeadModal: React.FC<LeadModalProps> = ({
               <div className="w-12 h-12 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center mx-auto">
                 <Check className="w-7 h-7" />
               </div>
-              <h4 className="text-xl font-semibold text-[#171717]">
+              <h4 className="text-xl font-semibold text-[#171717] dark:text-[#f4f4f5]">
                 Inquiry Received!
               </h4>
-              <p className="text-sm text-[#60646c]">
-                We have logged your order request for <span className="font-semibold text-black">{serviceName}</span>. Our expert agent will contact you at <span className="font-semibold text-black">{phone}</span> shortly.
+              <p className="text-sm text-[#60646c] dark:text-zinc-400">
+                We have logged your order request for <span className="font-semibold text-black dark:text-white">{serviceName}</span>. Our expert agent will contact you at <span className="font-semibold text-black dark:text-white">{phone}</span> shortly.
               </p>
               <div className="pt-2 flex flex-col gap-2">
                 <button
@@ -112,7 +112,7 @@ export const LeadModal: React.FC<LeadModalProps> = ({
           ) : (
             <form onSubmit={handleQuickSubmit} className="space-y-3.5">
               <div>
-                <label className="block text-xs font-semibold uppercase text-[#60646c] mb-1">
+                <label className="block text-xs font-semibold uppercase text-[#60646c] dark:text-zinc-400 mb-1">
                   Your Full Name *
                 </label>
                 <input
@@ -126,7 +126,7 @@ export const LeadModal: React.FC<LeadModalProps> = ({
               </div>
 
               <div>
-                <label className="block text-xs font-semibold uppercase text-[#60646c] mb-1">
+                <label className="block text-xs font-semibold uppercase text-[#60646c] dark:text-zinc-400 mb-1">
                   Phone Number (WhatsApp) *
                 </label>
                 <input
@@ -140,7 +140,7 @@ export const LeadModal: React.FC<LeadModalProps> = ({
               </div>
 
               <div>
-                <label className="block text-xs font-semibold uppercase text-[#60646c] mb-1">
+                <label className="block text-xs font-semibold uppercase text-[#60646c] dark:text-zinc-400 mb-1">
                   Email Address (Optional)
                 </label>
                 <input
@@ -153,7 +153,7 @@ export const LeadModal: React.FC<LeadModalProps> = ({
               </div>
 
               <div>
-                <label className="block text-xs font-semibold uppercase text-[#60646c] mb-1">
+                <label className="block text-xs font-semibold uppercase text-[#60646c] dark:text-zinc-400 mb-1">
                   Additional Details / Notes
                 </label>
                 <textarea

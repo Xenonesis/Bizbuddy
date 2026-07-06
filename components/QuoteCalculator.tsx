@@ -58,15 +58,15 @@ export const QuoteCalculator: React.FC<QuoteCalculatorProps> = ({ onOpenLeadModa
   };
 
   return (
-    <div className="card-surface p-6 sm:p-8 bg-white border border-[#dcdee0] rounded-xl shadow-xs">
-      <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 border-b border-[#f0f0f3] pb-6 mb-6">
+    <div className="card-surface p-6 sm:p-8 bg-white dark:bg-[#14161b] border border-[#dcdee0] dark:border-[#27272a] rounded-xl shadow-xs">
+      <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 border-b border-[#f0f0f3] dark:border-[#27272a] pb-6 mb-6">
         <div>
           <div className="badge-pill mb-2">INSTANT ESTIMATOR</div>
-          <h3 className="text-2xl font-semibold text-[#171717] tracking-tight flex items-center gap-2">
-            <Calculator className="w-6 h-6 text-[#0d74ce]" />
+          <h3 className="text-2xl font-semibold text-[#171717] dark:text-[#f4f4f5] tracking-tight flex items-center gap-2">
+            <Calculator className="w-6 h-6 text-[#0d74ce] dark:text-[#38bdf8]" />
             AI Business Quote Generator
           </h3>
-          <p className="text-sm text-[#60646c]">
+          <p className="text-sm text-[#60646c] dark:text-zinc-400">
             Select services below to build your custom bundled quote with automatic volume discounts.
           </p>
         </div>
@@ -84,7 +84,7 @@ export const QuoteCalculator: React.FC<QuoteCalculatorProps> = ({ onOpenLeadModa
         <div className="lg:col-span-2 space-y-6">
           {/* Section 1: Social Media */}
           <div>
-            <label className="block text-xs font-semibold uppercase tracking-wider text-[#171717] font-mono mb-2">
+            <label className="block text-xs font-semibold uppercase tracking-wider text-[#171717] dark:text-[#f4f4f5] font-mono mb-2">
               1. Social Media Management Plan
             </label>
             <div className="grid grid-cols-1 sm:grid-cols-4 gap-2">
@@ -100,8 +100,8 @@ export const QuoteCalculator: React.FC<QuoteCalculatorProps> = ({ onOpenLeadModa
                   onClick={() => setSocialPlan(item.val)}
                   className={`p-2.5 rounded-lg text-xs font-medium border text-center transition-all ${
                     socialPlan === item.val
-                      ? "bg-black text-white border-black font-semibold"
-                      : "bg-white text-[#171717] border-[#dcdee0] hover:bg-[#f0f0f3]"
+                      ? "bg-black dark:bg-[#f4f4f5] text-white dark:text-black border-black dark:border-[#f4f4f5] font-semibold"
+                      : "bg-white dark:bg-[#14161b] text-[#171717] dark:text-[#f4f4f5] border-[#dcdee0] dark:border-[#27272a] hover:bg-[#f0f0f3] dark:hover:bg-[#1e2026]"
                   }`}
                 >
                   {item.label}
@@ -112,7 +112,7 @@ export const QuoteCalculator: React.FC<QuoteCalculatorProps> = ({ onOpenLeadModa
 
           {/* Section 2: Website Package */}
           <div>
-            <label className="block text-xs font-semibold uppercase tracking-wider text-[#171717] font-mono mb-2">
+            <label className="block text-xs font-semibold uppercase tracking-wider text-[#171717] dark:text-[#f4f4f5] font-mono mb-2">
               2. Website Development Package
             </label>
             <div className="grid grid-cols-1 sm:grid-cols-4 gap-2">
@@ -128,8 +128,8 @@ export const QuoteCalculator: React.FC<QuoteCalculatorProps> = ({ onOpenLeadModa
                   onClick={() => setWebPackage(item.val)}
                   className={`p-2.5 rounded-lg text-xs font-medium border text-center transition-all ${
                     webPackage === item.val
-                      ? "bg-black text-white border-black font-semibold"
-                      : "bg-white text-[#171717] border-[#dcdee0] hover:bg-[#f0f0f3]"
+                      ? "bg-black dark:bg-[#f4f4f5] text-white dark:text-black border-black dark:border-[#f4f4f5] font-semibold"
+                      : "bg-white dark:bg-[#14161b] text-[#171717] dark:text-[#f4f4f5] border-[#dcdee0] dark:border-[#27272a] hover:bg-[#f0f0f3] dark:hover:bg-[#1e2026]"
                   }`}
                 >
                   {item.label}
@@ -140,7 +140,7 @@ export const QuoteCalculator: React.FC<QuoteCalculatorProps> = ({ onOpenLeadModa
 
           {/* Section 3: Accounts & Tax */}
           <div>
-            <label className="block text-xs font-semibold uppercase tracking-wider text-[#171717] font-mono mb-2">
+            <label className="block text-xs font-semibold uppercase tracking-wider text-[#171717] dark:text-[#f4f4f5] font-mono mb-2">
               3. Accounts & Compliance Services
             </label>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
@@ -153,8 +153,8 @@ export const QuoteCalculator: React.FC<QuoteCalculatorProps> = ({ onOpenLeadModa
                     onClick={() => toggleAccountService(key)}
                     className={`p-3 rounded-lg text-xs font-medium border flex items-center justify-between transition-all ${
                       isSelected
-                        ? "bg-[#171717] text-white border-[#171717]"
-                        : "bg-white text-[#171717] border-[#dcdee0] hover:bg-[#f0f0f3]"
+                        ? "bg-[#171717] dark:bg-[#f4f4f5] text-white dark:text-black border-[#171717] dark:border-[#f4f4f5]"
+                        : "bg-white dark:bg-[#14161b] text-[#171717] dark:text-[#f4f4f5] border-[#dcdee0] dark:border-[#27272a] hover:bg-[#f0f0f3] dark:hover:bg-[#1e2026]"
                     }`}
                   >
                     <span>{item.label}</span>
@@ -169,7 +169,7 @@ export const QuoteCalculator: React.FC<QuoteCalculatorProps> = ({ onOpenLeadModa
 
           {/* Section 4: Video Editing */}
           <div>
-            <label className="block text-xs font-semibold uppercase tracking-wider text-[#171717] font-mono mb-2">
+            <label className="block text-xs font-semibold uppercase tracking-wider text-[#171717] dark:text-[#f4f4f5] font-mono mb-2">
               4. Reels & Video Editing Packs
             </label>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
@@ -184,8 +184,8 @@ export const QuoteCalculator: React.FC<QuoteCalculatorProps> = ({ onOpenLeadModa
                   onClick={() => setEditingPack(item.val)}
                   className={`p-2.5 rounded-lg text-xs font-medium border text-center transition-all ${
                     editingPack === item.val
-                      ? "bg-black text-white border-black font-semibold"
-                      : "bg-white text-[#171717] border-[#dcdee0] hover:bg-[#f0f0f3]"
+                      ? "bg-black dark:bg-[#f4f4f5] text-white dark:text-black border-black dark:border-[#f4f4f5] font-semibold"
+                      : "bg-white dark:bg-[#14161b] text-[#171717] dark:text-[#f4f4f5] border-[#dcdee0] dark:border-[#27272a] hover:bg-[#f0f0f3] dark:hover:bg-[#1e2026]"
                   }`}
                 >
                   {item.label}
@@ -249,7 +249,7 @@ export const QuoteCalculator: React.FC<QuoteCalculatorProps> = ({ onOpenLeadModa
                     `₹${finalTotal.toLocaleString("en-IN")}`
                   )
                 }
-                className="w-full bg-white text-black hover:bg-zinc-200 font-semibold py-3 rounded-md text-sm transition-colors flex items-center justify-center gap-2"
+                className="w-full bg-white dark:bg-[#f4f4f5] text-black hover:bg-zinc-200 dark:hover:bg-white font-semibold py-3 rounded-md text-sm transition-colors flex items-center justify-center gap-2"
               >
                 Request Official Callback
                 <ArrowRight className="w-4 h-4" />
