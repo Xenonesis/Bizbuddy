@@ -21,7 +21,7 @@ export default function SocialMediaPage({ onOpenLeadModal }: Props) {
       <section className="hero-sky-wash pt-16 pb-14 border-b border-[#dcdee0]">
         <div className="max-w-[1280px] mx-auto px-4 sm:px-6 text-center max-w-3xl mx-auto space-y-4">
           <div className="badge-pill">MONTHLY SUBSCRIPTION PLANS</div>
-          <h1 className="text-4xl sm:text-5xl font-semibold tracking-tight text-[#171717]">
+          <h1 className="text-4xl sm:text-5xl font-semibold tracking-tight text-[#171717] dark:text-[#f4f4f5]">
             Social Media Management & Viral Reels Editing
           </h1>
           <p className="text-base text-[#60646c]">
@@ -39,7 +39,7 @@ export default function SocialMediaPage({ onOpenLeadModal }: Props) {
               className={`p-8 rounded-xl border flex flex-col justify-between transition-all relative ${
                 plan.popular
                   ? "card-dark border-black shadow-xl scale-[1.02]"
-                  : "card-surface bg-white border-[#dcdee0]"
+                  : "card-surface bg-white dark:bg-[#14161b] border-[#dcdee0] dark:border-[#27272a]"
               }`}
             >
               {plan.badge && (
@@ -50,11 +50,11 @@ export default function SocialMediaPage({ onOpenLeadModal }: Props) {
 
               <div className="space-y-6">
                 <div>
-                  <h3 className={`text-xl font-semibold ${plan.popular ? "text-white" : "text-[#171717]"}`}>
+                  <h3 className={`text-xl font-semibold ${plan.popular ? "text-white" : "text-[#171717] dark:text-[#f4f4f5]"}`}>
                     {plan.name}
                   </h3>
                   <div className="mt-3 flex items-baseline gap-1 font-mono">
-                    <span className={`text-4xl font-bold ${plan.popular ? "text-white" : "text-[#171717]"}`}>
+                    <span className={`text-4xl font-bold ${plan.popular ? "text-white" : "text-[#171717] dark:text-[#f4f4f5]"}`}>
                       {plan.price}
                     </span>
                     <span className={`text-xs ${plan.popular ? "text-zinc-400" : "text-[#60646c]"}`}>
@@ -71,7 +71,7 @@ export default function SocialMediaPage({ onOpenLeadModal }: Props) {
                     {plan.features.map((feat) => (
                       <li key={feat} className="flex items-start gap-2.5">
                         <Check className={`w-4 h-4 shrink-0 mt-0.5 ${plan.popular ? "text-emerald-400" : "text-emerald-600"}`} />
-                        <span className={plan.popular ? "text-zinc-200" : "text-[#171717]"}>
+                        <span className={plan.popular ? "text-zinc-200" : "text-[#171717] dark:text-[#f4f4f5]"}>
                           {feat}
                         </span>
                       </li>
@@ -85,7 +85,7 @@ export default function SocialMediaPage({ onOpenLeadModal }: Props) {
                   onClick={() => triggerLead(plan.name, plan.price)}
                   className={`w-full py-3 px-4 rounded-md font-semibold text-sm transition-all flex items-center justify-center gap-2 ${
                     plan.popular
-                      ? "bg-white text-black hover:bg-zinc-200"
+                      ? "bg-white dark:bg-[#f4f4f5] text-black hover:bg-zinc-200 dark:hover:bg-white"
                       : "btn-primary"
                   }`}
                 >
@@ -99,9 +99,9 @@ export default function SocialMediaPage({ onOpenLeadModal }: Props) {
       </section>
 
       {/* Feature Breakdown List */}
-      <section className="max-w-[1280px] mx-auto px-4 sm:px-6 bg-[#fafafa] border border-[#dcdee0] rounded-2xl p-8 sm:p-12">
+      <section className="max-w-[1280px] mx-auto px-4 sm:px-6 bg-[#fafafa] dark:bg-[#0c0d10] border border-[#dcdee0] dark:border-[#27272a] rounded-2xl p-8 sm:p-12">
         <div className="max-w-2xl mx-auto text-center space-y-3 mb-8">
-          <h3 className="text-2xl font-semibold text-[#171717]">
+          <h3 className="text-2xl font-semibold text-[#171717] dark:text-[#f4f4f5]">
             What happens after you subscribe?
           </h3>
           <p className="text-sm text-[#60646c]">
@@ -111,26 +111,26 @@ export default function SocialMediaPage({ onOpenLeadModal }: Props) {
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
           <div className="space-y-2">
-            <div className="w-10 h-10 rounded-full bg-[#cfe7ff] text-[#0d74ce] font-mono font-bold flex items-center justify-center mx-auto">
+            <div className="w-10 h-10 rounded-full bg-[#cfe7ff] dark:bg-[#002f5e] text-[#0d74ce] dark:text-[#38bdf8] font-mono font-bold flex items-center justify-center mx-auto">
               1
             </div>
-            <h4 className="font-semibold text-base text-[#171717]">Content Calendar Approval</h4>
+            <h4 className="font-semibold text-base text-[#171717] dark:text-[#f4f4f5]">Content Calendar Approval</h4>
             <p className="text-xs text-[#60646c]">We write captions, design graphics, and edit reels for your review 7 days in advance.</p>
           </div>
 
           <div className="space-y-2">
-            <div className="w-10 h-10 rounded-full bg-[#cfe7ff] text-[#0d74ce] font-mono font-bold flex items-center justify-center mx-auto">
+            <div className="w-10 h-10 rounded-full bg-[#cfe7ff] dark:bg-[#002f5e] text-[#0d74ce] dark:text-[#38bdf8] font-mono font-bold flex items-center justify-center mx-auto">
               2
             </div>
-            <h4 className="font-semibold text-base text-[#171717]">Automated Posting & Reels</h4>
+            <h4 className="font-semibold text-base text-[#171717] dark:text-[#f4f4f5]">Automated Posting & Reels</h4>
             <p className="text-xs text-[#60646c]">We schedule posts, upload high-energy reels, manage story highlights, and run ads.</p>
           </div>
 
           <div className="space-y-2">
-            <div className="w-10 h-10 rounded-full bg-[#cfe7ff] text-[#0d74ce] font-mono font-bold flex items-center justify-center mx-auto">
+            <div className="w-10 h-10 rounded-full bg-[#cfe7ff] dark:bg-[#002f5e] text-[#0d74ce] dark:text-[#38bdf8] font-mono font-bold flex items-center justify-center mx-auto">
               3
             </div>
-            <h4 className="font-semibold text-base text-[#171717]">Engagement & Monthly Report</h4>
+            <h4 className="font-semibold text-base text-[#171717] dark:text-[#f4f4f5]">Engagement & Monthly Report</h4>
             <p className="text-xs text-[#60646c]">We actively reply to DMs, comments, and deliver a full growth breakdown every 30 days.</p>
           </div>
         </div>

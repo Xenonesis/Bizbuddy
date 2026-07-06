@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import { motion } from "motion/react";
 import {
   TrendingUp,
   Users,
@@ -57,7 +58,12 @@ export const DeviceMockupHero: React.FC<DeviceMockupHeroProps> = ({
         </div>
 
         {/* Display Mega Headline */}
-        <div className="text-center max-w-4xl mx-auto space-y-6">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          className="text-center max-w-4xl mx-auto space-y-6"
+        >
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold tracking-tighter text-[#171717] dark:text-[#f4f4f5] leading-[1.08] lg:leading-[1.05]">
             Grow your business with marketing, tax compliance & custom websites.
           </h1>
@@ -97,10 +103,15 @@ export const DeviceMockupHero: React.FC<DeviceMockupHeroProps> = ({
               <span>Monthly Progress Reports</span>
             </div>
           </div>
-        </div>
+        </motion.div>
 
         {/* DEVICE MOCKUP COMPOSITE (MacBook + iPhone) */}
-        <div className="mt-14 max-w-5xl mx-auto">
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, delay: 0.2 }}
+          className="mt-14 max-w-5xl mx-auto"
+        >
           {/* Interactive Screen Selector Tabs */}
           <div className="flex items-center justify-center gap-2 mb-4 overflow-x-auto py-1">
             <button
@@ -325,7 +336,7 @@ export const DeviceMockupHero: React.FC<DeviceMockupHeroProps> = ({
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </section>
   );

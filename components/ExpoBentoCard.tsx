@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "motion/react";
 import { LucideIcon } from "lucide-react";
 
 interface BentoCardProps {
@@ -34,7 +35,7 @@ export const ExpoBentoCard: React.FC<BentoCardProps> = ({
 
   return (
     <CardWrapper {...wrapperProps}>
-      <div className={`relative overflow-hidden rounded-xl border transition-colors duration-300 flex flex-col h-full ${baseClasses} ${className}`}>
+      <motion.div whileHover={{ scale: 1.01 }} transition={{ duration: 0.2 }} className={`relative overflow-hidden rounded-xl border transition-colors duration-300 flex flex-col h-full ${baseClasses} ${className}`}>
         {/* Content Header */}
         <div className="p-6 md:p-8 flex flex-col gap-4 z-10">
           {Icon && (
@@ -62,7 +63,7 @@ export const ExpoBentoCard: React.FC<BentoCardProps> = ({
             {children}
           </div>
         )}
-      </div>
+      </motion.div>
     </CardWrapper>
   );
 };

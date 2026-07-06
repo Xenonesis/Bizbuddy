@@ -21,7 +21,7 @@ export default function WebsiteDevPage({ onOpenLeadModal }: Props) {
       <section className="hero-sky-wash pt-16 pb-14 border-b border-[#dcdee0]">
         <div className="max-w-[1280px] mx-auto px-4 sm:px-6 text-center max-w-3xl mx-auto space-y-4">
           <div className="badge-pill">NEXT.JS 16 & REACT 19 WEB ENGINEERING</div>
-          <h1 className="text-4xl sm:text-5xl font-semibold tracking-tight text-[#171717]">
+          <h1 className="text-4xl sm:text-5xl font-semibold tracking-tight text-[#171717] dark:text-[#f4f4f5]">
             Fast, Responsive Websites That Convert Visitors into Clients
           </h1>
           <p className="text-base text-[#60646c]">
@@ -36,33 +36,33 @@ export default function WebsiteDevPage({ onOpenLeadModal }: Props) {
           {WEBSITE_PACKAGES.map((pkg) => (
             <div
               key={pkg.id}
-              className="card-surface p-8 flex flex-col justify-between hover:border-[#171717] transition-all"
+              className="card-surface bg-white dark:bg-[#14161b] border border-[#dcdee0] dark:border-[#27272a] rounded-xl p-8 flex flex-col justify-between hover:border-[#171717] dark:hover:border-zinc-500 transition-all"
             >
               <div className="space-y-6">
-                <div className="flex justify-between items-start border-b border-[#f0f0f3] pb-4">
+                <div className="flex justify-between items-start border-b border-[#f0f0f3] dark:border-[#27272a] pb-4">
                   <div>
-                    <span className="text-[10px] font-mono uppercase tracking-widest text-[#0d74ce] font-semibold block">
+                    <span className="text-[10px] font-mono uppercase tracking-widest text-[#0d74ce] dark:text-[#38bdf8] font-semibold block">
                       IDEAL FOR: {pkg.idealFor}
                     </span>
-                    <h3 className="text-2xl font-semibold text-[#171717] mt-1">
+                    <h3 className="text-2xl font-semibold text-[#171717] dark:text-[#f4f4f5] mt-1">
                       {pkg.name}
                     </h3>
                   </div>
                   <div className="text-right">
-                    <div className="text-[10px] font-mono text-[#60646c]">STARTING AT</div>
-                    <div className="text-2xl font-bold text-[#171717] font-mono">
+                    <div className="text-[10px] font-mono text-[#60646c] dark:text-zinc-400">STARTING AT</div>
+                    <div className="text-2xl font-bold text-[#171717] dark:text-[#f4f4f5] font-mono">
                       {pkg.startingPrice}
                     </div>
                   </div>
                 </div>
 
                 <div className="space-y-3">
-                  <div className="text-xs font-mono uppercase text-[#60646c] font-semibold">
+                  <div className="text-xs font-mono uppercase text-[#60646c] dark:text-zinc-400 font-semibold">
                     Package Deliverables & Specs:
                   </div>
                   <ul className="space-y-2.5 text-sm">
                     {pkg.features.map((feat) => (
-                      <li key={feat} className="flex items-center gap-2 text-[#171717]">
+                      <li key={feat} className="flex items-center gap-2 text-[#171717] dark:text-[#f4f4f5]">
                         <Check className="w-4 h-4 text-emerald-600 shrink-0" />
                         <span>{feat}</span>
                       </li>
@@ -70,13 +70,13 @@ export default function WebsiteDevPage({ onOpenLeadModal }: Props) {
                   </ul>
                 </div>
 
-                <div className="bg-[#fafafa] p-3 rounded-lg border border-[#f0f0f3] flex justify-between items-center text-xs font-mono">
+                <div className="bg-[#fafafa] dark:bg-[#0c0d10] p-3 rounded-lg border border-[#f0f0f3] dark:border-[#27272a] flex justify-between items-center text-xs font-mono">
                   <span>Turnaround Time:</span>
-                  <span className="font-semibold text-[#171717]">{pkg.turnaround}</span>
+                  <span className="font-semibold text-[#171717] dark:text-[#f4f4f5]">{pkg.turnaround}</span>
                 </div>
               </div>
 
-              <div className="pt-6 border-t border-[#f0f0f3] mt-6">
+              <div className="pt-6 border-t border-[#f0f0f3] dark:border-[#27272a] mt-6">
                 <button
                   onClick={() => triggerLead(pkg.name, pkg.startingPrice)}
                   className="btn-primary w-full justify-center"
@@ -91,7 +91,7 @@ export default function WebsiteDevPage({ onOpenLeadModal }: Props) {
       </section>
 
       {/* Tech Stack Guarantee */}
-      <section className="max-w-[1280px] mx-auto px-4 sm:px-6 bg-[#171717] text-white rounded-2xl p-8 sm:p-12 space-y-6">
+      <section className="max-w-[1280px] mx-auto px-4 sm:px-6 bg-[#171717] dark:bg-[#000000] text-white rounded-2xl p-8 sm:p-12 space-y-6">
         <div className="text-center max-w-2xl mx-auto space-y-3">
           <div className="text-xs font-mono uppercase tracking-widest text-emerald-400">
             ENGINEERED FOR SPEED & SEO

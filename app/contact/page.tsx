@@ -36,7 +36,7 @@ export default function ContactPage() {
       <section className="hero-sky-wash pt-16 pb-14 border-b border-[#dcdee0]">
         <div className="max-w-[1280px] mx-auto px-4 sm:px-6 text-center max-w-3xl mx-auto space-y-4">
           <div className="badge-pill">GET IN TOUCH WITH US</div>
-          <h1 className="text-4xl sm:text-5xl font-semibold tracking-tight text-[#171717]">
+          <h1 className="text-4xl sm:text-5xl font-semibold tracking-tight text-[#171717] dark:text-[#f4f4f5]">
             We are here to help your business grow.
           </h1>
           <p className="text-base text-[#60646c]">
@@ -49,17 +49,17 @@ export default function ContactPage() {
       <section className="max-w-[1280px] mx-auto px-4 sm:px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Form */}
-          <div className="card-surface p-8 bg-white border border-[#dcdee0] rounded-xl space-y-6">
-            <h3 className="text-xl font-semibold text-[#171717]">
+          <div className="card-surface p-8 bg-white dark:bg-[#14161b] border border-[#dcdee0] dark:border-[#27272a] rounded-xl space-y-6">
+            <h3 className="text-xl font-semibold text-[#171717] dark:text-[#f4f4f5]">
               Send Us a Message
             </h3>
 
             {isSubmitted ? (
               <div className="text-center py-8 space-y-4">
                 <CheckCircle2 className="w-12 h-12 text-emerald-600 mx-auto" />
-                <h4 className="text-xl font-semibold">Message Received!</h4>
-                <p className="text-sm text-[#60646c]">
-                  Thank you <span className="font-semibold text-black">{name}</span>. Our team will call you back at <span className="font-semibold text-black">{phone}</span> within 2 hours.
+                <h4 className="text-xl font-semibold dark:text-[#f4f4f5]">Message Received!</h4>
+                <p className="text-sm text-[#60646c] dark:text-zinc-400">
+                  Thank you <span className="font-semibold text-black dark:text-white">{name}</span>. Our team will call you back at <span className="font-semibold text-black dark:text-white">{phone}</span> within 2 hours.
                 </p>
                 <button onClick={handleWhatsApp} className="btn-primary bg-[#25D366] hover:bg-[#20bd5a] border-none w-full justify-center">
                   <MessageSquare className="w-4 h-4 fill-white" />
@@ -69,7 +69,7 @@ export default function ContactPage() {
             ) : (
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div>
-                  <label className="block text-xs font-semibold uppercase text-[#60646c] mb-1">
+                  <label className="block text-xs font-semibold uppercase text-[#60646c] dark:text-zinc-400 mb-1">
                     Your Name *
                   </label>
                   <input
@@ -84,7 +84,7 @@ export default function ContactPage() {
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
-                    <label className="block text-xs font-semibold uppercase text-[#60646c] mb-1">
+                    <label className="block text-xs font-semibold uppercase text-[#60646c] dark:text-zinc-400 mb-1">
                       WhatsApp Phone *
                     </label>
                     <input
@@ -98,7 +98,7 @@ export default function ContactPage() {
                   </div>
 
                   <div>
-                    <label className="block text-xs font-semibold uppercase text-[#60646c] mb-1">
+                    <label className="block text-xs font-semibold uppercase text-[#60646c] dark:text-zinc-400 mb-1">
                       Email Address
                     </label>
                     <input
@@ -112,13 +112,13 @@ export default function ContactPage() {
                 </div>
 
                 <div>
-                  <label className="block text-xs font-semibold uppercase text-[#60646c] mb-1">
+                  <label className="block text-xs font-semibold uppercase text-[#60646c] dark:text-zinc-400 mb-1">
                     Service Required
                   </label>
                   <select
                     value={service}
                     onChange={(e) => setService(e.target.value)}
-                    className="text-input w-full bg-white"
+                    className="text-input w-full bg-white dark:bg-[#14161b]"
                   >
                     <option value="Social Media Management">Social Media Management</option>
                     <option value="Accounts & Tax Filing">Accounts & Tax Filing</option>
@@ -129,7 +129,7 @@ export default function ContactPage() {
                 </div>
 
                 <div>
-                  <label className="block text-xs font-semibold uppercase text-[#60646c] mb-1">
+                  <label className="block text-xs font-semibold uppercase text-[#60646c] dark:text-zinc-400 mb-1">
                     Message / Business Details
                   </label>
                   <textarea
@@ -137,7 +137,7 @@ export default function ContactPage() {
                     placeholder="Tell us about your business..."
                     value={message}
                     onChange={(e) => setMessage(e.target.value)}
-                    className="w-full rounded-md border border-[#dcdee0] p-2.5 text-sm outline-none focus:border-black"
+                    className="w-full rounded-md border border-[#dcdee0] dark:border-[#27272a] bg-white dark:bg-[#14161b] text-black dark:text-[#f4f4f5] p-2.5 text-sm outline-none focus:border-black dark:focus:border-white"
                   />
                 </div>
 
@@ -151,38 +151,38 @@ export default function ContactPage() {
 
           {/* Info Side */}
           <div className="space-y-8">
-            <div className="card-surface p-8 space-y-6">
-              <h3 className="text-xl font-semibold text-[#171717]">
+            <div className="card-surface p-8 space-y-6 bg-white dark:bg-[#14161b] border border-[#dcdee0] dark:border-[#27272a] rounded-xl">
+              <h3 className="text-xl font-semibold text-[#171717] dark:text-[#f4f4f5]">
                 Office & Contact Details
               </h3>
 
-              <div className="space-y-4 text-sm text-[#171717]">
+              <div className="space-y-4 text-sm text-[#171717] dark:text-[#f4f4f5]">
                 <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-lg bg-[#f0f0f3] flex items-center justify-center text-[#0d74ce]">
+                  <div className="w-10 h-10 rounded-lg bg-[#f0f0f3] dark:bg-[#27272a] flex items-center justify-center text-[#0d74ce] dark:text-[#38bdf8]">
                     <Phone className="w-5 h-5" />
                   </div>
                   <div>
-                    <div className="text-xs text-[#60646c]">Phone & WhatsApp Helpline</div>
+                    <div className="text-xs text-[#60646c] dark:text-zinc-400">Phone & WhatsApp Helpline</div>
                     <div className="font-semibold">+91 98765 43210</div>
                   </div>
                 </div>
 
                 <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-lg bg-[#f0f0f3] flex items-center justify-center text-[#0d74ce]">
+                  <div className="w-10 h-10 rounded-lg bg-[#f0f0f3] dark:bg-[#27272a] flex items-center justify-center text-[#0d74ce] dark:text-[#38bdf8]">
                     <Mail className="w-5 h-5" />
                   </div>
                   <div>
-                    <div className="text-xs text-[#60646c]">Email Support</div>
+                    <div className="text-xs text-[#60646c] dark:text-zinc-400">Email Support</div>
                     <div className="font-semibold">support@bizbuddy.in</div>
                   </div>
                 </div>
 
                 <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-lg bg-[#f0f0f3] flex items-center justify-center text-[#0d74ce]">
+                  <div className="w-10 h-10 rounded-lg bg-[#f0f0f3] dark:bg-[#27272a] flex items-center justify-center text-[#0d74ce] dark:text-[#38bdf8]">
                     <MapPin className="w-5 h-5" />
                   </div>
                   <div>
-                    <div className="text-xs text-[#60646c]">Corporate Head Office</div>
+                    <div className="text-xs text-[#60646c] dark:text-zinc-400">Corporate Head Office</div>
                     <div className="font-semibold">Tech Tower, Cyber Hub, MG Road, New Delhi</div>
                   </div>
                 </div>
@@ -191,11 +191,11 @@ export default function ContactPage() {
 
             {/* Direct WhatsApp Callout */}
             <div className="bg-[#25D366]/10 border border-[#25D366]/30 p-6 rounded-xl space-y-3">
-              <h4 className="font-semibold text-base text-[#171717] flex items-center gap-2">
+              <h4 className="font-semibold text-base text-[#171717] dark:text-[#f4f4f5] flex items-center gap-2">
                 <MessageSquare className="w-5 h-5 text-[#25D366]" />
                 Prefer Instant WhatsApp Chat?
               </h4>
-              <p className="text-xs text-[#60646c]">
+              <p className="text-xs text-[#60646c] dark:text-zinc-400">
                 Skip waiting for email callbacks. Click below to start an instant live chat with an account representative.
               </p>
               <a

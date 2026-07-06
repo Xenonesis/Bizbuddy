@@ -47,7 +47,7 @@ export default function OtherServicesPage({ onOpenLeadModal }: Props) {
       <section className="hero-sky-wash pt-16 pb-14 border-b border-[#dcdee0]">
         <div className="max-w-[1280px] mx-auto px-4 sm:px-6 text-center max-w-3xl mx-auto space-y-4">
           <div className="badge-pill">BUSINESS SUPPORT SERVICES</div>
-          <h1 className="text-4xl sm:text-5xl font-semibold tracking-tight text-[#171717]">
+          <h1 className="text-4xl sm:text-5xl font-semibold tracking-tight text-[#171717] dark:text-[#f4f4f5]">
             Printing, Accounting & Business Support
           </h1>
           <p className="text-base text-[#60646c]">
@@ -62,23 +62,23 @@ export default function OtherServicesPage({ onOpenLeadModal }: Props) {
           {otherList.map((item) => {
             const Icon = item.icon;
             return (
-              <div key={item.title} className="card-surface p-8 space-y-4 flex flex-col justify-between">
+              <div key={item.title} className="card-surface p-8 space-y-4 flex flex-col justify-between bg-white dark:bg-[#14161b] border border-[#dcdee0] dark:border-[#27272a] rounded-xl">
                 <div className="space-y-3">
-                  <div className="w-12 h-12 rounded-lg bg-[#f0f0f3] text-[#171717] flex items-center justify-center">
+                  <div className="w-12 h-12 rounded-lg bg-[#f0f0f3] dark:bg-[#27272a] text-[#171717] dark:text-[#f4f4f5] flex items-center justify-center">
                     <Icon className="w-6 h-6" />
                   </div>
-                  <h3 className="text-xl font-semibold text-[#171717]">
+                  <h3 className="text-xl font-semibold text-[#171717] dark:text-[#f4f4f5]">
                     {item.title}
                   </h3>
-                  <p className="text-sm text-[#60646c]">
+                  <p className="text-sm text-[#60646c] dark:text-zinc-400">
                     {item.desc}
                   </p>
-                  <div className="text-xs font-mono font-semibold text-[#0d74ce]">
+                  <div className="text-xs font-mono font-semibold text-[#0d74ce] dark:text-[#38bdf8]">
                     {item.price}
                   </div>
                 </div>
 
-                <div className="pt-4 border-t border-[#f0f0f3]">
+                <div className="pt-4 border-t border-[#f0f0f3] dark:border-[#27272a]">
                   <button
                     onClick={() => triggerLead(item.title)}
                     className="btn-primary w-full justify-center text-xs"
