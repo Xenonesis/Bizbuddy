@@ -1,4 +1,13 @@
-"use client";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About BizBuddy — Digital Solutions for Indian Businesses",
+  description: "BizBuddy helps 250+ Indian businesses grow with social media management, tax compliance, custom websites & reel editing. Founded to make digital affordable.",
+  openGraph: {
+    title: "About BizBuddy — Affordable Digital Growth for Indian Businesses",
+    description: "250+ clients, 1,200+ reels created, 99.4% on-time tax filing. Meet the team behind BizBuddy."
+  }
+};
 
 export default function AboutPage() {
 	return (

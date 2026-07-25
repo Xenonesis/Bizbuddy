@@ -1,8 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import {
-	Phone,
+import { Phone,
 	Mail,
 	MapPin,
 	MessageSquare,
