@@ -23,14 +23,14 @@ export const ConsultationModal: React.FC<ConsultationModalProps> = ({
 	isOpen,
 	onClose,
 }) => {
-	const [formData, setFormData] = useState({
+	const [formData, setFormData] = useState(() => ({
 		name: "",
 		phone: "",
 		businessType: "Small Business",
 		date: new Date().toISOString().split("T")[0],
 		timeSlot: "11:00 AM - 12:00 PM",
 		notes: "",
-	});
+	}));
 
 	const [isSubmitting, setIsSubmitting] = useState(false);
 	const [isSubmitted, setIsSubmitted] = useState(false);

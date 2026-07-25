@@ -6,12 +6,12 @@ import { TESTIMONIALS } from "../../lib/data";
 
 export default function TestimonialsPage() {
 	const [reviewSubmitted, setReviewSubmitted] = useState(false);
-	const [newReview, setNewReview] = useState({
+	const [newReview, setNewReview] = useState(() => ({
 		name: "",
 		company: "",
 		content: "",
 		rating: 5,
-	});
+	}));
 
 	const handleReviewSubmit = (e: React.FormEvent) => {
 		e.preventDefault();

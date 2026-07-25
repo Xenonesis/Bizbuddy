@@ -10,7 +10,7 @@ export default function DashboardPage() {
 	>("leads");
 
 	// Mock leads
-	const [leadsList] = useState([
+	const [leadsList] = useState(() => [
 		{
 			id: "L-101",
 			name: "Ankit Mehta",
