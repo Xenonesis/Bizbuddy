@@ -72,8 +72,8 @@ export const QuoteCalculator: React.FC<QuoteCalculatorProps> = ({ onOpenLeadModa
         </div>
 
         {discountRate > 0 && (
-          <div className="bg-emerald-50 border border-emerald-200 text-emerald-800 text-xs px-3.5 py-2 rounded-lg flex items-center gap-2 font-mono">
-            <Sparkles className="w-4 h-4 text-emerald-600 animate-bounce" />
+          <div className="bg-emerald-50 dark:bg-emerald-950/60 border border-emerald-200 dark:border-emerald-800 text-emerald-800 dark:text-emerald-300 text-xs px-3.5 py-2 rounded-lg flex items-center gap-2 font-mono">
+            <Sparkles className="w-4 h-4 text-emerald-600 dark:text-emerald-400 animate-bounce" />
             <span>{discountRate * 100}% BUNDLE DISCOUNT APPLIED</span>
           </div>
         )}

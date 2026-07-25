@@ -105,17 +105,21 @@ export const ConsultationModal: React.FC<ConsultationModalProps> = ({
 				<div className="p-6">
 					{isSubmitted ? (
 						<div className="text-center py-6 space-y-4">
-							<div className="w-12 h-12 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center mx-auto">
+							<div className="w-12 h-12 rounded-full bg-emerald-100 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 flex items-center justify-center mx-auto border border-emerald-200 dark:border-emerald-800">
 								<CheckCircle2 className="w-7 h-7" />
 							</div>
 							<h4 className="text-xl font-semibold text-[#171717] dark:text-[#f4f4f5]">
 								Consultation Reserved!
 							</h4>
-							<p className="text-sm text-[#60646c]">
+							<p className="text-sm text-[#60646c] dark:text-zinc-300">
 								Thank you{" "}
-								<span className="font-medium text-black">{formData.name}</span>!
-								Our senior strategy advisor will call you at{" "}
-								<span className="font-medium text-black">{formData.phone}</span>{" "}
+								<span className="font-semibold text-black dark:text-white">
+									{formData.name}
+								</span>
+								! Our senior strategy advisor will call you at{" "}
+								<span className="font-semibold text-black dark:text-white">
+									{formData.phone}
+								</span>{" "}
 								on {formData.date} during the selected time slot.
 							</p>
 							<div className="pt-2 flex flex-col gap-2">
@@ -138,7 +142,7 @@ export const ConsultationModal: React.FC<ConsultationModalProps> = ({
 									Full Name *
 								</label>
 								<div className="relative">
-									<User className="w-4 h-4 absolute left-3 top-3 text-[#999999]" />
+									<User className="w-4 h-4 absolute left-3 top-3 text-[#999999] dark:text-zinc-500" />
 									<input
 										type="text"
 										required
@@ -157,7 +161,7 @@ export const ConsultationModal: React.FC<ConsultationModalProps> = ({
 									WhatsApp Phone Number *
 								</label>
 								<div className="relative">
-									<Phone className="w-4 h-4 absolute left-3 top-3 text-[#999999]" />
+									<Phone className="w-4 h-4 absolute left-3 top-3 text-[#999999] dark:text-zinc-500" />
 									<input
 										type="tel"
 										required
@@ -181,7 +185,7 @@ export const ConsultationModal: React.FC<ConsultationModalProps> = ({
 										onChange={(e) =>
 											setFormData({ ...formData, businessType: e.target.value })
 										}
-										className="text-input w-full bg-white dark:bg-[#14161b]"
+										className="text-input w-full bg-white dark:bg-[#14161b] text-[#171717] dark:text-white"
 									>
 										{businessCategories.map((cat) => (
 											<option key={cat} value={cat}>
@@ -201,7 +205,7 @@ export const ConsultationModal: React.FC<ConsultationModalProps> = ({
 										onChange={(e) =>
 											setFormData({ ...formData, date: e.target.value })
 										}
-										className="text-input w-full bg-white dark:bg-[#14161b]"
+										className="text-input w-full bg-white dark:bg-[#14161b] text-[#171717] dark:text-white"
 									/>
 								</div>
 							</div>
@@ -215,7 +219,7 @@ export const ConsultationModal: React.FC<ConsultationModalProps> = ({
 									onChange={(e) =>
 										setFormData({ ...formData, timeSlot: e.target.value })
 									}
-									className="text-input w-full bg-white dark:bg-[#14161b]"
+									className="text-input w-full bg-white dark:bg-[#14161b] text-[#171717] dark:text-white"
 								>
 									{timeSlots.map((slot) => (
 										<option key={slot} value={slot}>

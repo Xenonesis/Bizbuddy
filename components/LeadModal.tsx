@@ -94,13 +94,13 @@ export const LeadModal: React.FC<LeadModalProps> = ({
 
 					{isPaidSuccess ? (
 						<div className="text-center py-4 space-y-4">
-							<div className="w-12 h-12 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center mx-auto">
+							<div className="w-12 h-12 rounded-full bg-emerald-100 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 flex items-center justify-center mx-auto border border-emerald-200 dark:border-emerald-800">
 								<Check className="w-7 h-7" />
 							</div>
 							<h4 className="text-xl font-semibold text-[#171717] dark:text-[#f4f4f5]">
 								Inquiry Received!
 							</h4>
-							<p className="text-sm text-[#60646c] dark:text-zinc-400">
+							<p className="text-sm text-[#60646c] dark:text-zinc-300">
 								We have logged your order request for{" "}
 								<span className="font-semibold text-black dark:text-white">
 									{serviceName}
@@ -136,7 +136,7 @@ export const LeadModal: React.FC<LeadModalProps> = ({
 									placeholder="e.g. Ramesh Patel"
 									value={name}
 									onChange={(e) => setName(e.target.value)}
-									className="text-input w-full"
+									className="text-input w-full bg-white dark:bg-[#14161b] text-black dark:text-white"
 								/>
 							</div>
 
@@ -150,7 +150,7 @@ export const LeadModal: React.FC<LeadModalProps> = ({
 									placeholder="e.g. 9876543210"
 									value={phone}
 									onChange={(e) => setPhone(e.target.value)}
-									className="text-input w-full"
+									className="text-input w-full bg-white dark:bg-[#14161b] text-black dark:text-white"
 								/>
 							</div>
 
@@ -163,7 +163,7 @@ export const LeadModal: React.FC<LeadModalProps> = ({
 									placeholder="e.g. ramesh@mycompany.com"
 									value={email}
 									onChange={(e) => setEmail(e.target.value)}
-									className="text-input w-full"
+									className="text-input w-full bg-white dark:bg-[#14161b] text-black dark:text-white"
 								/>
 							</div>
 
@@ -202,8 +202,8 @@ export const LeadModal: React.FC<LeadModalProps> = ({
 								</button>
 							</div>
 
-							<div className="text-center pt-1 text-[11px] text-[#999999] flex items-center justify-center gap-1">
-								<ShieldCheck className="w-3.5 h-3.5 text-emerald-600" />
+							<div className="text-center pt-1 text-[11px] text-[#60646c] dark:text-zinc-400 flex items-center justify-center gap-1">
+								<ShieldCheck className="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400" />
 								No advance commitment required. Free initial scope review.
 							</div>
 						</form>
