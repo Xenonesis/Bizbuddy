@@ -5,6 +5,7 @@ import { Navbar } from "./Navbar";
 import { Footer } from "./Footer";
 import { ConsultationModal } from "./ConsultationModal";
 import { LeadModal } from "./LeadModal";
+import { FloatingContactWidget } from "./FloatingContactWidget";
 
 export const LayoutWrapper: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [consultationOpen, setConsultationOpen] = useState(false);
@@ -40,6 +41,10 @@ export const LayoutWrapper: React.FC<{ children: React.ReactNode }> = ({ childre
 
       <Footer />
 
+      <FloatingContactWidget
+        onOpenConsultation={() => setConsultationOpen(true)}
+      />
+
       <ConsultationModal
         isOpen={consultationOpen}
         onClose={() => setConsultationOpen(false)}
@@ -54,3 +59,4 @@ export const LayoutWrapper: React.FC<{ children: React.ReactNode }> = ({ childre
     </div>
   );
 };
+

@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { motion } from "motion/react";
+import { motion, AnimatePresence } from "motion/react";
 import Link from "next/link";
 import {
   TrendingUp,
@@ -27,6 +27,9 @@ import { DeviceMockupHero } from "../components/DeviceMockupHero";
 import { ExpoBentoCard } from "../components/ExpoBentoCard";
 import { QuoteCalculator } from "../components/QuoteCalculator";
 import { FaqAccordion } from "../components/FaqAccordion";
+import { SpotlightCard } from "../components/SpotlightCard";
+import { AnimatedCounter } from "../components/AnimatedCounter";
+import { ShimmerButton } from "../components/ShimmerButton";
 import BorderGlow from "../components/BorderGlow";
 import LineWaves from "../components/LineWaves";
 import { PORTFOLIO_ITEMS, TESTIMONIALS, SOCIAL_MEDIA_PLANS } from "../lib/data";
@@ -215,12 +218,12 @@ export default function Home({ onOpenConsultation, onOpenLeadModal }: PageProps)
         </div>
       </motion.section>
 
-      {/* 4. WHY CHOOSE US (Expo Workflow Layout) */}
+      {/* 4. WHY CHOOSE US (21st.dev Animated Metric Grid) */}
       <motion.section initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="bg-[#fafafa] dark:bg-[#0c0d10] border-y border-[#dcdee0] dark:border-[#27272a] py-16 md:py-24">
         <div className="max-w-[1280px] mx-auto px-4 sm:px-6">
           <div className="grid lg:grid-cols-2 gap-10 md:gap-16 items-center">
             {/* Left: Text & Features */}
-            <div className="space-y-10">
+            <div className="space-y-8">
               <div className="space-y-4">
                 <div className="badge-pill border border-[#dcdee0] dark:border-zinc-800">
                   DEVELOP & GROW
@@ -233,25 +236,34 @@ export default function Home({ onOpenConsultation, onOpenLeadModal }: PageProps)
                 </p>
               </div>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <div className="space-y-3">
-                  <div className="w-10 h-10 rounded-md bg-[#f0f0f3] dark:bg-[#27272a] text-[#0d74ce] dark:text-blue-400 flex items-center justify-center font-bold">
-                    <Zap className="w-5 h-5" />
+              {/* 21st.dev Metric Counters */}
+              <div className="grid grid-cols-2 gap-4 pt-2">
+                <div className="p-4 rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-[#14161b] space-y-1">
+                  <div className="text-2xl sm:text-3xl font-bold font-mono text-[#0d74ce] dark:text-[#38bdf8]">
+                    <AnimatedCounter to={250} suffix="+" />
                   </div>
-                  <h4 className="font-semibold text-lg text-[#171717] dark:text-[#f4f4f5]">Fast Delivery</h4>
-                  <p className="text-sm text-[#60646c] dark:text-zinc-400 leading-relaxed">
-                    3-day website turnarounds and 24-hour reel edits so your business never waits.
-                  </p>
+                  <div className="text-xs text-[#60646c] dark:text-zinc-400 font-medium">Active Business Clients</div>
                 </div>
-                
-                <div className="space-y-3">
-                  <div className="w-10 h-10 rounded-md bg-[#f0f0f3] dark:bg-[#27272a] text-[#0d74ce] dark:text-blue-400 flex items-center justify-center font-bold">
-                    <TrendingUp className="w-5 h-5" />
+
+                <div className="p-4 rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-[#14161b] space-y-1">
+                  <div className="text-2xl sm:text-3xl font-bold font-mono text-emerald-600 dark:text-emerald-400">
+                    <AnimatedCounter to={99} suffix=".4%" />
                   </div>
-                  <h4 className="font-semibold text-lg text-[#171717] dark:text-[#f4f4f5]">Monthly Reports</h4>
-                  <p className="text-sm text-[#60646c] dark:text-zinc-400 leading-relaxed">
-                    Clear performance metrics, reach analytics, and tax filing receipts delivered every 30 days.
-                  </p>
+                  <div className="text-xs text-[#60646c] dark:text-zinc-400 font-medium">On-Time Tax Compliance</div>
+                </div>
+
+                <div className="p-4 rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-[#14161b] space-y-1">
+                  <div className="text-2xl sm:text-3xl font-bold font-mono text-indigo-600 dark:text-indigo-400">
+                    <AnimatedCounter to={3} suffix="-Day" />
+                  </div>
+                  <div className="text-xs text-[#60646c] dark:text-zinc-400 font-medium">Average Web Delivery</div>
+                </div>
+
+                <div className="p-4 rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-[#14161b] space-y-1">
+                  <div className="text-2xl sm:text-3xl font-bold font-mono text-[#171717] dark:text-white">
+                    ₹<AnimatedCounter to={1499} />
+                  </div>
+                  <div className="text-xs text-[#60646c] dark:text-zinc-400 font-medium">Monthly Starter Price</div>
                 </div>
               </div>
             </div>
@@ -365,7 +377,7 @@ export default function Home({ onOpenConsultation, onOpenLeadModal }: PageProps)
         <QuoteCalculator onOpenLeadModal={triggerLead} />
       </motion.section>
 
-      {/* 7. PORTFOLIO SHOWCASE GRID */}
+      {/* 7. PORTFOLIO SHOWCASE GRID (With 21st.dev Animated Tabs & Spotlight Cards) */}
       <motion.section initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="max-w-[1280px] mx-auto px-4 sm:px-6 space-y-8">
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4 border-b border-[#f0f0f3] dark:border-[#27272a] pb-6">
           <div>
@@ -375,51 +387,70 @@ export default function Home({ onOpenConsultation, onOpenLeadModal }: PageProps)
             </h2>
           </div>
 
-          {/* Filter Tabs */}
-          <div className="flex items-center gap-2 overflow-x-auto">
-            {["All", "Social Media", "Websites", "Branding", "Accounts"].map((cat) => (
-              <button
-                key={cat}
-                onClick={() => setPortfolioCategory(cat)}
-                className={`px-3 py-1.5 rounded-full text-xs font-mono transition-all ${
-                  portfolioCategory === cat
-                    ? "bg-black dark:bg-[#f4f4f5] text-white dark:text-black"
-                    : "bg-white dark:bg-[#14161b] text-[#60646c] dark:text-zinc-400 border border-[#dcdee0] dark:border-[#27272a] hover:bg-[#f0f0f3] dark:hover:bg-[#1e2026]"
-                }`}
-              >
-                {cat}
-              </button>
-            ))}
+          {/* 21st.dev Animated Sliding Filter Tabs */}
+          <div className="flex items-center gap-1.5 p-1 bg-zinc-100 dark:bg-zinc-800/80 rounded-full border border-zinc-200/80 dark:border-zinc-700/80 overflow-x-auto">
+            {["All", "Social Media", "Websites", "Branding", "Accounts"].map((cat) => {
+              const isSelected = portfolioCategory === cat;
+              return (
+                <button
+                  key={cat}
+                  onClick={() => setPortfolioCategory(cat)}
+                  className="relative px-3.5 py-1.5 rounded-full text-xs font-mono transition-colors shrink-0"
+                >
+                  {isSelected && (
+                    <motion.div
+                      layoutId="portfolioCategoryTab"
+                      className="absolute inset-0 bg-black dark:bg-white rounded-full shadow-xs"
+                      transition={{ type: "spring", stiffness: 400, damping: 30 }}
+                    />
+                  )}
+                  <span className={`relative z-10 transition-colors ${isSelected ? "text-white dark:text-black font-semibold" : "text-zinc-600 dark:text-zinc-400 hover:text-black dark:hover:text-white"}`}>
+                    {cat}
+                  </span>
+                </button>
+              );
+            })}
           </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {filteredPortfolio.map((item) => (
-            <div key={item.id} className="card-surface bg-white dark:bg-[#14161b] border border-[#dcdee0] dark:border-[#27272a] rounded-xl overflow-hidden group">
-              <div className="relative h-48 w-full overflow-hidden bg-zinc-100 dark:bg-zinc-800">
-                <img
-                  src={item.image}
-                  alt={item.title}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                />
-                <div className="absolute top-3 right-3 bg-black/80 backdrop-blur-xs text-white text-xs font-mono font-semibold px-2.5 py-1 rounded-md">
-                  {item.impactMetric}
-                </div>
-              </div>
-              <div className="p-5 space-y-2">
-                <div className="text-xs font-mono text-[#0d74ce] dark:text-[#38bdf8]">{item.client}</div>
-                <h4 className="font-semibold text-base text-[#171717] dark:text-[#f4f4f5]">{item.title}</h4>
-                <p className="text-xs text-[#60646c] dark:text-zinc-400 leading-relaxed">{item.description}</p>
-                <div className="pt-2 flex flex-wrap gap-1.5">
-                  {item.tags.map((tag) => (
-                    <span key={tag} className="text-[10px] bg-[#f0f0f3] dark:bg-[#27272a] text-[#171717] dark:text-[#f4f4f5] px-2 py-0.5 rounded">
-                      #{tag}
-                    </span>
-                  ))}
-                </div>
-              </div>
-            </div>
-          ))}
+          <AnimatePresence mode="popLayout">
+            {filteredPortfolio.map((item) => (
+              <motion.div
+                key={item.id}
+                layout
+                initial={{ opacity: 0, scale: 0.95 }}
+                animate={{ opacity: 1, scale: 1 }}
+                exit={{ opacity: 0, scale: 0.95 }}
+                transition={{ duration: 0.25 }}
+              >
+                <SpotlightCard className="h-full group">
+                  <div className="relative h-48 w-full overflow-hidden bg-zinc-100 dark:bg-zinc-800">
+                    <img
+                      src={item.image}
+                      alt={item.title}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <div className="absolute top-3 right-3 bg-black/80 backdrop-blur-xs text-white text-xs font-mono font-semibold px-2.5 py-1 rounded-md shadow-xs">
+                      {item.impactMetric}
+                    </div>
+                  </div>
+                  <div className="p-5 space-y-2">
+                    <div className="text-xs font-mono text-[#0d74ce] dark:text-[#38bdf8] font-medium">{item.client}</div>
+                    <h4 className="font-semibold text-base text-[#171717] dark:text-[#f4f4f5]">{item.title}</h4>
+                    <p className="text-xs text-[#60646c] dark:text-zinc-400 leading-relaxed">{item.description}</p>
+                    <div className="pt-2 flex flex-wrap gap-1.5">
+                      {item.tags.map((tag) => (
+                        <span key={tag} className="text-[10px] bg-zinc-100 dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300 px-2 py-0.5 rounded font-mono">
+                          #{tag}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                </SpotlightCard>
+              </motion.div>
+            ))}
+          </AnimatePresence>
         </div>
       </motion.section>
 
@@ -435,7 +466,7 @@ export default function Home({ onOpenConsultation, onOpenLeadModal }: PageProps)
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {TESTIMONIALS.map((item) => (
-              <div key={item.id} className="bg-white dark:bg-[#14161b] p-6 rounded-xl border border-[#dcdee0] dark:border-[#27272a] space-y-4 flex flex-col justify-between">
+              <SpotlightCard key={item.id} className="p-6 space-y-4 flex flex-col justify-between">
                 <div className="space-y-3">
                   <div className="flex items-center gap-1 text-amber-500">
                     {[...Array(item.rating)].map((_, i) => (
@@ -446,7 +477,7 @@ export default function Home({ onOpenConsultation, onOpenLeadModal }: PageProps)
                     &quot;{item.content}&quot;
                   </p>
                 </div>
-                <div className="pt-3 border-t border-[#f0f0f3] dark:border-[#27272a] flex items-center gap-3">
+                <div className="pt-3 border-t border-zinc-100 dark:border-zinc-800 flex items-center gap-3">
                   <img
                     src={item.avatar}
                     alt={item.name}
@@ -457,13 +488,13 @@ export default function Home({ onOpenConsultation, onOpenLeadModal }: PageProps)
                     <div className="text-[10px] text-[#60646c] dark:text-zinc-400">{item.company}</div>
                   </div>
                 </div>
-              </div>
+              </SpotlightCard>
             ))}
           </div>
         </div>
       </motion.section>
 
-      {/* 9. FAQ ACCORDION (20+ Items) */}
+      {/* 9. FAQ ACCORDION */}
       <motion.section initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="max-w-[1280px] mx-auto px-4 sm:px-6 space-y-8">
         <div className="text-center max-w-2xl mx-auto space-y-3">
           <div className="badge-pill">FREQUENTLY ASKED QUESTIONS</div>
@@ -478,7 +509,7 @@ export default function Home({ onOpenConsultation, onOpenLeadModal }: PageProps)
         <FaqAccordion />
       </motion.section>
 
-      {/* 10. PRE-FOOTER CTA BAND */}
+      {/* 10. PRE-FOOTER CTA BAND (With 21st.dev Shimmer Button) */}
       <motion.section initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="max-w-[1280px] mx-auto px-4 sm:px-6">
         <div className="bg-[#171717] text-white rounded-2xl p-6 sm:p-10 lg:p-16 text-center space-y-6 relative overflow-hidden">
           <div className="absolute inset-0 z-0 opacity-20">
@@ -506,18 +537,22 @@ export default function Home({ onOpenConsultation, onOpenLeadModal }: PageProps)
               Join 250+ growing businesses. Start your monthly social media management, website development, or tax return filing today.
             </p>
             <div className="pt-4 flex flex-col sm:flex-row items-center justify-center gap-3">
-              <button
+              <ShimmerButton
                 onClick={() => triggerLead("Homepage Pre-Footer CTA")}
-                className="btn-primary bg-white text-black hover:bg-zinc-200 text-base font-semibold px-8 py-3 h-12 w-full sm:w-auto"
+                variant="primary"
+                className="w-full sm:w-auto px-8 py-3.5 h-12 text-sm font-semibold"
               >
                 Get Started Now
-              </button>
-              <button
+                <ArrowRight className="w-4 h-4 ml-1.5" />
+              </ShimmerButton>
+
+              <ShimmerButton
                 onClick={triggerConsultation}
-                className="btn-secondary bg-transparent text-white border-zinc-700 hover:bg-zinc-800 text-base font-medium px-8 py-3 h-12 w-full sm:w-auto"
+                variant="secondary"
+                className="w-full sm:w-auto px-8 py-3.5 h-12 text-sm font-medium"
               >
                 Schedule Free Call
-              </button>
+              </ShimmerButton>
             </div>
           </div>
         </div>
@@ -525,3 +560,4 @@ export default function Home({ onOpenConsultation, onOpenLeadModal }: PageProps)
     </div>
   );
 }
+
