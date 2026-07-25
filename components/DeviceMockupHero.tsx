@@ -20,7 +20,7 @@ import {
 } from "lucide-react";
 
 import { useTheme } from "./ThemeProvider";
-import LineWaves from "./LineWaves";
+import Grainient from "./Grainient";
 
 interface DeviceMockupHeroProps {
   onOpenConsultation: () => void;
@@ -37,21 +37,22 @@ export const DeviceMockupHero: React.FC<DeviceMockupHeroProps> = ({
 
   return (
     <section className="relative overflow-hidden hero-sky-wash pt-16 pb-20 border-b border-[#dcdee0] dark:border-zinc-800">
-      <div className="absolute inset-0 z-0 opacity-[0.15] dark:opacity-40">
-        <LineWaves
-          speed={0.15}
-          innerLineCount={20}
-          outerLineCount={24}
-          warpIntensity={1.5}
-          rotation={-45}
-          edgeFadeWidth={0.2}
-          colorCycleSpeed={0.5}
-          brightness={isDark ? 0.4 : 0.6}
-          color1={isDark ? "#38bdf8" : "#0d74ce"}
-          color2={isDark ? "#818cf8" : "#476cff"}
-          color3={isDark ? "#c084fc" : "#8918df"}
-          enableMouseInteraction={true}
-          mouseInfluence={2.0}
+      <div className="absolute inset-0 z-0 opacity-40 dark:opacity-60 pointer-events-none">
+        <Grainient
+          color1={isDark ? "#1e1b4b" : "#e0f2fe"}
+          color2={isDark ? "#0f172a" : "#bae6fd"}
+          color3={isDark ? "#1e293b" : "#7dd3fc"}
+          timeSpeed={0.2}
+          warpStrength={1.2}
+          warpFrequency={4.0}
+          warpSpeed={1.5}
+          warpAmplitude={40.0}
+          blendSoftness={0.1}
+          grainAmount={0.08}
+          grainScale={2.0}
+          grainAnimated={true}
+          contrast={1.2}
+          zoom={1.0}
         />
       </div>
       <div className="relative z-10 max-w-[1280px] mx-auto px-4 sm:px-6">
