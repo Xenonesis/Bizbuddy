@@ -1,0 +1,238 @@
+- generic [active] [ref=f8e1]:
+  - generic [ref=f8e2]:
+    - banner [ref=f8e3]:
+      - generic [ref=f8e4]:
+        - link "B BizBuddy Digital Solutions" [ref=f8e5] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f8e6]: B
+          - generic [ref=f8e7]:
+            - generic [ref=f8e8]: BizBuddy
+            - generic [ref=f8e10]: Digital Solutions
+        - button "Toggle Navigation" [ref=f8e11]
+    - main [ref=f8e13]:
+      - generic [ref=f8e14]:
+        - generic [ref=f8e16]:
+          - generic [ref=f8e17]: TRANSPARENT MONTHLY PRICING
+          - heading "Simple plans for every stage of your business." [level=1] [ref=f8e18]
+          - paragraph [ref=f8e19]: No long-term commitments. Pause or cancel anytime with 7 days notice.
+        - generic [ref=f8e21]:
+          - generic [ref=f8e22]:
+            - generic [ref=f8e23]:
+              - generic [ref=f8e24]:
+                - heading "Basic Plan" [level=3] [ref=f8e25]
+                - generic [ref=f8e26]:
+                  - generic [ref=f8e27]: ₹1,499
+                  - generic [ref=f8e28]: /month
+              - list [ref=f8e29]:
+                - listitem [ref=f8e30]:
+                  - generic [ref=f8e33]: 10 High-Quality Posts
+                - listitem [ref=f8e34]:
+                  - generic [ref=f8e37]: 2 Custom Edited Reels
+                - listitem [ref=f8e38]:
+                  - generic [ref=f8e41]: 1 Free Campaign Ad Run
+                - listitem [ref=f8e42]:
+                  - generic [ref=f8e45]: Sale & Discount Promo Posts
+                - listitem [ref=f8e46]:
+                  - generic [ref=f8e49]: Engaging Captions & Hashtags
+                - listitem [ref=f8e50]:
+                  - generic [ref=f8e53]: 30 Days Full Profile Management
+                - listitem [ref=f8e54]:
+                  - generic [ref=f8e57]: Instagram & Facebook Integration
+                - listitem [ref=f8e58]:
+                  - generic [ref=f8e61]: Free Initial Profile Optimization
+            - button "Buy Plan Now" [ref=f8e63] [cursor=pointer]
+          - generic [ref=f8e66]:
+            - generic [ref=f8e67]:
+              - generic [ref=f8e68]:
+                - heading "Super Plan" [level=3] [ref=f8e69]
+                - generic [ref=f8e70]:
+                  - generic [ref=f8e71]: ₹1,999
+                  - generic [ref=f8e72]: /month
+              - list [ref=f8e73]:
+                - listitem [ref=f8e74]:
+                  - generic [ref=f8e77]: 15 High-Quality Posts
+                - listitem [ref=f8e78]:
+                  - generic [ref=f8e81]: 5 HD Custom Reels
+                - listitem [ref=f8e82]:
+                  - generic [ref=f8e85]: 2 Free Campaign Ads Run
+                - listitem [ref=f8e86]:
+                  - generic [ref=f8e89]: Daily Story Uploads & Templates
+                - listitem [ref=f8e90]:
+                  - generic [ref=f8e93]: DM & Comment Active Replies
+                - listitem [ref=f8e94]:
+                  - generic [ref=f8e97]: Complete Ad Setup & Guidance
+                - listitem [ref=f8e98]:
+                  - generic [ref=f8e101]: Free Visiting Card Digital Design
+                - listitem [ref=f8e102]:
+                  - generic [ref=f8e105]: Advanced Profile Modification
+            - button "Buy Plan Now" [ref=f8e107] [cursor=pointer]
+          - generic [ref=f8e110]:
+            - generic [ref=f8e111]:
+              - generic [ref=f8e112]:
+                - heading "Premium Plan" [level=3] [ref=f8e113]
+                - generic [ref=f8e114]:
+                  - generic [ref=f8e115]: ₹2,499
+                  - generic [ref=f8e116]: /month
+              - list [ref=f8e117]:
+                - listitem [ref=f8e118]:
+                  - generic [ref=f8e121]: 20 Premium Posts
+                - listitem [ref=f8e122]:
+                  - generic [ref=f8e125]: 7 Cinematic Reels
+                - listitem [ref=f8e126]:
+                  - generic [ref=f8e129]: 3 Free Ads Setup & Optimization
+                - listitem [ref=f8e130]:
+                  - generic [ref=f8e133]: Daily Story & Highlight Management
+                - listitem [ref=f8e134]:
+                  - generic [ref=f8e137]: Custom Highlight Cover Designs
+                - listitem [ref=f8e138]:
+                  - generic [ref=f8e141]: Influencer Collaboration Support
+                - listitem [ref=f8e142]:
+                  - generic [ref=f8e145]: Fun Audience Story Activities
+                - listitem [ref=f8e146]:
+                  - generic [ref=f8e149]: Priority DM & Comment Replies
+                - listitem [ref=f8e150]:
+                  - generic [ref=f8e153]: Free Premium Business Card Design
+            - button "Buy Plan Now" [ref=f8e155] [cursor=pointer]
+        - generic [ref=f8e158]:
+          - heading "Feature Comparison Matrix" [level=2] [ref=f8e160]
+          - table [ref=f8e162]:
+            - rowgroup [ref=f8e163]:
+              - row [ref=f8e164]:
+                - columnheader "Feature / Deliverable" [ref=f8e165]
+                - columnheader "Basic (₹1,499)" [ref=f8e166]
+                - columnheader "Super (₹1,999)" [ref=f8e167]
+                - columnheader "Premium (₹2,499)" [ref=f8e168]
+            - rowgroup [ref=f8e169]:
+              - row [ref=f8e170]:
+                - cell "Monthly Social Posts" [ref=f8e171]
+                - cell "10 Posts" [ref=f8e172]
+                - cell "15 Posts" [ref=f8e173]
+                - cell "20 Posts" [ref=f8e174]
+              - row [ref=f8e175]:
+                - cell "Custom HD Reels" [ref=f8e176]
+                - cell "2 Reels" [ref=f8e177]
+                - cell "5 Reels" [ref=f8e178]
+                - cell "7 Reels" [ref=f8e179]
+              - row [ref=f8e180]:
+                - cell "Free Campaign Ads Run" [ref=f8e181]
+                - cell "1 Ad" [ref=f8e182]
+                - cell "2 Ads" [ref=f8e183]
+                - cell "3 Ads" [ref=f8e184]
+              - row [ref=f8e185]:
+                - cell "Daily Story Uploads" [ref=f8e186]
+                - cell [ref=f8e187]
+                - cell [ref=f8e191]
+                - cell [ref=f8e194]
+              - row [ref=f8e197]:
+                - cell "DM & Comment Active Replies" [ref=f8e198]
+                - cell [ref=f8e199]
+                - cell [ref=f8e203]
+                - cell [ref=f8e206]
+              - row [ref=f8e209]:
+                - cell "Visiting Card Digital Design" [ref=f8e210]
+                - cell [ref=f8e211]
+                - cell [ref=f8e215]
+                - cell [ref=f8e218]
+              - row [ref=f8e221]:
+                - cell "Custom Highlight Covers" [ref=f8e222]
+                - cell [ref=f8e223]
+                - cell [ref=f8e227]
+                - cell [ref=f8e231]
+              - row [ref=f8e234]:
+                - cell "Influencer Collaboration Support" [ref=f8e235]
+                - cell [ref=f8e236]
+                - cell [ref=f8e240]
+                - cell [ref=f8e244]
+              - row [ref=f8e247]:
+                - cell "Dedicated Account Manager" [ref=f8e248]
+                - cell [ref=f8e249]
+                - cell [ref=f8e252]
+                - cell [ref=f8e255]
+              - row [ref=f8e258]:
+                - cell "Monthly Growth Report" [ref=f8e259]
+                - cell [ref=f8e260]
+                - cell [ref=f8e263]
+                - cell [ref=f8e266]
+        - generic [ref=f8e269]:
+          - heading "Need a custom enterprise package or multi-store plan?" [level=3] [ref=f8e270]
+          - paragraph [ref=f8e271]: We offer custom retainers for multi-location franchises, schools, hospitals, and real estate agencies.
+          - generic [ref=f8e272]:
+            - button "Book Free Consultation" [ref=f8e273] [cursor=pointer]
+            - link "Chat on WhatsApp" [ref=f8e274] [cursor=pointer]:
+              - /url: https://wa.me/919876543210?text=Hi%20BizBuddy,%20I%20want%20a%20custom%20pricing%20quote!
+    - contentinfo [ref=f8e277]:
+      - generic [ref=f8e279]:
+        - generic [ref=f8e280]:
+          - generic [ref=f8e282]: "Instant Support Available:"
+          - text: Chat directly with our business expert on WhatsApp
+        - link "Chat on WhatsApp" [ref=f8e283] [cursor=pointer]:
+          - /url: https://wa.me/919876543210?text=Hello%20BizBuddy,%20I%20want%20to%20know%20more%20about%20your%20services!
+      - generic [ref=f8e286]:
+        - generic [ref=f8e287]:
+          - link "B BizBuddy" [ref=f8e288] [cursor=pointer]:
+            - /url: /
+            - generic [ref=f8e289]: B
+            - generic [ref=f8e290]: BizBuddy
+          - paragraph [ref=f8e291]: BizBuddy is your all-in-one digital growth platform. From social media marketing, viral reels editing, and custom web development to EPF, TDS return filings, and company incorporation.
+          - generic [ref=f8e292]:
+            - generic [ref=f8e293]: 100% Tax Compliant
+            - generic [ref=f8e297]: 24/7 WhatsApp Response
+        - generic [ref=f8e299]:
+          - heading "Core Services" [level=4] [ref=f8e300]
+          - list [ref=f8e301]:
+            - listitem [ref=f8e302]:
+              - link "Social Media Management" [ref=f8e303] [cursor=pointer]:
+                - /url: /services/social-media
+            - listitem [ref=f8e304]:
+              - link "Accounts & Tax Returns" [ref=f8e305] [cursor=pointer]:
+                - /url: /services/accounts
+            - listitem [ref=f8e306]:
+              - link "Website Development" [ref=f8e307] [cursor=pointer]:
+                - /url: /services/website-development
+            - listitem [ref=f8e308]:
+              - link "Reels & Video Editing" [ref=f8e309] [cursor=pointer]:
+                - /url: /services/editing
+            - listitem [ref=f8e310]:
+              - link "Printing & Support" [ref=f8e311] [cursor=pointer]:
+                - /url: /services/other
+        - generic [ref=f8e312]:
+          - heading "Company" [level=4] [ref=f8e313]
+          - list [ref=f8e314]:
+            - listitem [ref=f8e315]:
+              - link "Monthly Pricing Plans" [ref=f8e316] [cursor=pointer]:
+                - /url: /pricing
+            - listitem [ref=f8e317]:
+              - link "Case Studies & Work" [ref=f8e318] [cursor=pointer]:
+                - /url: /portfolio
+            - listitem [ref=f8e319]:
+              - link "Client Testimonials" [ref=f8e320] [cursor=pointer]:
+                - /url: /testimonials
+            - listitem [ref=f8e321]:
+              - link "About Our Team" [ref=f8e322] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f8e323]:
+              - link "Client Dashboard" [ref=f8e324] [cursor=pointer]:
+                - /url: /dashboard
+        - generic [ref=f8e328]:
+          - heading "Get In Touch" [level=4] [ref=f8e329]
+          - list [ref=f8e330]:
+            - listitem [ref=f8e331]:
+              - generic [ref=f8e334]: +91 98765 43210
+            - listitem [ref=f8e335]:
+              - generic [ref=f8e339]: support@bizbuddy.in
+            - listitem [ref=f8e340]:
+              - generic [ref=f8e344]: Tech Tower, Cyber Hub, MG Road, New Delhi, India
+      - generic [ref=f8e346]:
+        - generic [ref=f8e347]: © 2026 BizBuddy Solutions Technologies Pvt. Ltd. All rights reserved.
+        - generic [ref=f8e348]:
+          - generic [ref=f8e349]:
+            - button "Light" [ref=f8e350]
+            - button "Dark" [ref=f8e357]
+            - button "System" [ref=f8e360]
+          - link "Privacy Policy" [ref=f8e363] [cursor=pointer]:
+            - /url: /contact
+          - link "Terms of Service" [ref=f8e364] [cursor=pointer]:
+            - /url: /contact
+          - link "Refund Policy" [ref=f8e365] [cursor=pointer]:
+            - /url: /contact
+  - button "Open Next.js Dev Tools" [ref=f8e371] [cursor=pointer]

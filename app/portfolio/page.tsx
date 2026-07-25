@@ -11,15 +11,15 @@ export default function PortfolioPage() {
   );
 
   return (
-    <div className="space-y-16 pb-20">
+    <div className="space-y-12 md:space-y-16 pb-16 md:pb-20">
       {/* Sub-hero */}
-      <section className="hero-sky-wash pt-16 pb-14 border-b border-[#dcdee0]">
-        <div className="max-w-[1280px] mx-auto px-4 sm:px-6 text-center max-w-3xl mx-auto space-y-4">
+      <section className="hero-sky-wash pt-12 sm:pt-16 pb-10 sm:pb-14 border-b border-[#dcdee0] dark:border-[#27272a]">
+        <div className="max-w-[1280px] mx-auto px-4 sm:px-6 text-center space-y-4">
           <div className="badge-pill">CASE STUDIES & WORK</div>
-          <h1 className="text-4xl sm:text-5xl font-semibold tracking-tight text-[#171717] dark:text-[#f4f4f5]">
+          <h1 className="text-[1.75rem] sm:text-4xl md:text-5xl font-semibold tracking-tight text-[#171717] dark:text-[#f4f4f5]">
             Proven Growth Stories for Real Businesses
           </h1>
-          <p className="text-base text-[#60646c]">
+          <p className="text-base text-[#60646c] dark:text-zinc-400">
             Explore how we help clinics, restaurants, real estate agencies, and D2C brands scale revenue.
           </p>
         </div>

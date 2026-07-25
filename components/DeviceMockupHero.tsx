@@ -56,12 +56,12 @@ export const DeviceMockupHero: React.FC<DeviceMockupHeroProps> = ({
       </div>
       <div className="relative z-10 max-w-[1280px] mx-auto px-4 sm:px-6">
         {/* Top Eyebrow Badge (Expo Clone) */}
-        <div className="flex justify-center mb-6">
+        <div className="flex justify-center mb-6 px-2">
           <a
             href="#recent-updates"
-            className="group inline-flex items-center gap-2 rounded-full border border-[#dcdee0] dark:border-zinc-800 bg-[#f0f0f3]/80 dark:bg-zinc-800/80 py-1 pr-2.5 pl-1 backdrop-blur-sm transition duration-300 hover:border-[#171717] dark:hover:border-zinc-500 cursor-pointer"
+            className="group inline-flex items-center gap-1.5 sm:gap-2 rounded-full border border-[#dcdee0] dark:border-zinc-800 bg-[#f0f0f3]/80 dark:bg-zinc-800/80 py-1 pr-1.5 sm:pr-2.5 pl-1 backdrop-blur-sm transition duration-300 hover:border-[#171717] dark:hover:border-zinc-500 cursor-pointer max-w-full"
           >
-            <span className="inline-flex items-center gap-1.5 rounded-2xl border border-[#dcdee0] dark:border-zinc-700 bg-white dark:bg-zinc-900 px-2.5 py-1 shadow-sm">
+            <span className="inline-flex items-center gap-1.5 rounded-2xl border border-[#dcdee0] dark:border-zinc-700 bg-white dark:bg-zinc-900 px-2 sm:px-2.5 py-1 shadow-sm">
               <span className="relative flex w-2 h-2 shrink-0 items-center justify-center">
                 <span className="absolute inset-0 animate-ping rounded-full bg-emerald-400 opacity-75"></span>
                 <span className="relative w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
@@ -70,11 +70,11 @@ export const DeviceMockupHero: React.FC<DeviceMockupHeroProps> = ({
                 What's new?
               </span>
             </span>
-            <span className="inline-flex items-center gap-2 pr-px">
-              <span className="text-xs font-medium text-[#60646c] dark:text-zinc-400">
-                Introducing Managed SEO Services
+            <span className="inline-flex items-center gap-1.5 sm:gap-2 pr-px truncate">
+              <span className="text-[10px] sm:text-xs font-medium text-[#60646c] dark:text-zinc-400 truncate">
+                Managed SEO Services
               </span>
-              <ArrowRight className="w-3.5 h-3.5 text-[#60646c] dark:text-zinc-400 transition-transform duration-300 group-hover:translate-x-0.5" />
+              <ArrowRight className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-[#60646c] dark:text-zinc-400 shrink-0 transition-transform duration-300 group-hover:translate-x-0.5" />
             </span>
           </a>
         </div>
@@ -86,7 +86,7 @@ export const DeviceMockupHero: React.FC<DeviceMockupHeroProps> = ({
           transition={{ duration: 0.5 }}
           className="text-center max-w-4xl mx-auto space-y-6"
         >
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold tracking-tighter text-[#171717] dark:text-[#f4f4f5] leading-[1.08] lg:leading-[1.05]">
+          <h1 className="text-[1.75rem] sm:text-5xl lg:text-6xl font-semibold tracking-tighter text-[#171717] dark:text-[#f4f4f5] leading-[1.12] sm:leading-[1.08] lg:leading-[1.05]">
             Grow your business with marketing, tax compliance & custom websites.
           </h1>
           <p className="text-base sm:text-lg text-[#60646c] dark:text-zinc-400 max-w-2xl mx-auto leading-relaxed">
@@ -135,51 +135,51 @@ export const DeviceMockupHero: React.FC<DeviceMockupHeroProps> = ({
           className="mt-14 max-w-5xl mx-auto"
         >
           {/* Interactive Screen Selector Tabs */}
-          <div className="flex items-center justify-center gap-2 mb-4 overflow-x-auto py-1">
+          <div className="flex items-center justify-center gap-1.5 sm:gap-2 mb-4 overflow-x-auto py-1 -mx-2 px-2">
             <button
               onClick={() => setActiveTab("dashboard")}
-              className={`px-4 py-1.5 rounded-full text-xs font-medium font-mono transition-all flex items-center gap-1.5 ${
+              className={`px-2.5 sm:px-4 py-1.5 rounded-full text-[10px] sm:text-xs font-medium font-mono transition-all flex items-center gap-1 sm:gap-1.5 shrink-0 ${
                 activeTab === "dashboard"
                   ? "bg-black text-white shadow-xs dark:bg-white dark:text-black"
                   : "bg-white text-[#60646c] border border-[#dcdee0] hover:bg-[#f0f0f3] dark:bg-zinc-900 dark:text-zinc-400 dark:border-zinc-800 dark:hover:bg-zinc-800"
               }`}
             >
-              <BarChart3 className="w-3.5 h-3.5 text-[#0d74ce] dark:text-sky-400" /> Client Analytics Dashboard
+              <BarChart3 className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-[#0d74ce] dark:text-sky-400" /> <span className="hidden xs:inline">Client </span>Analytics
             </button>
             <button
               onClick={() => setActiveTab("social")}
-              className={`px-4 py-1.5 rounded-full text-xs font-medium font-mono transition-all flex items-center gap-1.5 ${
+              className={`px-2.5 sm:px-4 py-1.5 rounded-full text-[10px] sm:text-xs font-medium font-mono transition-all flex items-center gap-1 sm:gap-1.5 shrink-0 ${
                 activeTab === "social"
                   ? "bg-black text-white shadow-xs dark:bg-white dark:text-black"
                   : "bg-white text-[#60646c] border border-[#dcdee0] hover:bg-[#f0f0f3] dark:bg-zinc-900 dark:text-zinc-400 dark:border-zinc-800 dark:hover:bg-zinc-800"
               }`}
             >
-              <Smartphone className="w-3.5 h-3.5 text-[#0d74ce] dark:text-sky-400" /> Social Media Reels Manager
+              <Smartphone className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-[#0d74ce] dark:text-sky-400" /> <span className="hidden xs:inline">Social </span>Reels
             </button>
             <button
               onClick={() => setActiveTab("website")}
-              className={`px-4 py-1.5 rounded-full text-xs font-medium font-mono transition-all flex items-center gap-1.5 ${
+              className={`px-2.5 sm:px-4 py-1.5 rounded-full text-[10px] sm:text-xs font-medium font-mono transition-all flex items-center gap-1 sm:gap-1.5 shrink-0 ${
                 activeTab === "website"
                   ? "bg-black text-white shadow-xs dark:bg-white dark:text-black"
                   : "bg-white text-[#60646c] border border-[#dcdee0] hover:bg-[#f0f0f3] dark:bg-zinc-900 dark:text-zinc-400 dark:border-zinc-800 dark:hover:bg-zinc-800"
               }`}
             >
-              <Laptop className="w-3.5 h-3.5 text-[#0d74ce] dark:text-sky-400" /> Dynamic Web Builder
+              <Laptop className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-[#0d74ce] dark:text-sky-400" /> Web Builder
             </button>
             <button
               onClick={() => setActiveTab("tax")}
-              className={`px-4 py-1.5 rounded-full text-xs font-medium font-mono transition-all flex items-center gap-1.5 ${
+              className={`px-2.5 sm:px-4 py-1.5 rounded-full text-[10px] sm:text-xs font-medium font-mono transition-all flex items-center gap-1 sm:gap-1.5 shrink-0 ${
                 activeTab === "tax"
                   ? "bg-black text-white shadow-xs dark:bg-white dark:text-black"
                   : "bg-white text-[#60646c] border border-[#dcdee0] hover:bg-[#f0f0f3] dark:bg-zinc-900 dark:text-zinc-400 dark:border-zinc-800 dark:hover:bg-zinc-800"
               }`}
             >
-              <FileText className="w-3.5 h-3.5 text-[#0d74ce] dark:text-sky-400" /> GST & Tax Filing Hub
+              <FileText className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-[#0d74ce] dark:text-sky-400" /> GST & Tax
             </button>
           </div>
 
           {/* Composite Surface Container */}
-          <div className="relative rounded-2xl border border-[#dcdee0] dark:border-zinc-800 bg-white dark:bg-zinc-900 p-2 sm:p-4 shadow-xl">
+          <div className="relative rounded-2xl border border-[#dcdee0] dark:border-zinc-800 bg-white dark:bg-zinc-900 p-1.5 sm:p-4 shadow-xl">
             {/* Laptop Frame Header */}
             <div className="h-8 bg-[#171717] rounded-t-xl flex items-center justify-between px-4 text-white text-xs">
               <div className="flex items-center gap-1.5">
@@ -197,7 +197,7 @@ export const DeviceMockupHero: React.FC<DeviceMockupHeroProps> = ({
             </div>
 
             {/* Laptop Main Display Screen */}
-            <div className="bg-[#171717] text-white p-4 sm:p-6 min-h-[360px] rounded-b-xl relative overflow-hidden font-sans">
+            <div className="bg-[#171717] text-white p-3 sm:p-6 min-h-[280px] sm:min-h-[360px] rounded-b-xl relative overflow-hidden font-sans">
               {activeTab === "dashboard" && (
                 <div className="space-y-6 animate-in fade-in duration-300">
                   <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2 border-b border-zinc-800 pb-4">

@@ -1,0 +1,196 @@
+- generic [active] [ref=f4e1]:
+  - generic [ref=f4e2]:
+    - banner [ref=f4e3]:
+      - generic [ref=f4e4]:
+        - link "B BizBuddy Digital Solutions" [ref=f4e5] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f4e6]: B
+          - generic [ref=f4e7]:
+            - generic [ref=f4e8]: BizBuddy
+            - generic [ref=f4e10]: Digital Solutions
+        - navigation [ref=f4e11]:
+          - button "Services" [ref=f4e13]
+          - link "Pricing" [ref=f4e16] [cursor=pointer]:
+            - /url: /pricing
+          - link "Portfolio" [ref=f4e17] [cursor=pointer]:
+            - /url: /portfolio
+          - link "Testimonials" [ref=f4e18] [cursor=pointer]:
+            - /url: /testimonials
+          - link "About" [ref=f4e19] [cursor=pointer]:
+            - /url: /about
+          - link "Contact" [ref=f4e20] [cursor=pointer]:
+            - /url: /contact
+          - link "Dashboard" [ref=f4e21] [cursor=pointer]:
+            - /url: /dashboard
+        - generic [ref=f4e22]:
+          - generic [ref=f4e23]:
+            - button "Light" [ref=f4e24]
+            - button "Dark" [ref=f4e32]
+            - button "System" [ref=f4e36]
+          - button "Book Consultation" [ref=f4e40] [cursor=pointer]
+          - button "Get Started" [ref=f4e41] [cursor=pointer]
+    - main [ref=f4e44]:
+      - generic [ref=f4e45]:
+        - generic [ref=f4e47]:
+          - generic [ref=f4e48]: CASE STUDIES & WORK
+          - heading "Proven Growth Stories for Real Businesses" [level=1] [ref=f4e49]
+          - paragraph [ref=f4e50]: Explore how we help clinics, restaurants, real estate agencies, and D2C brands scale revenue.
+        - generic [ref=f4e51]:
+          - generic [ref=f4e52]:
+            - button "All" [ref=f4e53]
+            - button "Social Media" [ref=f4e54]
+            - button "Websites" [ref=f4e55]
+            - button "Branding" [ref=f4e56]
+            - button "Accounts" [ref=f4e57]
+          - generic [ref=f4e58]:
+            - generic [ref=f4e59]:
+              - generic [ref=f4e60]:
+                - img "Dr. Apex Dental Clinic - Digital Growth" [ref=f4e61]
+                - generic [ref=f4e62]: +340% Patient Appointments
+              - generic [ref=f4e63]:
+                - generic [ref=f4e64]: Dr. Apex Healthcare
+                - heading "Dr. Apex Dental Clinic - Digital Growth" [level=3] [ref=f4e65]
+                - paragraph [ref=f4e66]: Complete Instagram profile revamp, weekly educational reels, and localized Meta ad campaign driving qualified local patient leads.
+                - generic [ref=f4e67]:
+                  - generic [ref=f4e68]: "#Reels"
+                  - generic [ref=f4e69]: "#Meta Ads"
+                  - generic [ref=f4e70]: "#Healthcare"
+                  - generic [ref=f4e71]: "#Lead Gen"
+            - generic [ref=f4e72]:
+              - generic [ref=f4e73]:
+                - img "UrbanBites Gourmet Restaurant" [ref=f4e74]
+                - generic [ref=f4e75]: ₹2.4L Monthly Online Orders
+              - generic [ref=f4e76]:
+                - generic [ref=f4e77]: UrbanBites Hospitality
+                - heading "UrbanBites Gourmet Restaurant" [level=3] [ref=f4e78]
+                - paragraph [ref=f4e79]: High-converting digital menu & QR ordering website built with instant WhatsApp delivery notifications.
+                - generic [ref=f4e80]:
+                  - generic [ref=f4e81]: "#Next.js"
+                  - generic [ref=f4e82]: "#QR Ordering"
+                  - generic [ref=f4e83]: "#Restaurant"
+                  - generic [ref=f4e84]: "#WhatsApp Bot"
+            - generic [ref=f4e85]:
+              - generic [ref=f4e86]:
+                - img "Zenith Real Estate Group" [ref=f4e87]
+                - generic [ref=f4e88]: 120+ Property Inquiries
+              - generic [ref=f4e89]:
+                - generic [ref=f4e90]: Zenith Builders
+                - heading "Zenith Real Estate Group" [level=3] [ref=f4e91]
+                - paragraph [ref=f4e92]: Luxury property showcase landing page, brochure design, and video walkthrough editing for premium residential apartments.
+                - generic [ref=f4e93]:
+                  - generic [ref=f4e94]: "#Real Estate"
+                  - generic [ref=f4e95]: "#Landing Page"
+                  - generic [ref=f4e96]: "#Video Editing"
+            - generic [ref=f4e97]:
+              - generic [ref=f4e98]:
+                - img "FitPulse Gym & Fitness Studio" [ref=f4e99]
+                - generic [ref=f4e100]: +150 New Memberships
+              - generic [ref=f4e101]:
+                - generic [ref=f4e102]: FitPulse Gym
+                - heading "FitPulse Gym & Fitness Studio" [level=3] [ref=f4e103]
+                - paragraph [ref=f4e104]: High-energy workout reels, transformations showcase, and monthly membership sales funnels.
+                - generic [ref=f4e105]:
+                  - generic [ref=f4e106]: "#Fitness"
+                  - generic [ref=f4e107]: "#Reels Editing"
+                  - generic [ref=f4e108]: "#Member Growth"
+            - generic [ref=f4e109]:
+              - generic [ref=f4e110]:
+                - img "Nova Tech Solutions - GST & ROC Setup" [ref=f4e111]
+                - generic [ref=f4e112]: 100% Tax Compliant & ₹1.8L Tax Saved
+              - generic [ref=f4e113]:
+                - generic [ref=f4e114]: Nova Tech Pvt Ltd
+                - heading "Nova Tech Solutions - GST & ROC Setup" [level=3] [ref=f4e115]
+                - paragraph [ref=f4e116]: Complete Private Limited company incorporation, GST registration, quarterly TDS filings, and annual ROC compliance.
+                - generic [ref=f4e117]:
+                  - generic [ref=f4e118]: "#Company Incorporation"
+                  - generic [ref=f4e119]: "#GST Filing"
+                  - generic [ref=f4e120]: "#Tax Audit"
+            - generic [ref=f4e121]:
+              - generic [ref=f4e122]:
+                - img "Aura Salon & Spa Branding" [ref=f4e123]
+                - generic [ref=f4e124]: +220% Weekend Bookings
+              - generic [ref=f4e125]:
+                - generic [ref=f4e126]: Aura Beauty Spa
+                - heading "Aura Salon & Spa Branding" [level=3] [ref=f4e127]
+                - paragraph [ref=f4e128]: Elegant visual brand identity, visiting cards, promotional banners, and social media aesthetic grid.
+                - generic [ref=f4e129]:
+                  - generic [ref=f4e130]: "#Branding"
+                  - generic [ref=f4e131]: "#Salon"
+                  - generic [ref=f4e132]: "#Social Grid"
+                  - generic [ref=f4e133]: "#Print Design"
+    - contentinfo [ref=f4e134]:
+      - generic [ref=f4e136]:
+        - generic [ref=f4e137]:
+          - generic [ref=f4e139]: "Instant Support Available:"
+          - text: Chat directly with our business expert on WhatsApp
+        - link "Chat on WhatsApp" [ref=f4e140] [cursor=pointer]:
+          - /url: https://wa.me/919876543210?text=Hello%20BizBuddy,%20I%20want%20to%20know%20more%20about%20your%20services!
+      - generic [ref=f4e143]:
+        - generic [ref=f4e144]:
+          - link "B BizBuddy" [ref=f4e145] [cursor=pointer]:
+            - /url: /
+            - generic [ref=f4e146]: B
+            - generic [ref=f4e147]: BizBuddy
+          - paragraph [ref=f4e148]: BizBuddy is your all-in-one digital growth platform. From social media marketing, viral reels editing, and custom web development to EPF, TDS return filings, and company incorporation.
+          - generic [ref=f4e149]:
+            - generic [ref=f4e150]: 100% Tax Compliant
+            - generic [ref=f4e154]: 24/7 WhatsApp Response
+        - generic [ref=f4e156]:
+          - heading "Core Services" [level=4] [ref=f4e157]
+          - list [ref=f4e158]:
+            - listitem [ref=f4e159]:
+              - link "Social Media Management" [ref=f4e160] [cursor=pointer]:
+                - /url: /services/social-media
+            - listitem [ref=f4e161]:
+              - link "Accounts & Tax Returns" [ref=f4e162] [cursor=pointer]:
+                - /url: /services/accounts
+            - listitem [ref=f4e163]:
+              - link "Website Development" [ref=f4e164] [cursor=pointer]:
+                - /url: /services/website-development
+            - listitem [ref=f4e165]:
+              - link "Reels & Video Editing" [ref=f4e166] [cursor=pointer]:
+                - /url: /services/editing
+            - listitem [ref=f4e167]:
+              - link "Printing & Support" [ref=f4e168] [cursor=pointer]:
+                - /url: /services/other
+        - generic [ref=f4e169]:
+          - heading "Company" [level=4] [ref=f4e170]
+          - list [ref=f4e171]:
+            - listitem [ref=f4e172]:
+              - link "Monthly Pricing Plans" [ref=f4e173] [cursor=pointer]:
+                - /url: /pricing
+            - listitem [ref=f4e174]:
+              - link "Case Studies & Work" [ref=f4e175] [cursor=pointer]:
+                - /url: /portfolio
+            - listitem [ref=f4e176]:
+              - link "Client Testimonials" [ref=f4e177] [cursor=pointer]:
+                - /url: /testimonials
+            - listitem [ref=f4e178]:
+              - link "About Our Team" [ref=f4e179] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f4e180]:
+              - link "Client Dashboard" [ref=f4e181] [cursor=pointer]:
+                - /url: /dashboard
+        - generic [ref=f4e185]:
+          - heading "Get In Touch" [level=4] [ref=f4e186]
+          - list [ref=f4e187]:
+            - listitem [ref=f4e188]:
+              - generic [ref=f4e191]: +91 98765 43210
+            - listitem [ref=f4e192]:
+              - generic [ref=f4e196]: support@bizbuddy.in
+            - listitem [ref=f4e197]:
+              - generic [ref=f4e201]: Tech Tower, Cyber Hub, MG Road, New Delhi, India
+      - generic [ref=f4e203]:
+        - generic [ref=f4e204]: © 2026 BizBuddy Solutions Technologies Pvt. Ltd. All rights reserved.
+        - generic [ref=f4e205]:
+          - generic [ref=f4e206]:
+            - button "Light" [ref=f4e207]
+            - button "Dark" [ref=f4e215]
+            - button "System" [ref=f4e219]
+          - link "Privacy Policy" [ref=f4e223] [cursor=pointer]:
+            - /url: /contact
+          - link "Terms of Service" [ref=f4e224] [cursor=pointer]:
+            - /url: /contact
+          - link "Refund Policy" [ref=f4e225] [cursor=pointer]:
+            - /url: /contact
+  - button "Open Next.js Dev Tools" [ref=f4e231] [cursor=pointer]

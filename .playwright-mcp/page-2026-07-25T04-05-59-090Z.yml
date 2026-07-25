@@ -1,0 +1,137 @@
+- generic [active] [ref=f13e1]:
+  - generic [ref=f13e2]:
+    - banner [ref=f13e3]:
+      - generic [ref=f13e4]:
+        - link "B BizBuddy Digital Solutions" [ref=f13e5] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f13e6]: B
+          - generic [ref=f13e7]:
+            - generic [ref=f13e8]: BizBuddy
+            - generic [ref=f13e10]: Digital Solutions
+        - button "Toggle Navigation" [ref=f13e11]
+    - main [ref=f13e13]:
+      - generic [ref=f13e14]:
+        - generic [ref=f13e16]:
+          - generic [ref=f13e17]: GET IN TOUCH WITH US
+          - heading "We are here to help your business grow." [level=1] [ref=f13e18]
+          - paragraph [ref=f13e19]: Have questions about our monthly plans or tax return filings? Connect with an expert agent on WhatsApp or fill out the form below.
+        - generic [ref=f13e21]:
+          - generic [ref=f13e22]:
+            - heading "Send Us a Message" [level=3] [ref=f13e23]
+            - generic [ref=f13e24]:
+              - generic [ref=f13e25]:
+                - generic [ref=f13e26]: Your Name *
+                - textbox "Enter your name" [ref=f13e27]
+              - generic [ref=f13e28]:
+                - generic [ref=f13e29]:
+                  - generic [ref=f13e30]: WhatsApp Phone *
+                  - textbox "e.g. 9876543210" [ref=f13e31]
+                - generic [ref=f13e32]:
+                  - generic [ref=f13e33]: Email Address
+                  - textbox "you@company.com" [ref=f13e34]
+              - generic [ref=f13e35]:
+                - generic [ref=f13e36]: Service Required
+                - combobox [ref=f13e37]:
+                  - option "Social Media Management" [selected]
+                  - option "Accounts & Tax Filing"
+                  - option "Website Development"
+                  - option "Reel & Video Editing"
+                  - option "Printing & Other Services"
+              - generic [ref=f13e38]:
+                - generic [ref=f13e39]: Message / Business Details
+                - textbox "Tell us about your business..." [ref=f13e40]
+              - button "Submit Inquiry" [ref=f13e41] [cursor=pointer]
+          - generic [ref=f13e44]:
+            - generic [ref=f13e45]:
+              - heading "Office & Contact Details" [level=3] [ref=f13e46]
+              - generic [ref=f13e47]:
+                - generic [ref=f13e52]:
+                  - generic [ref=f13e53]: Phone & WhatsApp Helpline
+                  - generic [ref=f13e54]: +91 98765 43210
+                - generic [ref=f13e60]:
+                  - generic [ref=f13e61]: Email Support
+                  - generic [ref=f13e62]: support@bizbuddy.in
+                - generic [ref=f13e68]:
+                  - generic [ref=f13e69]: Corporate Head Office
+                  - generic [ref=f13e70]: Tech Tower, Cyber Hub, MG Road, New Delhi
+            - generic [ref=f13e71]:
+              - heading "Prefer Instant WhatsApp Chat?" [level=4] [ref=f13e72]
+              - paragraph [ref=f13e75]: Skip waiting for email callbacks. Click below to start an instant live chat with an account representative.
+              - link "Chat on WhatsApp Now" [ref=f13e76] [cursor=pointer]:
+                - /url: https://wa.me/919876543210?text=Hi%20BizBuddy,%20I%20have%20a%20business%20inquiry!
+    - contentinfo [ref=f13e77]:
+      - generic [ref=f13e79]:
+        - generic [ref=f13e80]:
+          - generic [ref=f13e82]: "Instant Support Available:"
+          - text: Chat directly with our business expert on WhatsApp
+        - link "Chat on WhatsApp" [ref=f13e83] [cursor=pointer]:
+          - /url: https://wa.me/919876543210?text=Hello%20BizBuddy,%20I%20want%20to%20know%20more%20about%20your%20services!
+      - generic [ref=f13e86]:
+        - generic [ref=f13e87]:
+          - link "B BizBuddy" [ref=f13e88] [cursor=pointer]:
+            - /url: /
+            - generic [ref=f13e89]: B
+            - generic [ref=f13e90]: BizBuddy
+          - paragraph [ref=f13e91]: BizBuddy is your all-in-one digital growth platform. From social media marketing, viral reels editing, and custom web development to EPF, TDS return filings, and company incorporation.
+          - generic [ref=f13e92]:
+            - generic [ref=f13e93]: 100% Tax Compliant
+            - generic [ref=f13e97]: 24/7 WhatsApp Response
+        - generic [ref=f13e99]:
+          - heading "Core Services" [level=4] [ref=f13e100]
+          - list [ref=f13e101]:
+            - listitem [ref=f13e102]:
+              - link "Social Media Management" [ref=f13e103] [cursor=pointer]:
+                - /url: /services/social-media
+            - listitem [ref=f13e104]:
+              - link "Accounts & Tax Returns" [ref=f13e105] [cursor=pointer]:
+                - /url: /services/accounts
+            - listitem [ref=f13e106]:
+              - link "Website Development" [ref=f13e107] [cursor=pointer]:
+                - /url: /services/website-development
+            - listitem [ref=f13e108]:
+              - link "Reels & Video Editing" [ref=f13e109] [cursor=pointer]:
+                - /url: /services/editing
+            - listitem [ref=f13e110]:
+              - link "Printing & Support" [ref=f13e111] [cursor=pointer]:
+                - /url: /services/other
+        - generic [ref=f13e112]:
+          - heading "Company" [level=4] [ref=f13e113]
+          - list [ref=f13e114]:
+            - listitem [ref=f13e115]:
+              - link "Monthly Pricing Plans" [ref=f13e116] [cursor=pointer]:
+                - /url: /pricing
+            - listitem [ref=f13e117]:
+              - link "Case Studies & Work" [ref=f13e118] [cursor=pointer]:
+                - /url: /portfolio
+            - listitem [ref=f13e119]:
+              - link "Client Testimonials" [ref=f13e120] [cursor=pointer]:
+                - /url: /testimonials
+            - listitem [ref=f13e121]:
+              - link "About Our Team" [ref=f13e122] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f13e123]:
+              - link "Client Dashboard" [ref=f13e124] [cursor=pointer]:
+                - /url: /dashboard
+        - generic [ref=f13e128]:
+          - heading "Get In Touch" [level=4] [ref=f13e129]
+          - list [ref=f13e130]:
+            - listitem [ref=f13e131]:
+              - generic [ref=f13e134]: +91 98765 43210
+            - listitem [ref=f13e135]:
+              - generic [ref=f13e139]: support@bizbuddy.in
+            - listitem [ref=f13e140]:
+              - generic [ref=f13e144]: Tech Tower, Cyber Hub, MG Road, New Delhi, India
+      - generic [ref=f13e146]:
+        - generic [ref=f13e147]: © 2026 BizBuddy Solutions Technologies Pvt. Ltd. All rights reserved.
+        - generic [ref=f13e148]:
+          - generic [ref=f13e149]:
+            - button "Light" [ref=f13e150]
+            - button "Dark" [ref=f13e157]
+            - button "System" [ref=f13e160]
+          - link "Privacy Policy" [ref=f13e163] [cursor=pointer]:
+            - /url: /contact
+          - link "Terms of Service" [ref=f13e164] [cursor=pointer]:
+            - /url: /contact
+          - link "Refund Policy" [ref=f13e165] [cursor=pointer]:
+            - /url: /contact
+  - button "Open Next.js Dev Tools" [ref=f13e171] [cursor=pointer]

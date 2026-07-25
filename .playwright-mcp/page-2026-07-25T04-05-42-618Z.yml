@@ -1,0 +1,216 @@
+- generic [active] [ref=f11e1]:
+  - generic [ref=f11e2]:
+    - banner [ref=f11e3]:
+      - generic [ref=f11e4]:
+        - link "B BizBuddy Digital Solutions" [ref=f11e5] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f11e6]: B
+          - generic [ref=f11e7]:
+            - generic [ref=f11e8]: BizBuddy
+            - generic [ref=f11e10]: Digital Solutions
+        - button "Toggle Navigation" [ref=f11e11]
+    - main [ref=f11e13]:
+      - generic [ref=f11e14]:
+        - generic [ref=f11e16]:
+          - generic [ref=f11e17]: NEXT.JS 16 & REACT 19 WEB ENGINEERING
+          - heading "Fast, Responsive Websites That Convert Visitors into Clients" [level=1] [ref=f11e18]
+          - paragraph [ref=f11e19]: Starting at ₹3,999. Custom designed landing pages, business websites, and e-commerce stores integrated with WhatsApp lead bots & Razorpay.
+        - generic [ref=f11e21]:
+          - generic [ref=f11e22]:
+            - generic [ref=f11e23]:
+              - generic [ref=f11e24]:
+                - generic [ref=f11e25]:
+                  - generic [ref=f11e26]: "IDEAL FOR: Product Launches, Ad Campaigns & Lead Generation"
+                  - heading "High-Converting Landing Page" [level=3] [ref=f11e27]
+                - generic [ref=f11e28]:
+                  - generic [ref=f11e29]: STARTING AT
+                  - generic [ref=f11e30]: ₹3,999
+              - generic [ref=f11e31]:
+                - generic [ref=f11e32]: "Package Deliverables & Specs:"
+                - list [ref=f11e33]:
+                  - listitem [ref=f11e34]:
+                    - generic [ref=f11e37]: 1 Custom High-Converting Page
+                  - listitem [ref=f11e38]:
+                    - generic [ref=f11e41]: Mobile Responsive & Fast Load
+                  - listitem [ref=f11e42]:
+                    - generic [ref=f11e45]: WhatsApp & Lead Form Integration
+                  - listitem [ref=f11e46]:
+                    - generic [ref=f11e49]: SEO Meta Setup & Analytics
+                  - listitem [ref=f11e50]:
+                    - generic [ref=f11e53]: 1 Year Free SSL & Hosting Support
+              - generic [ref=f11e54]:
+                - generic [ref=f11e55]: "Turnaround Time:"
+                - generic [ref=f11e56]: 3 Business Days
+            - button "Order High-Converting Landing Page Package" [ref=f11e58] [cursor=pointer]
+          - generic [ref=f11e61]:
+            - generic [ref=f11e62]:
+              - generic [ref=f11e63]:
+                - generic [ref=f11e64]:
+                  - generic [ref=f11e65]: "IDEAL FOR: SMEs, Local Businesses, Agencies & Consultants"
+                  - heading "Corporate Business Website" [level=3] [ref=f11e66]
+                - generic [ref=f11e67]:
+                  - generic [ref=f11e68]: STARTING AT
+                  - generic [ref=f11e69]: ₹7,999
+              - generic [ref=f11e70]:
+                - generic [ref=f11e71]: "Package Deliverables & Specs:"
+                - list [ref=f11e72]:
+                  - listitem [ref=f11e73]:
+                    - generic [ref=f11e76]: 5-7 Custom Styled Pages
+                  - listitem [ref=f11e77]:
+                    - generic [ref=f11e80]: Dynamic Services & Portfolio Showcase
+                  - listitem [ref=f11e81]:
+                    - generic [ref=f11e84]: Blog / News Section Integration
+                  - listitem [ref=f11e85]:
+                    - generic [ref=f11e88]: Google Maps & Contact Forms
+                  - listitem [ref=f11e89]:
+                    - generic [ref=f11e92]: Speed Optimized & Schema Markup
+              - generic [ref=f11e93]:
+                - generic [ref=f11e94]: "Turnaround Time:"
+                - generic [ref=f11e95]: 5-7 Business Days
+            - button "Order Corporate Business Website Package" [ref=f11e97] [cursor=pointer]
+          - generic [ref=f11e100]:
+            - generic [ref=f11e101]:
+              - generic [ref=f11e102]:
+                - generic [ref=f11e103]:
+                  - generic [ref=f11e104]: "IDEAL FOR: Retail Brands, D2C Apparel, Restaurants & Stores"
+                  - heading "E-Commerce Web Store" [level=3] [ref=f11e105]
+                - generic [ref=f11e106]:
+                  - generic [ref=f11e107]: STARTING AT
+                  - generic [ref=f11e108]: ₹14,999
+              - generic [ref=f11e109]:
+                - generic [ref=f11e110]: "Package Deliverables & Specs:"
+                - list [ref=f11e111]:
+                  - listitem [ref=f11e112]:
+                    - generic [ref=f11e115]: Unlimited Products Setup
+                  - listitem [ref=f11e116]:
+                    - generic [ref=f11e119]: Payment Gateway Integration (Razorpay/Stripe)
+                  - listitem [ref=f11e120]:
+                    - generic [ref=f11e123]: Shopping Cart & Order Management
+                  - listitem [ref=f11e124]:
+                    - generic [ref=f11e127]: Customer Dashboard & Order Tracking
+                  - listitem [ref=f11e128]:
+                    - generic [ref=f11e131]: Inventory & Coupon Management
+              - generic [ref=f11e132]:
+                - generic [ref=f11e133]: "Turnaround Time:"
+                - generic [ref=f11e134]: 7-10 Business Days
+            - button "Order E-Commerce Web Store Package" [ref=f11e136] [cursor=pointer]
+          - generic [ref=f11e139]:
+            - generic [ref=f11e140]:
+              - generic [ref=f11e141]:
+                - generic [ref=f11e142]:
+                  - generic [ref=f11e143]: "IDEAL FOR: Schools, Hospitals, Restaurants & Real Estate"
+                  - heading "Custom Industry Solutions" [level=3] [ref=f11e144]
+                - generic [ref=f11e145]:
+                  - generic [ref=f11e146]: STARTING AT
+                  - generic [ref=f11e147]: ₹9,999
+              - generic [ref=f11e148]:
+                - generic [ref=f11e149]: "Package Deliverables & Specs:"
+                - list [ref=f11e150]:
+                  - listitem [ref=f11e151]:
+                    - generic [ref=f11e154]: Online Appointment / Booking Engine
+                  - listitem [ref=f11e155]:
+                    - generic [ref=f11e158]: Property / Menu / Course Catalogue
+                  - listitem [ref=f11e159]:
+                    - generic [ref=f11e162]: WhatsApp Instant Booking Integration
+                  - listitem [ref=f11e163]:
+                    - generic [ref=f11e166]: Client Testimonials & Gallery
+                  - listitem [ref=f11e167]:
+                    - generic [ref=f11e170]: Role-Based Admin Access
+              - generic [ref=f11e171]:
+                - generic [ref=f11e172]: "Turnaround Time:"
+                - generic [ref=f11e173]: 7 Business Days
+            - button "Order Custom Industry Solutions Package" [ref=f11e175] [cursor=pointer]
+        - generic [ref=f11e178]:
+          - generic [ref=f11e179]:
+            - generic [ref=f11e180]: ENGINEERED FOR SPEED & SEO
+            - heading "Built with modern technology, not sluggish website templates." [level=3] [ref=f11e181]
+            - paragraph [ref=f11e182]: Every site we build achieves 90+ Google PageSpeed scores, runs on secure SSL cloud hosting, and includes mobile-first responsive layouts.
+          - generic [ref=f11e183]:
+            - generic [ref=f11e184]:
+              - generic [ref=f11e185]: Next.js 16
+              - generic [ref=f11e186]: Server Components
+            - generic [ref=f11e187]:
+              - generic [ref=f11e188]: 99.9% Uptime
+              - generic [ref=f11e189]: Free SSL Included
+            - generic [ref=f11e190]:
+              - generic [ref=f11e191]: WhatsApp Bot
+              - generic [ref=f11e192]: Instant Lead Push
+            - generic [ref=f11e193]:
+              - generic [ref=f11e194]: Razorpay
+              - generic [ref=f11e195]: UPI & Card Gateway
+    - contentinfo [ref=f11e196]:
+      - generic [ref=f11e198]:
+        - generic [ref=f11e199]:
+          - generic [ref=f11e201]: "Instant Support Available:"
+          - text: Chat directly with our business expert on WhatsApp
+        - link "Chat on WhatsApp" [ref=f11e202] [cursor=pointer]:
+          - /url: https://wa.me/919876543210?text=Hello%20BizBuddy,%20I%20want%20to%20know%20more%20about%20your%20services!
+      - generic [ref=f11e205]:
+        - generic [ref=f11e206]:
+          - link "B BizBuddy" [ref=f11e207] [cursor=pointer]:
+            - /url: /
+            - generic [ref=f11e208]: B
+            - generic [ref=f11e209]: BizBuddy
+          - paragraph [ref=f11e210]: BizBuddy is your all-in-one digital growth platform. From social media marketing, viral reels editing, and custom web development to EPF, TDS return filings, and company incorporation.
+          - generic [ref=f11e211]:
+            - generic [ref=f11e212]: 100% Tax Compliant
+            - generic [ref=f11e216]: 24/7 WhatsApp Response
+        - generic [ref=f11e218]:
+          - heading "Core Services" [level=4] [ref=f11e219]
+          - list [ref=f11e220]:
+            - listitem [ref=f11e221]:
+              - link "Social Media Management" [ref=f11e222] [cursor=pointer]:
+                - /url: /services/social-media
+            - listitem [ref=f11e223]:
+              - link "Accounts & Tax Returns" [ref=f11e224] [cursor=pointer]:
+                - /url: /services/accounts
+            - listitem [ref=f11e225]:
+              - link "Website Development" [ref=f11e226] [cursor=pointer]:
+                - /url: /services/website-development
+            - listitem [ref=f11e227]:
+              - link "Reels & Video Editing" [ref=f11e228] [cursor=pointer]:
+                - /url: /services/editing
+            - listitem [ref=f11e229]:
+              - link "Printing & Support" [ref=f11e230] [cursor=pointer]:
+                - /url: /services/other
+        - generic [ref=f11e231]:
+          - heading "Company" [level=4] [ref=f11e232]
+          - list [ref=f11e233]:
+            - listitem [ref=f11e234]:
+              - link "Monthly Pricing Plans" [ref=f11e235] [cursor=pointer]:
+                - /url: /pricing
+            - listitem [ref=f11e236]:
+              - link "Case Studies & Work" [ref=f11e237] [cursor=pointer]:
+                - /url: /portfolio
+            - listitem [ref=f11e238]:
+              - link "Client Testimonials" [ref=f11e239] [cursor=pointer]:
+                - /url: /testimonials
+            - listitem [ref=f11e240]:
+              - link "About Our Team" [ref=f11e241] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f11e242]:
+              - link "Client Dashboard" [ref=f11e243] [cursor=pointer]:
+                - /url: /dashboard
+        - generic [ref=f11e247]:
+          - heading "Get In Touch" [level=4] [ref=f11e248]
+          - list [ref=f11e249]:
+            - listitem [ref=f11e250]:
+              - generic [ref=f11e253]: +91 98765 43210
+            - listitem [ref=f11e254]:
+              - generic [ref=f11e258]: support@bizbuddy.in
+            - listitem [ref=f11e259]:
+              - generic [ref=f11e263]: Tech Tower, Cyber Hub, MG Road, New Delhi, India
+      - generic [ref=f11e265]:
+        - generic [ref=f11e266]: © 2026 BizBuddy Solutions Technologies Pvt. Ltd. All rights reserved.
+        - generic [ref=f11e267]:
+          - generic [ref=f11e268]:
+            - button "Light" [ref=f11e269]
+            - button "Dark" [ref=f11e276]
+            - button "System" [ref=f11e279]
+          - link "Privacy Policy" [ref=f11e282] [cursor=pointer]:
+            - /url: /contact
+          - link "Terms of Service" [ref=f11e283] [cursor=pointer]:
+            - /url: /contact
+          - link "Refund Policy" [ref=f11e284] [cursor=pointer]:
+            - /url: /contact
+  - button "Open Next.js Dev Tools" [ref=f11e290] [cursor=pointer]

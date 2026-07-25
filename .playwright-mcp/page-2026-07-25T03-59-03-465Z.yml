@@ -1,0 +1,547 @@
+- generic [active] [ref=f9e1]:
+  - generic [ref=f9e2]:
+    - banner [ref=f9e3]:
+      - generic [ref=f9e4]:
+        - link "B BizBuddy Digital Solutions" [ref=f9e5] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f9e6]: B
+          - generic [ref=f9e7]:
+            - generic [ref=f9e8]: BizBuddy
+            - generic [ref=f9e10]: Digital Solutions
+        - button "Toggle Navigation" [ref=f9e11]
+    - main [ref=f9e13]:
+      - generic [ref=f9e14]:
+        - generic [ref=f9e18]:
+          - link "What's new? Introducing Managed SEO Services" [ref=f9e20] [cursor=pointer]:
+            - /url: "#recent-updates"
+            - generic [ref=f9e21]: What's new?
+            - generic [ref=f9e26]: Introducing Managed SEO Services
+          - generic [ref=f9e30]:
+            - heading "Grow your business with marketing, tax compliance & custom websites." [level=1] [ref=f9e31]
+            - paragraph [ref=f9e32]: BizBuddy provides startups, local retail, restaurants, and professionals with monthly social media management, tax returns, e-commerce stores, and video editing.
+            - generic [ref=f9e33]:
+              - button "Get Started Now" [ref=f9e34] [cursor=pointer]
+              - button "Book 1-on-1 Consultation" [ref=f9e37] [cursor=pointer]
+            - generic [ref=f9e38]:
+              - generic [ref=f9e39]: No Hidden Charges
+              - generic [ref=f9e44]: Dedicated Account Manager
+              - generic [ref=f9e49]: Monthly Progress Reports
+          - generic [ref=f9e54]:
+            - generic [ref=f9e55]:
+              - button "Client Analytics Dashboard" [ref=f9e56]
+              - button "Social Media Reels Manager" [ref=f9e59]
+              - button "Dynamic Web Builder" [ref=f9e62]
+              - button "GST & Tax Filing Hub" [ref=f9e65]
+            - generic [ref=f9e69]:
+              - generic [ref=f9e70]: bizbuddy.in/client-portal/dashboard
+              - generic [ref=f9e77]:
+                - generic [ref=f9e78]:
+                  - generic [ref=f9e79]:
+                    - generic [ref=f9e80]: CLIENT PORTAL SUMMARY
+                    - generic [ref=f9e81]: Sharma Retail & Traders
+                  - generic [ref=f9e82]: "Active Plan: Super ₹1,999/mo"
+                - generic [ref=f9e84]:
+                  - generic [ref=f9e85]:
+                    - generic [ref=f9e86]: Total Leads Generated
+                    - generic [ref=f9e87]: "142"
+                    - generic [ref=f9e88]: ↑ +28% this month
+                  - generic [ref=f9e89]:
+                    - generic [ref=f9e90]: Reels Reach
+                    - generic [ref=f9e91]: 48.2K
+                    - generic [ref=f9e92]: ↑ 5 Viral Reels
+                  - generic [ref=f9e93]:
+                    - generic [ref=f9e94]: GST Return Status
+                    - generic [ref=f9e95]: Filed (GSTR-3B)
+                  - generic [ref=f9e99]:
+                    - generic [ref=f9e100]: Website Status
+                    - generic [ref=f9e101]: 99.9% Uptime
+                - generic [ref=f9e105]:
+                  - generic [ref=f9e106]:
+                    - generic [ref=f9e107]: WA
+                    - generic [ref=f9e108]:
+                      - generic [ref=f9e109]: "Latest Lead: Ankit Mehta (Order Query)"
+                      - generic [ref=f9e110]: Requested website quote for Restaurant QR menu
+                  - button "Connect on WhatsApp" [ref=f9e111] [cursor=pointer]
+        - generic [ref=f9e112]:
+          - generic [ref=f9e113]: TRUSTED IN PRODUCTION BY 250+ STARTUPS, RESTAURANTS, CLINICS & RETAIL BRANDS
+          - generic [ref=f9e115]:
+            - generic [ref=f9e116]: Dr. Apex Dental
+            - generic [ref=f9e117]: UrbanBites Cafe
+            - generic [ref=f9e118]: FitPulse Gym
+            - generic [ref=f9e119]: Zenith Real Estate
+            - generic [ref=f9e120]: Nova Tech Solutions
+            - generic [ref=f9e121]: Aura Salon & Spa
+            - generic [ref=f9e122]: Sharma Retail
+            - generic [ref=f9e123]: Bloom Botanicals
+            - generic [ref=f9e124]: Dr. Apex Dental
+            - generic [ref=f9e125]: UrbanBites Cafe
+            - generic [ref=f9e126]: FitPulse Gym
+            - generic [ref=f9e127]: Zenith Real Estate
+            - generic [ref=f9e128]: Nova Tech Solutions
+            - generic [ref=f9e129]: Aura Salon & Spa
+            - generic [ref=f9e130]: Sharma Retail
+            - generic [ref=f9e131]: Bloom Botanicals
+        - generic [ref=f9e132]:
+          - generic [ref=f9e133]:
+            - generic [ref=f9e134]: OUR CORE SERVICES
+            - heading "Everything your business needs to operate & scale online." [level=2] [ref=f9e135]
+            - paragraph [ref=f9e136]: Eliminate the hassle of hiring multiple agencies. We deliver design, marketing, web engineering, and tax compliance under one roof.
+          - generic [ref=f9e137]:
+            - 'link "Web Development & Systems Responsive landing pages, multi-page business websites, e-commerce storefronts, and specialized QR ordering systems with zero-hassle cloud deployment. app/page.tsx export default function BusinessSite() { return ( <BizBuddy.LandingPage theme=\"premium\" seoOptimized={true} mobileResponsive={true} /> ); }" [ref=f9e141] [cursor=pointer]':
+              - /url: /services/website-development
+              - generic [ref=f9e142]:
+                - generic [ref=f9e149]:
+                  - heading "Web Development & Systems" [level=3] [ref=f9e150]
+                  - paragraph [ref=f9e151]: Responsive landing pages, multi-page business websites, e-commerce storefronts, and specialized QR ordering systems with zero-hassle cloud deployment.
+                - generic [ref=f9e153]:
+                  - generic [ref=f9e154]: app/page.tsx
+                  - generic [ref=f9e160]: "export default function BusinessSite() { return ( <BizBuddy.LandingPage theme=\"premium\" seoOptimized={true} mobileResponsive={true} /> );}"
+            - generic [ref=f9e161]:
+              - link [ref=f9e164] [cursor=pointer]:
+                - /url: /services/social-media
+                - generic [ref=f9e165]:
+                  - generic [ref=f9e171]:
+                    - heading "Social Media Management" [level=3] [ref=f9e172]
+                    - paragraph [ref=f9e173]: High-converting Instagram & Facebook posts, viral reels editing, and Meta ads.
+                  - generic [ref=f9e174]: View Plans
+              - link [ref=f9e180] [cursor=pointer]:
+                - /url: /services/accounts
+                - generic [ref=f9e181]:
+                  - generic [ref=f9e187]:
+                    - heading "Accounts & Tax" [level=3] [ref=f9e188]
+                    - paragraph [ref=f9e189]: PF returns, TDS, ITR filing, and GST returns handled by verified CAs.
+                  - generic [ref=f9e190]: Explore Tax Services
+          - generic [ref=f9e194]:
+            - link [ref=f9e197] [cursor=pointer]:
+              - /url: /services/editing
+              - generic [ref=f9e198]:
+                - generic [ref=f9e204]:
+                  - heading "Reels & Graphic Editing Services" [level=3] [ref=f9e205]
+                  - paragraph [ref=f9e206]: Viral subtitles for Reels & Shorts, YouTube thumbnails, banner design, and AI-generated avatar videos.
+                - generic [ref=f9e207]: View Editing Packs
+            - link [ref=f9e213] [cursor=pointer]:
+              - /url: /services/other
+              - generic [ref=f9e214]:
+                - generic [ref=f9e222]:
+                  - heading "Other Business Support" [level=3] [ref=f9e223]
+                  - paragraph [ref=f9e224]: Visiting card printing, basic accounting support, customer helpline integration, and growth consulting.
+                - generic [ref=f9e225]: Learn More
+        - generic [ref=f9e231]:
+          - generic [ref=f9e232]:
+            - generic [ref=f9e233]:
+              - generic [ref=f9e234]: DEVELOP & GROW
+              - heading "Built for affordable, measurable business growth." [level=2] [ref=f9e235]
+              - paragraph [ref=f9e236]: Transparent pricing starting from ₹1,499/mo with zero hidden setup fees or contracts. Your dedicated account manager scales with you.
+            - generic [ref=f9e237]:
+              - generic [ref=f9e238]:
+                - heading "Fast Delivery" [level=4] [ref=f9e242]
+                - paragraph [ref=f9e243]: 3-day website turnarounds and 24-hour reel edits so your business never waits.
+              - generic [ref=f9e244]:
+                - heading "Monthly Reports" [level=4] [ref=f9e249]
+                - paragraph [ref=f9e250]: Clear performance metrics, reach analytics, and tax filing receipts delivered every 30 days.
+          - generic [ref=f9e251]: +125% Conversion Rate
+        - generic [ref=f9e275]:
+          - generic [ref=f9e276]:
+            - generic [ref=f9e277]: SIMPLE WORKFLOW
+            - heading "How we partner with your business." [level=2] [ref=f9e278]
+          - generic [ref=f9e279]:
+            - generic [ref=f9e280]: bizbuddy-workflow ~ /process
+            - generic [ref=f9e289]:
+              - generic [ref=f9e290]:
+                - generic [ref=f9e291]: ➜
+                - generic [ref=f9e292]:
+                  - text: npx bizbuddy@latest init --step=1
+                  - generic [ref=f9e293]: ✔ Consultation & Discovery
+                  - generic [ref=f9e294]: Analyzing business goals, target audience, and tax requirements in a free 15-min call.
+              - generic [ref=f9e295]:
+                - generic [ref=f9e296]: ➜
+                - generic [ref=f9e297]:
+                  - text: npm run generate:strategy
+                  - generic [ref=f9e298]: ✔ Custom Strategy Blueprint
+                  - generic [ref=f9e299]: Compiling content calendar, website wireframes, and tax compliance schedule... done.
+              - generic [ref=f9e300]:
+                - generic [ref=f9e301]: ➜
+                - generic [ref=f9e302]:
+                  - text: bizbuddy build & deploy
+                  - generic [ref=f9e303]: ✔ Execution Phase Active
+                  - generic [ref=f9e304]: "[1/3] Designing social media posts... [2/3] Writing website code... [3/3] Filing GST returns seamlessly..."
+              - generic [ref=f9e305]:
+                - generic [ref=f9e306]: _
+                - generic [ref=f9e307]:
+                  - text: bizbuddy scale --monthly
+                  - generic [ref=f9e308]: ⧗ Reporting & Scaling (In Progress)
+                  - generic [ref=f9e309]: Reviewing performance metrics. Generating next month's targets.
+        - generic [ref=f9e311]:
+          - generic [ref=f9e312]:
+            - generic [ref=f9e313]:
+              - generic [ref=f9e314]: INSTANT ESTIMATOR
+              - heading "AI Business Quote Generator" [level=3] [ref=f9e315]
+              - paragraph [ref=f9e318]: Select services below to build your custom bundled quote with automatic volume discounts.
+            - generic [ref=f9e319]: 15% BUNDLE DISCOUNT APPLIED
+          - generic [ref=f9e324]:
+            - generic [ref=f9e325]:
+              - generic [ref=f9e326]:
+                - generic [ref=f9e327]: 1. Social Media Management Plan
+                - generic [ref=f9e328]:
+                  - button "None" [ref=f9e329]
+                  - button "Basic (₹1,499)" [ref=f9e330]
+                  - button "Super (₹1,999)" [ref=f9e331]
+                  - button "Premium (₹2,499)" [ref=f9e332]
+              - generic [ref=f9e333]:
+                - generic [ref=f9e334]: 2. Website Development Package
+                - generic [ref=f9e335]:
+                  - button "None" [ref=f9e336]
+                  - button "Landing Page (₹3,999)" [ref=f9e337]
+                  - button "Business Site (₹7,999)" [ref=f9e338]
+                  - button "E-Commerce (₹14,999)" [ref=f9e339]
+              - generic [ref=f9e340]:
+                - generic [ref=f9e341]: 3. Accounts & Compliance Services
+                - generic [ref=f9e342]:
+                  - button "GST Filing & Support ₹999" [ref=f9e343]:
+                    - generic [ref=f9e344]: GST Filing & Support
+                    - generic [ref=f9e345]: ₹999
+                  - button "Income Tax Return (ITR) ₹1199" [ref=f9e348]:
+                    - generic [ref=f9e349]: Income Tax Return (ITR)
+                    - generic [ref=f9e350]: ₹1199
+                  - button "EPF Return Filing ₹999" [ref=f9e351]:
+                    - generic [ref=f9e352]: EPF Return Filing
+                    - generic [ref=f9e353]: ₹999
+                  - button "Monthly Bookkeeping ₹2499" [ref=f9e354]:
+                    - generic [ref=f9e355]: Monthly Bookkeeping
+                    - generic [ref=f9e356]: ₹2499
+              - generic [ref=f9e357]:
+                - generic [ref=f9e358]: 4. Reels & Video Editing Packs
+                - generic [ref=f9e359]:
+                  - button "None" [ref=f9e360]
+                  - button "5 Reels Pack (₹1,299)" [ref=f9e361]
+                  - button "10 Reels Pack (₹2,299)" [ref=f9e362]
+            - generic [ref=f9e363]:
+              - generic [ref=f9e364]:
+                - generic [ref=f9e365]: Estimated Pricing Breakdown
+                - generic [ref=f9e366]:
+                  - generic [ref=f9e367]:
+                    - generic [ref=f9e368]: "Social Media Management:"
+                    - generic [ref=f9e369]: ₹1999
+                  - generic [ref=f9e370]:
+                    - generic [ref=f9e371]: "Website Development:"
+                    - generic [ref=f9e372]: ₹3999
+                  - generic [ref=f9e373]:
+                    - generic [ref=f9e374]: "Accounts & Tax Services:"
+                    - generic [ref=f9e375]: ₹999
+                  - generic [ref=f9e376]:
+                    - generic [ref=f9e377]: "Video Editing Pack:"
+                    - generic [ref=f9e378]: ₹0
+                  - generic [ref=f9e379]:
+                    - generic [ref=f9e380]: "Bundle Savings (15%):"
+                    - generic [ref=f9e381]: "- ₹1050"
+              - generic [ref=f9e382]:
+                - generic [ref=f9e383]:
+                  - generic [ref=f9e384]: TOTAL ESTIMATED INVESTMENT
+                  - generic [ref=f9e385]: ₹5,947
+                  - generic [ref=f9e386]: Prices include complete setup, design, & CA verification.
+                - generic [ref=f9e387]:
+                  - button "Request Official Callback" [ref=f9e388]
+                  - button "Send Quote to WhatsApp" [ref=f9e391]
+        - generic [ref=f9e394]:
+          - generic [ref=f9e395]:
+            - generic [ref=f9e396]:
+              - generic [ref=f9e397]: PORTFOLIO & RESULTS
+              - heading "Real client work & verified growth metrics." [level=2] [ref=f9e398]
+            - generic [ref=f9e399]:
+              - button "All" [ref=f9e400]
+              - button "Social Media" [ref=f9e401]
+              - button "Websites" [ref=f9e402]
+              - button "Branding" [ref=f9e403]
+              - button "Accounts" [ref=f9e404]
+          - generic [ref=f9e405]:
+            - generic [ref=f9e406]:
+              - generic [ref=f9e407]:
+                - img "Dr. Apex Dental Clinic - Digital Growth" [ref=f9e408]
+                - generic [ref=f9e409]: +340% Patient Appointments
+              - generic [ref=f9e410]:
+                - generic [ref=f9e411]: Dr. Apex Healthcare
+                - heading "Dr. Apex Dental Clinic - Digital Growth" [level=4] [ref=f9e412]
+                - paragraph [ref=f9e413]: Complete Instagram profile revamp, weekly educational reels, and localized Meta ad campaign driving qualified local patient leads.
+                - generic [ref=f9e414]:
+                  - generic [ref=f9e415]: "#Reels"
+                  - generic [ref=f9e416]: "#Meta Ads"
+                  - generic [ref=f9e417]: "#Healthcare"
+                  - generic [ref=f9e418]: "#Lead Gen"
+            - generic [ref=f9e419]:
+              - generic [ref=f9e420]:
+                - img "UrbanBites Gourmet Restaurant" [ref=f9e421]
+                - generic [ref=f9e422]: ₹2.4L Monthly Online Orders
+              - generic [ref=f9e423]:
+                - generic [ref=f9e424]: UrbanBites Hospitality
+                - heading "UrbanBites Gourmet Restaurant" [level=4] [ref=f9e425]
+                - paragraph [ref=f9e426]: High-converting digital menu & QR ordering website built with instant WhatsApp delivery notifications.
+                - generic [ref=f9e427]:
+                  - generic [ref=f9e428]: "#Next.js"
+                  - generic [ref=f9e429]: "#QR Ordering"
+                  - generic [ref=f9e430]: "#Restaurant"
+                  - generic [ref=f9e431]: "#WhatsApp Bot"
+            - generic [ref=f9e432]:
+              - generic [ref=f9e433]:
+                - img "Zenith Real Estate Group" [ref=f9e434]
+                - generic [ref=f9e435]: 120+ Property Inquiries
+              - generic [ref=f9e436]:
+                - generic [ref=f9e437]: Zenith Builders
+                - heading "Zenith Real Estate Group" [level=4] [ref=f9e438]
+                - paragraph [ref=f9e439]: Luxury property showcase landing page, brochure design, and video walkthrough editing for premium residential apartments.
+                - generic [ref=f9e440]:
+                  - generic [ref=f9e441]: "#Real Estate"
+                  - generic [ref=f9e442]: "#Landing Page"
+                  - generic [ref=f9e443]: "#Video Editing"
+            - generic [ref=f9e444]:
+              - generic [ref=f9e445]:
+                - img "FitPulse Gym & Fitness Studio" [ref=f9e446]
+                - generic [ref=f9e447]: +150 New Memberships
+              - generic [ref=f9e448]:
+                - generic [ref=f9e449]: FitPulse Gym
+                - heading "FitPulse Gym & Fitness Studio" [level=4] [ref=f9e450]
+                - paragraph [ref=f9e451]: High-energy workout reels, transformations showcase, and monthly membership sales funnels.
+                - generic [ref=f9e452]:
+                  - generic [ref=f9e453]: "#Fitness"
+                  - generic [ref=f9e454]: "#Reels Editing"
+                  - generic [ref=f9e455]: "#Member Growth"
+            - generic [ref=f9e456]:
+              - generic [ref=f9e457]:
+                - img "Nova Tech Solutions - GST & ROC Setup" [ref=f9e458]
+                - generic [ref=f9e459]: 100% Tax Compliant & ₹1.8L Tax Saved
+              - generic [ref=f9e460]:
+                - generic [ref=f9e461]: Nova Tech Pvt Ltd
+                - heading "Nova Tech Solutions - GST & ROC Setup" [level=4] [ref=f9e462]
+                - paragraph [ref=f9e463]: Complete Private Limited company incorporation, GST registration, quarterly TDS filings, and annual ROC compliance.
+                - generic [ref=f9e464]:
+                  - generic [ref=f9e465]: "#Company Incorporation"
+                  - generic [ref=f9e466]: "#GST Filing"
+                  - generic [ref=f9e467]: "#Tax Audit"
+            - generic [ref=f9e468]:
+              - generic [ref=f9e469]:
+                - img "Aura Salon & Spa Branding" [ref=f9e470]
+                - generic [ref=f9e471]: +220% Weekend Bookings
+              - generic [ref=f9e472]:
+                - generic [ref=f9e473]: Aura Beauty Spa
+                - heading "Aura Salon & Spa Branding" [level=4] [ref=f9e474]
+                - paragraph [ref=f9e475]: Elegant visual brand identity, visiting cards, promotional banners, and social media aesthetic grid.
+                - generic [ref=f9e476]:
+                  - generic [ref=f9e477]: "#Branding"
+                  - generic [ref=f9e478]: "#Salon"
+                  - generic [ref=f9e479]: "#Social Grid"
+                  - generic [ref=f9e480]: "#Print Design"
+        - generic [ref=f9e482]:
+          - generic [ref=f9e483]:
+            - generic [ref=f9e484]: CLIENT TESTIMONIALS
+            - heading "Loved by business owners across India." [level=2] [ref=f9e485]
+          - generic [ref=f9e486]:
+            - generic [ref=f9e487]:
+              - paragraph [ref=f9e500]: "\"BizBuddy transformed our local store's online presence! Their ₹1999 Super Social Media plan got us over 50 new walk-in customers in the very first month. Highly recommended!\""
+              - generic [ref=f9e501]:
+                - img "Rajesh Sharma" [ref=f9e502]
+                - generic [ref=f9e503]:
+                  - generic [ref=f9e504]: Rajesh Sharma
+                  - generic [ref=f9e505]: Sharma Traders & Retail
+            - generic [ref=f9e506]:
+              - paragraph [ref=f9e519]: "\"We hired BizBuddy for website development and GST registration. They built our e-commerce store in just 7 days! Sales have been flowing smoothly ever since.\""
+              - generic [ref=f9e520]:
+                - img "Ananya Roy" [ref=f9e521]
+                - generic [ref=f9e522]:
+                  - generic [ref=f9e523]: Ananya Roy
+                  - generic [ref=f9e524]: Bloom Botanicals D2C
+            - generic [ref=f9e525]:
+              - paragraph [ref=f9e538]: "\"Their video reels editing and Google Map SEO service doubled our clinic consultation appointments. The team is super responsive and professional.\""
+              - generic [ref=f9e539]:
+                - img "Dr. Vikram Sethi" [ref=f9e540]
+                - generic [ref=f9e541]:
+                  - generic [ref=f9e542]: Dr. Vikram Sethi
+                  - generic [ref=f9e543]: Sethi Dental Care
+            - generic [ref=f9e544]:
+              - paragraph [ref=f9e557]: "\"Filing PF returns and quarterly TDS was always a headache until we onboarded BizBuddy. They handle all accounting compliance seamlessly so we can focus on our business.\""
+              - generic [ref=f9e558]:
+                - img "Pooja Verma" [ref=f9e559]
+                - generic [ref=f9e560]:
+                  - generic [ref=f9e561]: Pooja Verma
+                  - generic [ref=f9e562]: Verma Logistics LLP
+        - generic [ref=f9e563]:
+          - generic [ref=f9e564]:
+            - generic [ref=f9e565]: FREQUENTLY ASKED QUESTIONS
+            - heading "Got questions? We have answers." [level=2] [ref=f9e566]
+            - paragraph [ref=f9e567]: Explore answers to 20+ common inquiries about social media, taxes, web dev, and pricing.
+          - generic [ref=f9e568]:
+            - generic [ref=f9e569]:
+              - generic [ref=f9e570]:
+                - button "All" [ref=f9e571]
+                - button "General" [ref=f9e572]
+                - button "Social Media" [ref=f9e573]
+                - button "Accounts" [ref=f9e574]
+                - button "Websites" [ref=f9e575]
+                - button "Editing" [ref=f9e576]
+                - button "Pricing" [ref=f9e577]
+              - textbox "Search 20+ FAQs..." [ref=f9e582]
+            - generic [ref=f9e583]:
+              - generic [ref=f9e584]:
+                - button "? What is BizBuddy and how does it help my business grow?" [ref=f9e585]:
+                  - generic [ref=f9e586]:
+                    - generic [ref=f9e587]: "?"
+                    - text: What is BizBuddy and how does it help my business grow?
+                - generic [ref=f9e590]:
+                  - generic [ref=f9e591]: General
+                  - text: BizBuddy is an all-in-one digital business platform. We handle everything your business needs to scale — from digital marketing, social media reels, and high-converting websites to tax return filing, GST compliance, and accounting.
+              - button "? How do I get started with a monthly Social Media plan?" [ref=f9e594]:
+                - generic [ref=f9e595]:
+                  - generic [ref=f9e596]: "?"
+                  - text: How do I get started with a monthly Social Media plan?
+              - button "? Are ad budgets included in the Social Media plans?" [ref=f9e600]:
+                - generic [ref=f9e601]:
+                  - generic [ref=f9e602]: "?"
+                  - text: Are ad budgets included in the Social Media plans?
+              - button "? How long does website development take starting at ₹3,999?" [ref=f9e606]:
+                - generic [ref=f9e607]:
+                  - generic [ref=f9e608]: "?"
+                  - text: How long does website development take starting at ₹3,999?
+              - button "? Is domain name and web hosting included in the website price?" [ref=f9e612]:
+                - generic [ref=f9e613]:
+                  - generic [ref=f9e614]: "?"
+                  - text: Is domain name and web hosting included in the website price?
+              - button "? What documents are required for GST Registration?" [ref=f9e618]:
+                - generic [ref=f9e619]:
+                  - generic [ref=f9e620]: "?"
+                  - text: What documents are required for GST Registration?
+              - button "? Can BizBuddy file monthly GST returns and EPF filings for our staff?" [ref=f9e624]:
+                - generic [ref=f9e625]:
+                  - generic [ref=f9e626]: "?"
+                  - text: Can BizBuddy file monthly GST returns and EPF filings for our staff?
+              - button "? Can I get a custom bundled quote for both Web Dev & Accounting?" [ref=f9e630]:
+                - generic [ref=f9e631]:
+                  - generic [ref=f9e632]: "?"
+                  - text: Can I get a custom bundled quote for both Web Dev & Accounting?
+              - button "? What editing tools do you use for Reels and Post editing?" [ref=f9e636]:
+                - generic [ref=f9e637]:
+                  - generic [ref=f9e638]: "?"
+                  - text: What editing tools do you use for Reels and Post editing?
+              - button "? Do you provide revisions on designs and video edits?" [ref=f9e642]:
+                - generic [ref=f9e643]:
+                  - generic [ref=f9e644]: "?"
+                  - text: Do you provide revisions on designs and video edits?
+              - button "? How does the WhatsApp inquiry system work?" [ref=f9e648]:
+                - generic [ref=f9e649]:
+                  - generic [ref=f9e650]: "?"
+                  - text: How does the WhatsApp inquiry system work?
+              - button "? What payment methods do you accept?" [ref=f9e654]:
+                - generic [ref=f9e655]:
+                  - generic [ref=f9e656]: "?"
+                  - text: What payment methods do you accept?
+              - button "? Can you manage social media accounts in regional languages?" [ref=f9e660]:
+                - generic [ref=f9e661]:
+                  - generic [ref=f9e662]: "?"
+                  - text: Can you manage social media accounts in regional languages?
+              - button "? Do I get monthly reports for my social media performance?" [ref=f9e666]:
+                - generic [ref=f9e667]:
+                  - generic [ref=f9e668]: "?"
+                  - text: Do I get monthly reports for my social media performance?
+              - button "? What is included in the ROC Annual Compliance package?" [ref=f9e672]:
+                - generic [ref=f9e673]:
+                  - generic [ref=f9e674]: "?"
+                  - text: What is included in the ROC Annual Compliance package?
+              - button "? Will my website be mobile-friendly and fast?" [ref=f9e678]:
+                - generic [ref=f9e679]:
+                  - generic [ref=f9e680]: "?"
+                  - text: Will my website be mobile-friendly and fast?
+              - button "? Can I edit text on my website after it is built?" [ref=f9e684]:
+                - generic [ref=f9e685]:
+                  - generic [ref=f9e686]: "?"
+                  - text: Can I edit text on my website after it is built?
+              - button "? What is your turnaround time for Income Tax Return (ITR) filing?" [ref=f9e690]:
+                - generic [ref=f9e691]:
+                  - generic [ref=f9e692]: "?"
+                  - text: What is your turnaround time for Income Tax Return (ITR) filing?
+              - button "? Can you create AI-generated video avatars for my brand?" [ref=f9e696]:
+                - generic [ref=f9e697]:
+                  - generic [ref=f9e698]: "?"
+                  - text: Can you create AI-generated video avatars for my brand?
+              - button "? Is there a money-back guarantee or cancellation policy?" [ref=f9e702]:
+                - generic [ref=f9e703]:
+                  - generic [ref=f9e704]: "?"
+                  - text: Is there a money-back guarantee or cancellation policy?
+        - generic [ref=f9e711]:
+          - heading "Ready to scale your business with BizBuddy?" [level=2] [ref=f9e712]
+          - paragraph [ref=f9e713]: Join 250+ growing businesses. Start your monthly social media management, website development, or tax return filing today.
+          - generic [ref=f9e714]:
+            - button "Get Started Now" [ref=f9e715] [cursor=pointer]
+            - button "Schedule Free Call" [ref=f9e716] [cursor=pointer]
+    - contentinfo [ref=f9e717]:
+      - generic [ref=f9e719]:
+        - generic [ref=f9e720]:
+          - generic [ref=f9e722]: "Instant Support Available:"
+          - text: Chat directly with our business expert on WhatsApp
+        - link "Chat on WhatsApp" [ref=f9e723] [cursor=pointer]:
+          - /url: https://wa.me/919876543210?text=Hello%20BizBuddy,%20I%20want%20to%20know%20more%20about%20your%20services!
+      - generic [ref=f9e726]:
+        - generic [ref=f9e727]:
+          - link "B BizBuddy" [ref=f9e728] [cursor=pointer]:
+            - /url: /
+            - generic [ref=f9e729]: B
+            - generic [ref=f9e730]: BizBuddy
+          - paragraph [ref=f9e731]: BizBuddy is your all-in-one digital growth platform. From social media marketing, viral reels editing, and custom web development to EPF, TDS return filings, and company incorporation.
+          - generic [ref=f9e732]:
+            - generic [ref=f9e733]: 100% Tax Compliant
+            - generic [ref=f9e737]: 24/7 WhatsApp Response
+        - generic [ref=f9e739]:
+          - heading "Core Services" [level=4] [ref=f9e740]
+          - list [ref=f9e741]:
+            - listitem [ref=f9e742]:
+              - link "Social Media Management" [ref=f9e743] [cursor=pointer]:
+                - /url: /services/social-media
+            - listitem [ref=f9e744]:
+              - link "Accounts & Tax Returns" [ref=f9e745] [cursor=pointer]:
+                - /url: /services/accounts
+            - listitem [ref=f9e746]:
+              - link "Website Development" [ref=f9e747] [cursor=pointer]:
+                - /url: /services/website-development
+            - listitem [ref=f9e748]:
+              - link "Reels & Video Editing" [ref=f9e749] [cursor=pointer]:
+                - /url: /services/editing
+            - listitem [ref=f9e750]:
+              - link "Printing & Support" [ref=f9e751] [cursor=pointer]:
+                - /url: /services/other
+        - generic [ref=f9e752]:
+          - heading "Company" [level=4] [ref=f9e753]
+          - list [ref=f9e754]:
+            - listitem [ref=f9e755]:
+              - link "Monthly Pricing Plans" [ref=f9e756] [cursor=pointer]:
+                - /url: /pricing
+            - listitem [ref=f9e757]:
+              - link "Case Studies & Work" [ref=f9e758] [cursor=pointer]:
+                - /url: /portfolio
+            - listitem [ref=f9e759]:
+              - link "Client Testimonials" [ref=f9e760] [cursor=pointer]:
+                - /url: /testimonials
+            - listitem [ref=f9e761]:
+              - link "About Our Team" [ref=f9e762] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f9e763]:
+              - link "Client Dashboard" [ref=f9e764] [cursor=pointer]:
+                - /url: /dashboard
+        - generic [ref=f9e768]:
+          - heading "Get In Touch" [level=4] [ref=f9e769]
+          - list [ref=f9e770]:
+            - listitem [ref=f9e771]:
+              - generic [ref=f9e774]: +91 98765 43210
+            - listitem [ref=f9e775]:
+              - generic [ref=f9e779]: support@bizbuddy.in
+            - listitem [ref=f9e780]:
+              - generic [ref=f9e784]: Tech Tower, Cyber Hub, MG Road, New Delhi, India
+      - generic [ref=f9e786]:
+        - generic [ref=f9e787]: © 2026 BizBuddy Solutions Technologies Pvt. Ltd. All rights reserved.
+        - generic [ref=f9e788]:
+          - generic [ref=f9e789]:
+            - button "Light" [ref=f9e790]
+            - button "Dark" [ref=f9e797]
+            - button "System" [ref=f9e800]
+          - link "Privacy Policy" [ref=f9e803] [cursor=pointer]:
+            - /url: /contact
+          - link "Terms of Service" [ref=f9e804] [cursor=pointer]:
+            - /url: /contact
+          - link "Refund Policy" [ref=f9e805] [cursor=pointer]:
+            - /url: /contact
+  - button "Open Next.js Dev Tools" [ref=f9e811] [cursor=pointer]

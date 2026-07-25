@@ -29,7 +29,7 @@ export const Footer: React.FC = () => {
         </div>
       </div>
 
-      <div className="max-w-[1280px] mx-auto px-4 sm:px-6 py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
+      <div className="max-w-[1280px] mx-auto px-4 sm:px-6 py-10 sm:py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 md:gap-10">
         {/* Col 1: Brand Info */}
         <div className="lg:col-span-2 space-y-4">
           <Link href="/" className="flex items-center gap-2.5">

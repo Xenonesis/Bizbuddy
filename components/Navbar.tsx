@@ -201,7 +201,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenConsultation, onOpenLeadMo
             ))}
           </div>
 
-          <div className="border-t border-[#f0f0f3] pt-3 space-y-1">
+          <div className="border-t border-[#f0f0f3] dark:border-[#27272a] pt-3 space-y-1">
             <div className="text-xs font-semibold uppercase tracking-wider text-[#60646c] px-3 py-1">
               Company
             </div>
@@ -218,6 +218,10 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenConsultation, onOpenLeadMo
           </div>
 
           <div className="pt-2 flex flex-col gap-2.5">
+            <div className="flex items-center justify-between px-3 py-2">
+              <span className="text-xs font-semibold uppercase tracking-wider text-[#60646c]">Theme</span>
+              <ThemeToggle />
+            </div>
             <button
               onClick={() => {
                 setMobileMenuOpen(false);

@@ -1,0 +1,195 @@
+- generic [active] [ref=f7e1]:
+  - generic [ref=f7e2]:
+    - banner [ref=f7e3]:
+      - generic [ref=f7e4]:
+        - link "B BizBuddy Digital Solutions" [ref=f7e5] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f7e6]: B
+          - generic [ref=f7e7]:
+            - generic [ref=f7e8]: BizBuddy
+            - generic [ref=f7e10]: Digital Solutions
+        - button "Toggle Navigation" [ref=f7e11]
+    - main [ref=f7e13]:
+      - generic [ref=f7e14]:
+        - generic [ref=f7e16]:
+          - generic [ref=f7e17]: MONTHLY SUBSCRIPTION PLANS
+          - heading "Social Media Management & Viral Reels Editing" [level=1] [ref=f7e18]
+          - paragraph [ref=f7e19]: Turn your Instagram & Facebook profiles into lead-generating machines. High-quality posts, custom reels, active DM replies, and targeted Meta ads.
+        - generic [ref=f7e21]:
+          - generic [ref=f7e22]:
+            - generic [ref=f7e23]:
+              - generic [ref=f7e24]:
+                - heading "Basic Plan" [level=3] [ref=f7e25]
+                - generic [ref=f7e26]:
+                  - generic [ref=f7e27]: ₹1,499
+                  - generic [ref=f7e28]: /month
+              - generic [ref=f7e29]:
+                - generic [ref=f7e30]: "Included Deliverables:"
+                - list [ref=f7e31]:
+                  - listitem [ref=f7e32]:
+                    - generic [ref=f7e35]: 10 High-Quality Posts
+                  - listitem [ref=f7e36]:
+                    - generic [ref=f7e39]: 2 Custom Edited Reels
+                  - listitem [ref=f7e40]:
+                    - generic [ref=f7e43]: 1 Free Campaign Ad Run
+                  - listitem [ref=f7e44]:
+                    - generic [ref=f7e47]: Sale & Discount Promo Posts
+                  - listitem [ref=f7e48]:
+                    - generic [ref=f7e51]: Engaging Captions & Hashtags
+                  - listitem [ref=f7e52]:
+                    - generic [ref=f7e55]: 30 Days Full Profile Management
+                  - listitem [ref=f7e56]:
+                    - generic [ref=f7e59]: Instagram & Facebook Integration
+                  - listitem [ref=f7e60]:
+                    - generic [ref=f7e63]: Free Initial Profile Optimization
+            - button "Choose Basic" [ref=f7e65] [cursor=pointer]
+          - generic [ref=f7e68]:
+            - generic [ref=f7e69]: MOST POPULAR
+            - generic [ref=f7e70]:
+              - generic [ref=f7e71]:
+                - heading "Super Plan" [level=3] [ref=f7e72]
+                - generic [ref=f7e73]:
+                  - generic [ref=f7e74]: ₹1,999
+                  - generic [ref=f7e75]: /month
+              - generic [ref=f7e76]:
+                - generic [ref=f7e77]: "Included Deliverables:"
+                - list [ref=f7e78]:
+                  - listitem [ref=f7e79]:
+                    - generic [ref=f7e82]: 15 High-Quality Posts
+                  - listitem [ref=f7e83]:
+                    - generic [ref=f7e86]: 5 HD Custom Reels
+                  - listitem [ref=f7e87]:
+                    - generic [ref=f7e90]: 2 Free Campaign Ads Run
+                  - listitem [ref=f7e91]:
+                    - generic [ref=f7e94]: Daily Story Uploads & Templates
+                  - listitem [ref=f7e95]:
+                    - generic [ref=f7e98]: DM & Comment Active Replies
+                  - listitem [ref=f7e99]:
+                    - generic [ref=f7e102]: Complete Ad Setup & Guidance
+                  - listitem [ref=f7e103]:
+                    - generic [ref=f7e106]: Free Visiting Card Digital Design
+                  - listitem [ref=f7e107]:
+                    - generic [ref=f7e110]: Advanced Profile Modification
+            - button "Choose Super" [ref=f7e112] [cursor=pointer]
+          - generic [ref=f7e115]:
+            - generic [ref=f7e116]:
+              - generic [ref=f7e117]:
+                - heading "Premium Plan" [level=3] [ref=f7e118]
+                - generic [ref=f7e119]:
+                  - generic [ref=f7e120]: ₹2,499
+                  - generic [ref=f7e121]: /month
+              - generic [ref=f7e122]:
+                - generic [ref=f7e123]: "Included Deliverables:"
+                - list [ref=f7e124]:
+                  - listitem [ref=f7e125]:
+                    - generic [ref=f7e128]: 20 Premium Posts
+                  - listitem [ref=f7e129]:
+                    - generic [ref=f7e132]: 7 Cinematic Reels
+                  - listitem [ref=f7e133]:
+                    - generic [ref=f7e136]: 3 Free Ads Setup & Optimization
+                  - listitem [ref=f7e137]:
+                    - generic [ref=f7e140]: Daily Story & Highlight Management
+                  - listitem [ref=f7e141]:
+                    - generic [ref=f7e144]: Custom Highlight Cover Designs
+                  - listitem [ref=f7e145]:
+                    - generic [ref=f7e148]: Influencer Collaboration Support
+                  - listitem [ref=f7e149]:
+                    - generic [ref=f7e152]: Fun Audience Story Activities
+                  - listitem [ref=f7e153]:
+                    - generic [ref=f7e156]: Priority DM & Comment Replies
+                  - listitem [ref=f7e157]:
+                    - generic [ref=f7e160]: Free Premium Business Card Design
+            - button "Choose Premium" [ref=f7e162] [cursor=pointer]
+        - generic [ref=f7e165]:
+          - generic [ref=f7e166]:
+            - heading "What happens after you subscribe?" [level=3] [ref=f7e167]
+            - paragraph [ref=f7e168]: We assign a dedicated social media content team to your business within 2 hours of sign-up.
+          - generic [ref=f7e169]:
+            - generic [ref=f7e170]:
+              - generic [ref=f7e171]: "1"
+              - heading "Content Calendar Approval" [level=4] [ref=f7e172]
+              - paragraph [ref=f7e173]: We write captions, design graphics, and edit reels for your review 7 days in advance.
+            - generic [ref=f7e174]:
+              - generic [ref=f7e175]: "2"
+              - heading "Automated Posting & Reels" [level=4] [ref=f7e176]
+              - paragraph [ref=f7e177]: We schedule posts, upload high-energy reels, manage story highlights, and run ads.
+            - generic [ref=f7e178]:
+              - generic [ref=f7e179]: "3"
+              - heading "Engagement & Monthly Report" [level=4] [ref=f7e180]
+              - paragraph [ref=f7e181]: We actively reply to DMs, comments, and deliver a full growth breakdown every 30 days.
+    - contentinfo [ref=f7e182]:
+      - generic [ref=f7e184]:
+        - generic [ref=f7e185]:
+          - generic [ref=f7e187]: "Instant Support Available:"
+          - text: Chat directly with our business expert on WhatsApp
+        - link "Chat on WhatsApp" [ref=f7e188] [cursor=pointer]:
+          - /url: https://wa.me/919876543210?text=Hello%20BizBuddy,%20I%20want%20to%20know%20more%20about%20your%20services!
+      - generic [ref=f7e191]:
+        - generic [ref=f7e192]:
+          - link "B BizBuddy" [ref=f7e193] [cursor=pointer]:
+            - /url: /
+            - generic [ref=f7e194]: B
+            - generic [ref=f7e195]: BizBuddy
+          - paragraph [ref=f7e196]: BizBuddy is your all-in-one digital growth platform. From social media marketing, viral reels editing, and custom web development to EPF, TDS return filings, and company incorporation.
+          - generic [ref=f7e197]:
+            - generic [ref=f7e198]: 100% Tax Compliant
+            - generic [ref=f7e202]: 24/7 WhatsApp Response
+        - generic [ref=f7e204]:
+          - heading "Core Services" [level=4] [ref=f7e205]
+          - list [ref=f7e206]:
+            - listitem [ref=f7e207]:
+              - link "Social Media Management" [ref=f7e208] [cursor=pointer]:
+                - /url: /services/social-media
+            - listitem [ref=f7e209]:
+              - link "Accounts & Tax Returns" [ref=f7e210] [cursor=pointer]:
+                - /url: /services/accounts
+            - listitem [ref=f7e211]:
+              - link "Website Development" [ref=f7e212] [cursor=pointer]:
+                - /url: /services/website-development
+            - listitem [ref=f7e213]:
+              - link "Reels & Video Editing" [ref=f7e214] [cursor=pointer]:
+                - /url: /services/editing
+            - listitem [ref=f7e215]:
+              - link "Printing & Support" [ref=f7e216] [cursor=pointer]:
+                - /url: /services/other
+        - generic [ref=f7e217]:
+          - heading "Company" [level=4] [ref=f7e218]
+          - list [ref=f7e219]:
+            - listitem [ref=f7e220]:
+              - link "Monthly Pricing Plans" [ref=f7e221] [cursor=pointer]:
+                - /url: /pricing
+            - listitem [ref=f7e222]:
+              - link "Case Studies & Work" [ref=f7e223] [cursor=pointer]:
+                - /url: /portfolio
+            - listitem [ref=f7e224]:
+              - link "Client Testimonials" [ref=f7e225] [cursor=pointer]:
+                - /url: /testimonials
+            - listitem [ref=f7e226]:
+              - link "About Our Team" [ref=f7e227] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f7e228]:
+              - link "Client Dashboard" [ref=f7e229] [cursor=pointer]:
+                - /url: /dashboard
+        - generic [ref=f7e233]:
+          - heading "Get In Touch" [level=4] [ref=f7e234]
+          - list [ref=f7e235]:
+            - listitem [ref=f7e236]:
+              - generic [ref=f7e239]: +91 98765 43210
+            - listitem [ref=f7e240]:
+              - generic [ref=f7e244]: support@bizbuddy.in
+            - listitem [ref=f7e245]:
+              - generic [ref=f7e249]: Tech Tower, Cyber Hub, MG Road, New Delhi, India
+      - generic [ref=f7e251]:
+        - generic [ref=f7e252]: © 2026 BizBuddy Solutions Technologies Pvt. Ltd. All rights reserved.
+        - generic [ref=f7e253]:
+          - generic [ref=f7e254]:
+            - button "Light" [ref=f7e255]
+            - button "Dark" [ref=f7e262]
+            - button "System" [ref=f7e265]
+          - link "Privacy Policy" [ref=f7e268] [cursor=pointer]:
+            - /url: /contact
+          - link "Terms of Service" [ref=f7e269] [cursor=pointer]:
+            - /url: /contact
+          - link "Refund Policy" [ref=f7e270] [cursor=pointer]:
+            - /url: /contact
+  - button "Open Next.js Dev Tools" [ref=f7e276] [cursor=pointer]

@@ -52,7 +52,7 @@ export default function Home({ onOpenConsultation, onOpenLeadModal }: PageProps)
   };
 
   return (
-    <div className="space-y-24 pb-20">
+    <div className="space-y-16 md:space-y-24 pb-20">
       {/* 1. HERO SECTION (Device Mockup + Sky Wash) */}
       <DeviceMockupHero
         onOpenConsultation={triggerConsultation}
@@ -101,7 +101,7 @@ export default function Home({ onOpenConsultation, onOpenLeadModal }: PageProps)
       <motion.section initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="max-w-[1280px] mx-auto px-4 sm:px-6 space-y-10">
         <div className="text-center max-w-3xl mx-auto space-y-3">
           <div className="badge-pill">OUR CORE SERVICES</div>
-          <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight text-[#171717] dark:text-[#f4f4f5]">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold tracking-tight text-[#171717] dark:text-[#f4f4f5]">
             Everything your business needs to operate & scale online.
           </h2>
           <p className="text-[#60646c] dark:text-zinc-400 text-base">
@@ -119,7 +119,7 @@ export default function Home({ onOpenConsultation, onOpenLeadModal }: PageProps)
                 description="Responsive landing pages, multi-page business websites, e-commerce storefronts, and specialized QR ordering systems with zero-hassle cloud deployment."
                 icon={Code2}
                 href="/services/website-development"
-                className="min-h-[420px] !bg-transparent !border-transparent"
+                className="min-h-[280px] md:min-h-[420px] !bg-transparent !border-transparent"
               >
                 {/* Expo Style Code Mockup Panel inside the card */}
                 <div className="mt-6 border border-[#262626] bg-[#0c0d10] rounded-xl overflow-hidden shadow-2xl flex flex-col w-full opacity-90 group-hover:opacity-100 transition-opacity">
@@ -216,16 +216,16 @@ export default function Home({ onOpenConsultation, onOpenLeadModal }: PageProps)
       </motion.section>
 
       {/* 4. WHY CHOOSE US (Expo Workflow Layout) */}
-      <motion.section initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="bg-[#fafafa] dark:bg-[#0c0d10] border-y border-[#dcdee0] dark:border-[#27272a] py-24">
+      <motion.section initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="bg-[#fafafa] dark:bg-[#0c0d10] border-y border-[#dcdee0] dark:border-[#27272a] py-16 md:py-24">
         <div className="max-w-[1280px] mx-auto px-4 sm:px-6">
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
+          <div className="grid lg:grid-cols-2 gap-10 md:gap-16 items-center">
             {/* Left: Text & Features */}
             <div className="space-y-10">
               <div className="space-y-4">
                 <div className="badge-pill border border-[#dcdee0] dark:border-zinc-800">
                   DEVELOP & GROW
                 </div>
-                <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold tracking-tighter text-[#171717] dark:text-[#f4f4f5] leading-[1.1]">
+                <h2 className="text-2xl sm:text-3xl lg:text-5xl font-semibold tracking-tighter text-[#171717] dark:text-[#f4f4f5] leading-[1.1]">
                   Built for affordable, measurable business growth.
                 </h2>
                 <p className="text-base sm:text-lg text-[#60646c] dark:text-zinc-400 max-w-lg leading-relaxed">
@@ -367,10 +367,10 @@ export default function Home({ onOpenConsultation, onOpenLeadModal }: PageProps)
 
       {/* 7. PORTFOLIO SHOWCASE GRID */}
       <motion.section initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="max-w-[1280px] mx-auto px-4 sm:px-6 space-y-8">
-        <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4 border-b border-[#f0f0f3] pb-6">
+        <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4 border-b border-[#f0f0f3] dark:border-[#27272a] pb-6">
           <div>
             <div className="badge-pill mb-2">PORTFOLIO & RESULTS</div>
-            <h2 className="text-3xl font-semibold text-[#171717] dark:text-[#f4f4f5]">
+            <h2 className="text-2xl sm:text-3xl font-semibold text-[#171717] dark:text-[#f4f4f5]">
               Real client work & verified growth metrics.
             </h2>
           </div>
@@ -424,11 +424,11 @@ export default function Home({ onOpenConsultation, onOpenLeadModal }: PageProps)
       </motion.section>
 
       {/* 8. TESTIMONIALS */}
-      <motion.section initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="bg-[#fafafa] dark:bg-[#0c0d10] border-y border-[#dcdee0] dark:border-[#27272a] py-16">
+      <motion.section initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="bg-[#fafafa] dark:bg-[#0c0d10] border-y border-[#dcdee0] dark:border-[#27272a] py-12 md:py-16">
         <div className="max-w-[1280px] mx-auto px-4 sm:px-6 space-y-10">
           <div className="text-center max-w-2xl mx-auto space-y-3">
             <div className="badge-pill">CLIENT TESTIMONIALS</div>
-            <h2 className="text-3xl font-semibold text-[#171717] dark:text-[#f4f4f5]">
+            <h2 className="text-2xl sm:text-3xl font-semibold text-[#171717] dark:text-[#f4f4f5]">
               Loved by business owners across India.
             </h2>
           </div>
@@ -467,7 +467,7 @@ export default function Home({ onOpenConsultation, onOpenLeadModal }: PageProps)
       <motion.section initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="max-w-[1280px] mx-auto px-4 sm:px-6 space-y-8">
         <div className="text-center max-w-2xl mx-auto space-y-3">
           <div className="badge-pill">FREQUENTLY ASKED QUESTIONS</div>
-          <h2 className="text-3xl font-semibold text-[#171717] dark:text-[#f4f4f5]">
+          <h2 className="text-2xl sm:text-3xl font-semibold text-[#171717] dark:text-[#f4f4f5]">
             Got questions? We have answers.
           </h2>
           <p className="text-sm text-[#60646c] dark:text-zinc-400">
@@ -480,7 +480,7 @@ export default function Home({ onOpenConsultation, onOpenLeadModal }: PageProps)
 
       {/* 10. PRE-FOOTER CTA BAND */}
       <motion.section initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="max-w-[1280px] mx-auto px-4 sm:px-6">
-        <div className="bg-[#171717] text-white rounded-2xl p-10 sm:p-16 text-center space-y-6 relative overflow-hidden">
+        <div className="bg-[#171717] text-white rounded-2xl p-6 sm:p-10 lg:p-16 text-center space-y-6 relative overflow-hidden">
           <div className="absolute inset-0 z-0 opacity-20">
             <LineWaves
               speed={0.15}

@@ -1,0 +1,172 @@
+- generic [active] [ref=f14e1]:
+  - generic [ref=f14e2]:
+    - banner [ref=f14e3]:
+      - generic [ref=f14e4]:
+        - link "B BizBuddy Digital Solutions" [ref=f14e5] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f14e6]: B
+          - generic [ref=f14e7]:
+            - generic [ref=f14e8]: BizBuddy
+            - generic [ref=f14e10]: Digital Solutions
+        - navigation [ref=f14e11]:
+          - button "Services" [ref=f14e13]
+          - link "Pricing" [ref=f14e16] [cursor=pointer]:
+            - /url: /pricing
+          - link "Portfolio" [ref=f14e17] [cursor=pointer]:
+            - /url: /portfolio
+          - link "Testimonials" [ref=f14e18] [cursor=pointer]:
+            - /url: /testimonials
+          - link "About" [ref=f14e19] [cursor=pointer]:
+            - /url: /about
+          - link "Contact" [ref=f14e20] [cursor=pointer]:
+            - /url: /contact
+          - link "Dashboard" [ref=f14e21] [cursor=pointer]:
+            - /url: /dashboard
+        - generic [ref=f14e22]:
+          - generic [ref=f14e23]:
+            - button "Light" [ref=f14e24]
+            - button "Dark" [ref=f14e32]
+            - button "System" [ref=f14e36]
+          - button "Book Consultation" [ref=f14e40] [cursor=pointer]
+          - button "Get Started" [ref=f14e41] [cursor=pointer]
+    - main [ref=f14e44]:
+      - generic [ref=f14e45]:
+        - generic [ref=f14e47]:
+          - generic [ref=f14e48]:
+            - generic [ref=f14e49]: BIZBUDDY ADMIN & CLIENT PORTAL
+            - heading "Management Dashboard" [level=1] [ref=f14e50]
+          - generic [ref=f14e51]: "ROLE: Administrator"
+        - generic [ref=f14e53]:
+          - generic [ref=f14e54]:
+            - generic [ref=f14e55]:
+              - generic [ref=f14e56]: TOTAL LEADS GENERATED
+              - generic [ref=f14e57]: "148"
+              - generic [ref=f14e58]: ↑ +32 this week
+            - generic [ref=f14e59]:
+              - generic [ref=f14e60]: ACTIVE SUBSCRIPTIONS
+              - generic [ref=f14e61]: "84"
+              - generic [ref=f14e62]: Social & Accounts
+            - generic [ref=f14e63]:
+              - generic [ref=f14e64]: TAX RETURNS FILED
+              - generic [ref=f14e65]: "210"
+              - generic [ref=f14e66]: 100% Verified
+            - generic [ref=f14e67]:
+              - generic [ref=f14e68]: MONTHLY REVENUE
+              - generic [ref=f14e69]: ₹2.45L
+              - generic [ref=f14e70]: Target Reached
+          - generic [ref=f14e71]:
+            - button "Manage Leads" [ref=f14e72]
+            - button "Services & Pricing" [ref=f14e73]
+            - button "Portfolio Showcase" [ref=f14e74]
+            - button "Analytics Overview" [ref=f14e75]
+          - generic [ref=f14e76]:
+            - generic [ref=f14e77]:
+              - heading "Recent Inquiries & Leads" [level=3] [ref=f14e78]
+              - generic [ref=f14e79]: 3 Active Leads
+            - table [ref=f14e81]:
+              - rowgroup [ref=f14e82]:
+                - row [ref=f14e83]:
+                  - columnheader "Lead ID" [ref=f14e84]
+                  - columnheader "Client Name" [ref=f14e85]
+                  - columnheader "Phone" [ref=f14e86]
+                  - columnheader "Service Requested" [ref=f14e87]
+                  - columnheader "Date" [ref=f14e88]
+                  - columnheader "Status" [ref=f14e89]
+              - rowgroup [ref=f14e90]:
+                - row [ref=f14e91]:
+                  - cell "L-101" [ref=f14e92]
+                  - cell "Ankit Mehta" [ref=f14e93]
+                  - cell "9876543210" [ref=f14e94]
+                  - cell "Social Media Super Plan (₹1,999)" [ref=f14e95]
+                  - cell "Today 14:20" [ref=f14e96]
+                  - cell "New Inquiry" [ref=f14e97]
+                - row [ref=f14e98]:
+                  - cell "L-102" [ref=f14e99]
+                  - cell "Pooja Verma" [ref=f14e100]
+                  - cell "9812345678" [ref=f14e101]
+                  - cell "GST Registration & Returns" [ref=f14e102]
+                  - cell "Today 11:05" [ref=f14e103]
+                  - cell "In Progress" [ref=f14e104]
+                - row [ref=f14e105]:
+                  - cell "L-103" [ref=f14e106]
+                  - cell "Suresh Commerce" [ref=f14e107]
+                  - cell "9898989898" [ref=f14e108]
+                  - cell "E-Commerce Web Dev (₹14,999)" [ref=f14e109]
+                  - cell "Yesterday" [ref=f14e110]
+                  - cell "Closed / Converted" [ref=f14e111]
+    - contentinfo [ref=f14e112]:
+      - generic [ref=f14e114]:
+        - generic [ref=f14e115]:
+          - generic [ref=f14e117]: "Instant Support Available:"
+          - text: Chat directly with our business expert on WhatsApp
+        - link "Chat on WhatsApp" [ref=f14e118] [cursor=pointer]:
+          - /url: https://wa.me/919876543210?text=Hello%20BizBuddy,%20I%20want%20to%20know%20more%20about%20your%20services!
+      - generic [ref=f14e121]:
+        - generic [ref=f14e122]:
+          - link "B BizBuddy" [ref=f14e123] [cursor=pointer]:
+            - /url: /
+            - generic [ref=f14e124]: B
+            - generic [ref=f14e125]: BizBuddy
+          - paragraph [ref=f14e126]: BizBuddy is your all-in-one digital growth platform. From social media marketing, viral reels editing, and custom web development to EPF, TDS return filings, and company incorporation.
+          - generic [ref=f14e127]:
+            - generic [ref=f14e128]: 100% Tax Compliant
+            - generic [ref=f14e132]: 24/7 WhatsApp Response
+        - generic [ref=f14e134]:
+          - heading "Core Services" [level=4] [ref=f14e135]
+          - list [ref=f14e136]:
+            - listitem [ref=f14e137]:
+              - link "Social Media Management" [ref=f14e138] [cursor=pointer]:
+                - /url: /services/social-media
+            - listitem [ref=f14e139]:
+              - link "Accounts & Tax Returns" [ref=f14e140] [cursor=pointer]:
+                - /url: /services/accounts
+            - listitem [ref=f14e141]:
+              - link "Website Development" [ref=f14e142] [cursor=pointer]:
+                - /url: /services/website-development
+            - listitem [ref=f14e143]:
+              - link "Reels & Video Editing" [ref=f14e144] [cursor=pointer]:
+                - /url: /services/editing
+            - listitem [ref=f14e145]:
+              - link "Printing & Support" [ref=f14e146] [cursor=pointer]:
+                - /url: /services/other
+        - generic [ref=f14e147]:
+          - heading "Company" [level=4] [ref=f14e148]
+          - list [ref=f14e149]:
+            - listitem [ref=f14e150]:
+              - link "Monthly Pricing Plans" [ref=f14e151] [cursor=pointer]:
+                - /url: /pricing
+            - listitem [ref=f14e152]:
+              - link "Case Studies & Work" [ref=f14e153] [cursor=pointer]:
+                - /url: /portfolio
+            - listitem [ref=f14e154]:
+              - link "Client Testimonials" [ref=f14e155] [cursor=pointer]:
+                - /url: /testimonials
+            - listitem [ref=f14e156]:
+              - link "About Our Team" [ref=f14e157] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f14e158]:
+              - link "Client Dashboard" [ref=f14e159] [cursor=pointer]:
+                - /url: /dashboard
+        - generic [ref=f14e163]:
+          - heading "Get In Touch" [level=4] [ref=f14e164]
+          - list [ref=f14e165]:
+            - listitem [ref=f14e166]:
+              - generic [ref=f14e169]: +91 98765 43210
+            - listitem [ref=f14e170]:
+              - generic [ref=f14e174]: support@bizbuddy.in
+            - listitem [ref=f14e175]:
+              - generic [ref=f14e179]: Tech Tower, Cyber Hub, MG Road, New Delhi, India
+      - generic [ref=f14e181]:
+        - generic [ref=f14e182]: © 2026 BizBuddy Solutions Technologies Pvt. Ltd. All rights reserved.
+        - generic [ref=f14e183]:
+          - generic [ref=f14e184]:
+            - button "Light" [ref=f14e185]
+            - button "Dark" [ref=f14e193]
+            - button "System" [ref=f14e197]
+          - link "Privacy Policy" [ref=f14e201] [cursor=pointer]:
+            - /url: /contact
+          - link "Terms of Service" [ref=f14e202] [cursor=pointer]:
+            - /url: /contact
+          - link "Refund Policy" [ref=f14e203] [cursor=pointer]:
+            - /url: /contact
+  - button "Open Next.js Dev Tools" [ref=f14e209] [cursor=pointer]
