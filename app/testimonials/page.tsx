@@ -65,7 +65,7 @@ export default function TestimonialsPage() {
 							<div className="pt-4 border-t border-[#f0f0f3] dark:border-[#27272a] flex items-center gap-3">
 								<img
 									src={item.avatar}
-									alt={item.name}
+									alt={`${item.name} — ${item.company} client testimonial`}
 									className="w-10 h-10 rounded-full object-cover"
 								/>
 								<div>

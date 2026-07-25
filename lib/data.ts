@@ -436,7 +436,7 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     category: "Social Media",
     client: "Dr. Apex Healthcare",
     impactMetric: "+340% Patient Appointments",
-    image: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=800&auto=format&fit=crop&q=80",
+    image: "/images/port-dental.jpg",
     description: "Complete Instagram profile revamp, weekly educational reels, and localized Meta ad campaign driving qualified local patient leads.",
     tags: ["Reels", "Meta Ads", "Healthcare", "Lead Gen"]
   },
@@ -446,7 +446,7 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     category: "Websites",
     client: "UrbanBites Hospitality",
     impactMetric: "₹2.4L Monthly Online Orders",
-    image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&auto=format&fit=crop&q=80",
+    image: "/images/port-restaurant.jpg",
     description: "High-converting digital menu & QR ordering website built with instant WhatsApp delivery notifications.",
     tags: ["Next.js", "QR Ordering", "Restaurant", "WhatsApp Bot"]
   },
@@ -456,7 +456,7 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     category: "Branding",
     client: "Zenith Builders",
     impactMetric: "120+ Property Inquiries",
-    image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&auto=format&fit=crop&q=80",
+    image: "/images/port-realestate.jpg",
     description: "Luxury property showcase landing page, brochure design, and video walkthrough editing for premium residential apartments.",
     tags: ["Real Estate", "Landing Page", "Video Editing"]
   },
@@ -466,7 +466,7 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     category: "Social Media",
     client: "FitPulse Gym",
     impactMetric: "+150 New Memberships",
-    image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&auto=format&fit=crop&q=80",
+    image: "/images/port-gym.jpg",
     description: "High-energy workout reels, transformations showcase, and monthly membership sales funnels.",
     tags: ["Fitness", "Reels Editing", "Member Growth"]
   },
@@ -476,7 +476,7 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     category: "Accounts",
     client: "Nova Tech Pvt Ltd",
     impactMetric: "100% Tax Compliant & ₹1.8L Tax Saved",
-    image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&auto=format&fit=crop&q=80",
+    image: "/images/port-accounts.jpg",
     description: "Complete Private Limited company incorporation, GST registration, quarterly TDS filings, and annual ROC compliance.",
     tags: ["Company Incorporation", "GST Filing", "Tax Audit"]
   },
@@ -486,7 +486,7 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     category: "Branding",
     client: "Aura Beauty Spa",
     impactMetric: "+220% Weekend Bookings",
-    image: "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&auto=format&fit=crop&q=80",
+    image: "/images/port-salon.jpg",
     description: "Elegant visual brand identity, visiting cards, promotional banners, and social media aesthetic grid.",
     tags: ["Branding", "Salon", "Social Grid", "Print Design"]
   }
@@ -498,7 +498,7 @@ export const TESTIMONIALS: Testimonial[] = [
     name: "Rajesh Sharma",
     role: "Founder & CEO",
     company: "Sharma Traders & Retail",
-    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&auto=format&fit=crop&q=80",
+    avatar: "/images/avatar-1.jpg",
     content: "BizBuddy transformed our local store's online presence! Their ₹1999 Super Social Media plan got us over 50 new walk-in customers in the very first month. Highly recommended!",
     rating: 5,
     serviceUsed: "Social Media Management (Super Plan)"
@@ -508,7 +508,7 @@ export const TESTIMONIALS: Testimonial[] = [
     name: "Ananya Roy",
     role: "Co-Founder",
     company: "Bloom Botanicals D2C",
-    avatar: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&auto=format&fit=crop&q=80",
+    avatar: "/images/avatar-2.jpg",
     content: "We hired BizBuddy for website development and GST registration. They built our e-commerce store in just 7 days! Sales have been flowing smoothly ever since.",
     rating: 5,
     serviceUsed: "E-Commerce Web Dev & GST Setup"
@@ -518,7 +518,7 @@ export const TESTIMONIALS: Testimonial[] = [
     name: "Dr. Vikram Sethi",
     role: "Lead Surgeon",
     company: "Sethi Dental Care",
-    avatar: "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=200&auto=format&fit=crop&q=80",
+    avatar: "/images/avatar-3.jpg",
     content: "Their video reels editing and Google Map SEO service doubled our clinic consultation appointments. The team is super responsive and professional.",
     rating: 5,
     serviceUsed: "Reel Editing & Local Marketing"
@@ -528,7 +528,7 @@ export const TESTIMONIALS: Testimonial[] = [
     name: "Pooja Verma",
     role: "Managing Director",
     company: "Verma Logistics LLP",
-    avatar: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&auto=format&fit=crop&q=80",
+    avatar: "/images/avatar-4.jpg",
     content: "Filing PF returns and quarterly TDS was always a headache until we onboarded BizBuddy. They handle all accounting compliance seamlessly so we can focus on our business.",
     rating: 5,
     serviceUsed: "Accounts & PF Return Filing"
