@@ -54,7 +54,7 @@ export const QuoteCalculator: React.FC<QuoteCalculatorProps> = ({ onOpenLeadModa
         `Total Estimated Price: *₹${finalTotal}* (Includes ${discountRate * 100}% Bundle Discount)\n` +
         `Please confirm availability.`
     );
-    window.open(`https://wa.me/919876543210?text=${quoteText}`, "_blank");
+    window.open(`https://wa.me/917838472802?text=${quoteText}`, "_blank");
   };
 
   return (

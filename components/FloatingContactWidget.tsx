@@ -10,7 +10,7 @@ interface FloatingContactWidgetProps {
 
 export const FloatingContactWidget: React.FC<FloatingContactWidgetProps> = ({ onOpenConsultation }) => {
   const [expanded, setExpanded] = useState(false);
-  const whatsappUrl = "https://wa.me/919876543210?text=Hello%20BizBuddy,%20I%20want%20to%20know%20more%20about%20your%20services!";
+  const whatsappUrl = "https://wa.me/917838472802?text=Hello%20BizBuddy,%20I%20want%20to%20know%20more%20about%20your%20services!";
 
   return (
     <div className="fixed bottom-5 right-5 z-40">

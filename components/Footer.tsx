@@ -6,7 +6,7 @@ import { MessageSquare, Phone, Mail, MapPin, ArrowUpRight, ShieldCheck, Heart } 
 import { ThemeToggle } from "./ThemeToggle";
 
 export const Footer: React.FC = () => {
-  const whatsappUrl = "https://wa.me/919876543210?text=Hello%20BizBuddy,%20I%20want%20to%20know%20more%20about%20your%20services!";
+  const whatsappUrl = "https://wa.me/917838472802?text=Hello%20BizBuddy,%20I%20want%20to%20know%20more%20about%20your%20services!";
 
   return (
     <footer className="bg-white dark:bg-[#0c0d10] border-t border-[#dcdee0] dark:border-[#27272a] text-[#60646c] dark:text-zinc-400">
@@ -131,15 +131,15 @@ export const Footer: React.FC = () => {
           <ul className="space-y-2.5 text-sm">
             <li className="flex items-center gap-2">
               <Phone className="w-4 h-4 text-[#171717] dark:text-[#f4f4f5]" />
-              <span>+91 98765 43210</span>
+              <span>+91 120-4725137</span>
             </li>
             <li className="flex items-center gap-2">
               <Mail className="w-4 h-4 text-[#171717] dark:text-[#f4f4f5]" />
-              <span>support@bizbuddy.in</span>
+              <span>Bizbuddyconsulting@gmail.com</span>
             </li>
             <li className="flex items-start gap-2">
               <MapPin className="w-4 h-4 text-[#171717] dark:text-[#f4f4f5] shrink-0 mt-0.5" />
-              <span>Tech Tower, Cyber Hub, MG Road, New Delhi, India</span>
+              <span>A-26, NOIDA SECTOR 3 , NEARBY NOIDA SECTOR 16 METRO STATION</span>
             </li>
           </ul>
         </div>

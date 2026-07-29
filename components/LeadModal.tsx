@@ -54,7 +54,7 @@ export const LeadModal: React.FC<LeadModalProps> = ({
 		const message = encodeURIComponent(
 			`Hi BizBuddy Team!\nI am interested in: *${serviceName}* ${price ? `(${price})` : ""}.\nName: ${name || "Client"}\nPhone: ${phone}`,
 		);
-		window.open(`https://wa.me/919876543210?text=${message}`, "_blank");
+		window.open(`https://wa.me/917838472802?text=${message}`, "_blank");
 		onClose();
 	};
 

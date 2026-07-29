@@ -93,13 +93,13 @@ export default function RootLayout({
 							description:
 								"Social media management, tax filing, web development & editing services for Indian businesses.",
 							url: "https://bizbuddy.consulting",
-							telephone: "+91-9876543210",
-							email: "support@bizbuddy.in",
+							telephone: "+91-120-4725137",
+							email: "Bizbuddyconsulting@gmail.com",
 							address: {
 								"@type": "PostalAddress",
-								streetAddress: "Tech Tower, Cyber Hub, MG Road",
-								addressLocality: "New Delhi",
-								addressRegion: "Delhi",
+								streetAddress: "A-26, NOIDA SECTOR 3 , NEARBY NOIDA SECTOR 16 METRO STATION",
+								addressLocality: "Noida",
+								addressRegion: "Uttar Pradesh",
 								addressCountry: "IN",
 							},
 							openingHoursSpecification: [
@@ -140,7 +140,7 @@ export default function RootLayout({
 									closes: "16:00",
 								},
 							],
-							sameAs: ["https://wa.me/919876543210"],
+							sameAs: ["https://wa.me/917838472802"],
 							priceRange: "₹299–₹14,999",
 							areaServed: "IN",
 							founder: { "@type": "Person", name: "BizBuddy Team" },

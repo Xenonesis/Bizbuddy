@@ -78,7 +78,7 @@ export const ConsultationModal: React.FC<ConsultationModalProps> = ({
 		const text = encodeURIComponent(
 			`Hi BizBuddy! I booked a consultation session.\nName: ${formData.name}\nPhone: ${formData.phone}\nBusiness: ${formData.businessType}\nDate: ${formData.date}\nTime: ${formData.timeSlot}`,
 		);
-		window.open(`https://wa.me/919876543210?text=${text}`, "_blank");
+		window.open(`https://wa.me/917838472802?text=${text}`, "_blank");
 		onClose();
 	};
 

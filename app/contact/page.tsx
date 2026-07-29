@@ -34,7 +34,7 @@ export default function ContactPage() {
 		const text = encodeURIComponent(
 			`Hi BizBuddy!\nI submitted an inquiry for *${service}*.\nName: ${name || "Client"}\nPhone: ${phone}`,
 		);
-		window.open(`https://wa.me/919876543210?text=${text}`, "_blank");
+		window.open(`https://wa.me/917838472802?text=${text}`, "_blank");
 	};
 
 	return (
@@ -200,7 +200,7 @@ export default function ContactPage() {
 										<div className="text-xs text-[#60646c] dark:text-zinc-400">
 											Phone & WhatsApp Helpline
 										</div>
-										<div className="font-semibold">+91 98765 43210</div>
+										<div className="font-semibold">+91 120-4725137</div>
 									</div>
 								</div>
 
@@ -212,7 +212,7 @@ export default function ContactPage() {
 										<div className="text-xs text-[#60646c] dark:text-zinc-400">
 											Email Support
 										</div>
-										<div className="font-semibold">support@bizbuddy.in</div>
+										<div className="font-semibold">Bizbuddyconsulting@gmail.com</div>
 									</div>
 								</div>
 
@@ -225,7 +225,7 @@ export default function ContactPage() {
 											Corporate Head Office
 										</div>
 										<div className="font-semibold">
-											Tech Tower, Cyber Hub, MG Road, New Delhi
+											A-26, NOIDA SECTOR 3 , NEARBY NOIDA SECTOR 16 METRO STATION
 										</div>
 									</div>
 								</div>
@@ -243,7 +243,7 @@ export default function ContactPage() {
 								instant live chat with an account representative.
 							</p>
 							<a
-								href="https://wa.me/919876543210?text=Hi%20BizBuddy,%20I%20have%20a%20business%20inquiry!"
+								href="https://wa.me/917838472802?text=Hi%20BizBuddy,%20I%20have%20a%20business%20inquiry!"
 								target="_blank"
 								rel="noopener noreferrer"
 								className="btn-primary bg-[#25D366] hover:bg-[#20bd5a] border-none inline-flex text-xs px-4 py-2"
