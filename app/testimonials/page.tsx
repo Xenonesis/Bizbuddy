@@ -87,7 +87,7 @@ export default function TestimonialsPage() {
 				<div className="card-surface p-6 sm:p-8 bg-white dark:bg-[#14161b] border border-[#dcdee0] dark:border-[#27272a] rounded-xl space-y-6">
 					<div className="border-b border-[#f0f0f3] dark:border-[#27272a] pb-4">
 						<h3 className="text-xl font-semibold text-[#171717] dark:text-[#f4f4f5]">
-							Are you a BizBuddy client? Submit your review
+							Are you a Bizbuddy Consulting client? Submit your review
 						</h3>
 						<p className="text-xs text-[#60646c] dark:text-zinc-400 mt-1">
 							Your feedback helps us continuously elevate our service standards.
@@ -146,7 +146,7 @@ export default function TestimonialsPage() {
 								<textarea
 									rows={3}
 									required
-									placeholder="Share your experience working with BizBuddy..."
+									placeholder="Share your experience working with Bizbuddy Consulting..."
 									value={newReview.content}
 									onChange={(e) =>
 										setNewReview({ ...newReview, content: e.target.value })

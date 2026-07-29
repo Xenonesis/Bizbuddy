@@ -5,7 +5,7 @@ export const metadata: Metadata = {
 	description:
 		"Real client results — social media growth for Dr. Apex Dental (+340% appointments), e-commerce for UrbanBites (₹2.4L monthly orders), and more.",
 	openGraph: {
-		title: "Portfolio — BizBuddy Client Results & Case Studies",
+		title: "Portfolio — Bizbuddy Consulting Client Results & Case Studies",
 		description:
 			"See real metrics from 250+ Indian businesses: +340% appointments, ₹2.4L monthly orders, 100% tax compliance.",
 	},

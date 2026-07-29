@@ -5,7 +5,7 @@ export const metadata: Metadata = {
 	description:
 		"Professional reel editing (₹299/reel), social media banners (₹149/post), YouTube thumbnails, and AI avatar videos. 24-hour turnaround available.",
 	openGraph: {
-		title: "Reel & Video Editing Services — Starting ₹299 | BizBuddy",
+		title: "Reel & Video Editing Services — Starting ₹299 | Bizbuddy Consulting",
 		description:
 			"Viral reel editing, graphic design, and AI avatar videos for Indian businesses.",
 	},

@@ -87,11 +87,17 @@ export const DeviceMockupHero: React.FC<DeviceMockupHeroProps> = ({
           transition={{ duration: 0.5 }}
           className="text-center max-w-4xl mx-auto space-y-6"
         >
+          <div className="flex justify-center">
+            <span className="inline-flex items-center gap-2 rounded-full border border-[#0d74ce]/20 dark:border-[#38bdf8]/20 bg-[#0d74ce]/5 dark:bg-[#38bdf8]/5 px-4 py-1.5 text-[11px] font-semibold tracking-[0.15em] text-[#0d74ce] dark:text-[#38bdf8] font-mono uppercase">
+              <span className="w-1.5 h-1.5 rounded-full bg-[#0d74ce] dark:bg-[#38bdf8]" />
+              Grow Smarter Scale Faster
+            </span>
+          </div>
           <h1 className="text-[1.75rem] sm:text-5xl lg:text-6xl font-semibold tracking-tighter text-[#171717] dark:text-[#f4f4f5] leading-[1.12] sm:leading-[1.08] lg:leading-[1.05]">
             Grow your business with marketing, tax compliance & custom websites.
           </h1>
           <p className="text-base sm:text-lg text-[#60646c] dark:text-zinc-400 max-w-2xl mx-auto leading-relaxed">
-            BizBuddy provides startups, local retail, restaurants, and professionals with monthly social media management, tax returns, e-commerce stores, and video editing.
+            Bizbuddy Consulting provides startups, local retail, restaurants, and professionals with monthly social media management, tax returns, e-commerce stores, and video editing.
           </p>
 
           {/* CTAs */}
@@ -188,7 +194,7 @@ export const DeviceMockupHero: React.FC<DeviceMockupHeroProps> = ({
                 <div className="w-2.5 h-2.5 rounded-full bg-amber-500" />
                 <div className="w-2.5 h-2.5 rounded-full bg-emerald-500" />
                 <span className="ml-2 font-mono text-[11px] text-zinc-400">
-                  bizbuddy.in/client-portal/{activeTab}
+                  bizbuddy.consulting/client-portal/{activeTab}
                 </span>
               </div>
               <div className="hidden sm:flex items-center gap-2 font-mono text-[10px] text-zinc-400">
@@ -341,7 +347,7 @@ export const DeviceMockupHero: React.FC<DeviceMockupHeroProps> = ({
                 <div className="bg-zinc-900 text-white rounded-lg p-3 space-y-2 text-xs">
                   <div className="flex items-center justify-between border-b border-zinc-800 pb-1.5">
                     <span className="font-bold text-[11px] flex items-center gap-1">
-                      <Smartphone className="w-3.5 h-3.5 text-[#0d74ce]" /> BizBuddy Go
+                      <Smartphone className="w-3.5 h-3.5 text-[#0d74ce]" /> Bizbuddy Go
                     </span>
                     <span className="text-[9px] font-mono text-emerald-400">ONLINE</span>
                   </div>

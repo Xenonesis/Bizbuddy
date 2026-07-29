@@ -5,7 +5,7 @@ export const metadata: Metadata = {
 	description:
 		"Printing, visiting cards, accounting support, customer helpline integration, and growth consulting for Indian small businesses.",
 	openGraph: {
-		title: "Other Business Support Services | BizBuddy",
+		title: "Other Business Support Services | Bizbuddy Consulting",
 		description:
 			"Printing, visiting cards, accounting support & growth consulting.",
 	},

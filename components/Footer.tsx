@@ -6,7 +6,7 @@ import { MessageSquare, Phone, Mail, MapPin, ArrowUpRight, ShieldCheck, Heart } 
 import { ThemeToggle } from "./ThemeToggle";
 
 export const Footer: React.FC = () => {
-  const whatsappUrl = "https://wa.me/917838472802?text=Hello%20BizBuddy,%20I%20want%20to%20know%20more%20about%20your%20services!";
+  const whatsappUrl = "https://wa.me/917838472802?text=Hello%20Bizbuddy%20Consulting,%20I%20want%20to%20know%20more%20about%20your%20services!";
 
   return (
     <footer className="bg-white dark:bg-[#0c0d10] border-t border-[#dcdee0] dark:border-[#27272a] text-[#60646c] dark:text-zinc-400">
@@ -33,15 +33,22 @@ export const Footer: React.FC = () => {
         {/* Col 1: Brand Info */}
         <div className="lg:col-span-2 space-y-4">
           <Link href="/" className="flex items-center gap-2.5">
-            <div className="w-8 h-8 rounded-lg bg-black dark:bg-[#f4f4f5] text-white dark:text-black flex items-center justify-center font-bold text-lg">
-              B
+            <img
+              src="/android-chrome-192x192.png"
+              alt="Bizbuddy Consulting"
+              className="w-8 h-8 rounded-lg object-contain"
+            />
+            <div>
+              <span className="font-semibold text-lg text-[#171717] dark:text-[#f4f4f5] tracking-tight leading-none block">
+                Bizbuddy Consulting
+              </span>
+              <span className="text-[10px] text-[#60646c] dark:text-zinc-400 font-mono tracking-wider uppercase leading-none mt-0.5 block">
+                Grow Smarter Scale Faster
+              </span>
             </div>
-            <span className="font-semibold text-lg text-[#171717] dark:text-[#f4f4f5] tracking-tight">
-              BizBuddy
-            </span>
           </Link>
           <p className="text-sm leading-relaxed max-w-sm">
-            BizBuddy is your all-in-one digital growth platform. From social media marketing, viral reels editing, and custom web development to EPF, TDS return filings, and company incorporation.
+            Bizbuddy Consulting is your all-in-one digital growth platform. From social media marketing, viral reels editing, and custom web development to EPF, TDS return filings, and company incorporation.
           </p>
           <div className="pt-2 flex items-center gap-4 text-xs font-mono text-[#171717] dark:text-[#f4f4f5]">
             <div className="flex items-center gap-1.5">
@@ -149,7 +156,7 @@ export const Footer: React.FC = () => {
       <div className="border-t border-[#f0f0f3] dark:border-zinc-800 py-6 px-4 sm:px-6 bg-[#fafafa] dark:bg-[#0c0d10]">
         <div className="max-w-[1280px] mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
           <div>
-            © {new Date().getFullYear()} BizBuddy Solutions Technologies Pvt. Ltd. All rights reserved.
+            © {new Date().getFullYear()} Bizbuddy Consulting Solutions Technologies Pvt. Ltd. All rights reserved.
           </div>
           <div className="flex items-center gap-6 text-[#476cff]">
             <ThemeToggle />

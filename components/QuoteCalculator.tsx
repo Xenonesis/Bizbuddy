@@ -46,7 +46,7 @@ export const QuoteCalculator: React.FC<QuoteCalculatorProps> = ({ onOpenLeadModa
 
   const handleWhatsAppQuote = () => {
     const quoteText = encodeURIComponent(
-      `Hello BizBuddy!\nI calculated a custom bundle quote:\n` +
+      `Hello Bizbuddy Consulting!\nI calculated a custom bundle quote:\n` +
         `- Social Media: ₹${socialPlan}\n` +
         `- Website Package: ₹${webPackage}\n` +
         `- Accounts Services: ₹${accountsTotal}\n` +

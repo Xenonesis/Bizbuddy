@@ -22,11 +22,11 @@ export const metadata: Metadata = {
 	metadataBase: new URL(siteUrl),
 	title: {
 		default:
-			"BizBuddy — Social Media, Tax Filing & Web Development for Indian Businesses",
-		template: "%s | BizBuddy",
+			"Bizbuddy Consulting — Social Media, Tax Filing & Web Development for Indian Businesses",
+		template: "%s | Bizbuddy Consulting",
 	},
 	description:
-		"BizBuddy handles everything — social media management from ₹1,499/mo, GST & ITR filing, custom websites from ₹3,999, and reel editing. Trusted by 250+ Indian businesses.",
+		"Bizbuddy Consulting handles everything — social media management from ₹1,499/mo, GST & ITR filing, custom websites from ₹3,999, and reel editing. Trusted by 250+ Indian businesses.",
 	keywords: [
 		"Social Media Management",
 		"GST Return Filing",
@@ -35,33 +35,33 @@ export const metadata: Metadata = {
 		"Reel Editing",
 		"Digital Marketing India",
 		"Affordable SMM",
-		"BizBuddy",
+		"Bizbuddy Consulting",
 	],
-	authors: [{ name: "BizBuddy Team" }],
+	authors: [{ name: "Bizbuddy Consulting Team" }],
 	openGraph: {
 		type: "website",
 		locale: "en_IN",
-		siteName: "BizBuddy",
+		siteName: "Bizbuddy Consulting",
 		title:
-			"BizBuddy — Social Media, Tax Filing & Web Development for Indian Businesses",
+			"Bizbuddy Consulting — Social Media, Tax Filing & Web Development for Indian Businesses",
 		description:
-			"BizBuddy handles everything — social media management from ₹1,499/mo, GST & ITR filing, custom websites from ₹3,999, and reel editing.",
+			"Bizbuddy Consulting handles everything — social media management from ₹1,499/mo, GST & ITR filing, custom websites from ₹3,999, and reel editing.",
 		url: siteUrl,
 		images: [
 			{
 				url: "/og-image.png",
 				width: 1200,
 				height: 630,
-				alt: "BizBuddy — All-in-one digital business solutions",
+				alt: "Bizbuddy Consulting — All-in-one digital business solutions",
 			},
 		],
 	},
 	twitter: {
 		card: "summary_large_image",
 		title:
-			"BizBuddy — Social Media, Tax Filing & Web Development for Indian Businesses",
+			"Bizbuddy Consulting — Social Media, Tax Filing & Web Development for Indian Businesses",
 		description:
-			"BizBuddy handles everything — social media management from ₹1,499/mo, GST & ITR filing, custom websites from ₹3,999, and reel editing.",
+			"Bizbuddy Consulting handles everything — social media management from ₹1,499/mo, GST & ITR filing, custom websites from ₹3,999, and reel editing.",
 	},
 	alternates: {
 		canonical: siteUrl,
@@ -100,7 +100,7 @@ export default function RootLayout({
 						__html: JSON.stringify({
 							"@context": "https://schema.org",
 							"@type": "LocalBusiness",
-							name: "BizBuddy",
+							name: "Bizbuddy Consulting",
 							description:
 								"Social media management, tax filing, web development & editing services for Indian businesses.",
 							url: "https://bizbuddy.consulting",
@@ -154,7 +154,7 @@ export default function RootLayout({
 							sameAs: ["https://wa.me/917838472802"],
 							priceRange: "₹299–₹14,999",
 							areaServed: "IN",
-							founder: { "@type": "Person", name: "BizBuddy Team" },
+							founder: { "@type": "Person", name: "Bizbuddy Consulting Team" },
 							foundingDate: "2024",
 							numberOfEmployees: { "@type": "QuantitativeValue", value: "10" },
 						}),

@@ -76,7 +76,7 @@ export const ConsultationModal: React.FC<ConsultationModalProps> = ({
 
 	const openWhatsApp = () => {
 		const text = encodeURIComponent(
-			`Hi BizBuddy! I booked a consultation session.\nName: ${formData.name}\nPhone: ${formData.phone}\nBusiness: ${formData.businessType}\nDate: ${formData.date}\nTime: ${formData.timeSlot}`,
+			`Hi Bizbuddy Consulting! I booked a consultation session.\nName: ${formData.name}\nPhone: ${formData.phone}\nBusiness: ${formData.businessType}\nDate: ${formData.date}\nTime: ${formData.timeSlot}`,
 		);
 		window.open(`https://wa.me/917838472802?text=${text}`, "_blank");
 		onClose();

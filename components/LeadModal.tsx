@@ -52,7 +52,7 @@ export const LeadModal: React.FC<LeadModalProps> = ({
 
 	const handleWhatsAppDirect = () => {
 		const message = encodeURIComponent(
-			`Hi BizBuddy Team!\nI am interested in: *${serviceName}* ${price ? `(${price})` : ""}.\nName: ${name || "Client"}\nPhone: ${phone}`,
+			`Hi Bizbuddy Consulting Team!\nI am interested in: *${serviceName}* ${price ? `(${price})` : ""}.\nName: ${name || "Client"}\nPhone: ${phone}`,
 		);
 		window.open(`https://wa.me/917838472802?text=${message}`, "_blank");
 		onClose();

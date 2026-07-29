@@ -93,16 +93,18 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenConsultation, onOpenLeadMo
         
         {/* Brand Wordmark (Fixed Dark Mode Contrast) */}
         <Link href="/" className="flex items-center gap-2.5 group shrink-0">
-          <div className="w-8.5 h-8.5 rounded-lg bg-black dark:bg-white text-white dark:text-black flex items-center justify-center font-bold text-lg tracking-tight group-hover:scale-105 transition-transform shadow-xs">
-            B
-          </div>
+          <img
+            src="/android-chrome-192x192.png"
+            alt="Bizbuddy Consulting"
+            className="w-8.5 h-8.5 rounded-lg object-contain group-hover:scale-105 transition-transform shadow-xs"
+          />
           <div className="flex flex-col">
             <span className="font-semibold text-lg tracking-tight text-[#171717] dark:text-white leading-none flex items-center gap-1">
-              BizBuddy
+              Bizbuddy Consulting
               <span className="inline-block w-1.5 h-1.5 rounded-full bg-[#0d74ce] dark:bg-[#38bdf8]" />
             </span>
             <span className="text-[10px] text-[#60646c] dark:text-zinc-400 font-mono tracking-wider uppercase leading-none mt-0.5">
-              Digital Solutions
+              Grow Smarter Scale Faster
             </span>
           </div>
         </Link>

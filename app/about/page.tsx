@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "About BizBuddy — Digital Solutions for Indian Businesses",
+	title: "About Bizbuddy Consulting — Digital Solutions for Indian Businesses",
 	description:
-		"BizBuddy helps 250+ Indian businesses grow with social media management, tax compliance, custom websites & reel editing. Founded to make digital affordable.",
+		"Bizbuddy Consulting helps 250+ Indian businesses grow with social media management, tax compliance, custom websites & reel editing. Founded to make digital affordable.",
 	openGraph: {
-		title: "About BizBuddy — Affordable Digital Growth for Indian Businesses",
+		title: "About Bizbuddy Consulting — Affordable Digital Growth for Indian Businesses",
 		description:
-			"250+ clients, 1,200+ reels created, 99.4% on-time tax filing. Meet the team behind BizBuddy.",
+			"250+ clients, 1,200+ reels created, 99.4% on-time tax filing. Meet the team behind Bizbuddy Consulting.",
 	},
 };
 
@@ -22,7 +22,7 @@ export default function AboutPage() {
 						Empowering Indian Businesses to Scale Digitally
 					</h1>
 					<p className="text-base text-[#60646c] dark:text-zinc-400">
-						BizBuddy was founded with a single mission: to provide small
+						Bizbuddy Consulting was founded with a single mission: to provide small
 						businesses, local retail, restaurants, and professionals with
 						world-class digital marketing, custom websites, and accounting
 						services at affordable monthly rates.

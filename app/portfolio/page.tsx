@@ -55,7 +55,7 @@ export default function PortfolioPage() {
 							<div className="relative h-56 w-full overflow-hidden bg-zinc-100 dark:bg-zinc-800">
 								<img
 									src={item.image}
-									alt={`${item.client}: ${item.title} — BizBuddy Portfolio`}
+									alt={`${item.client}: ${item.title} — Bizbuddy Consulting Portfolio`}
 									className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
 								/>
 								<div className="absolute top-3 right-3 bg-black/90 text-white text-xs font-mono font-semibold px-3 py-1 rounded-md">

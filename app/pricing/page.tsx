@@ -243,7 +243,7 @@ export default function PricingPage({
 						Book Free Consultation
 					</button>
 					<a
-						href="https://wa.me/917838472802?text=Hi%20BizBuddy,%20I%20want%20a%20custom%20pricing%20quote!"
+						href="https://wa.me/917838472802?text=Hi%20Bizbuddy%20Consulting,%20I%20want%20a%20custom%20pricing%20quote!"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="btn-primary bg-[#25D366] hover:bg-[#20bd5a] border-none"

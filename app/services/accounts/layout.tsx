@@ -5,7 +5,7 @@ export const metadata: Metadata = {
 	description:
 		"CA-verified tax & accounting services — GST registration & returns (₹999/mo), ITR filing (₹1,199/yr), EPF, TDS & ROC compliance. Trusted by 250+ businesses.",
 	openGraph: {
-		title: "Accounts & Tax Filing Services — Starting ₹999 | BizBuddy",
+		title: "Accounts & Tax Filing Services — Starting ₹999 | Bizbuddy Consulting",
 		description:
 			"Professional CA-verified GST, ITR, EPF and ROC filing services for Indian businesses.",
 	},

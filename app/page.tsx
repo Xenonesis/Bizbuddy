@@ -167,7 +167,7 @@ export default function Home({
 										<br />
 										{"  "}return (<br />
 										{"    "}&lt;
-										<span className="text-[#38bdf8]">BizBuddy.LandingPage</span>
+										<span className="text-[#38bdf8]">BizbuddyConsulting.LandingPage</span>
 										<br />
 										{"      "}theme=
 										<span className="text-[#16a34a]">"premium"</span>
@@ -561,7 +561,7 @@ export default function Home({
 									<div className="relative h-48 w-full overflow-hidden bg-zinc-100 dark:bg-zinc-800">
 										<img
 											src={item.image}
-											alt={`${item.client}: ${item.title} — BizBuddy Portfolio Case Study`}
+											alt={`${item.client}: ${item.title} — Bizbuddy Consulting Portfolio Case Study`}
 											className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
 										/>
 										<div className="absolute top-3 right-3 bg-black/80 backdrop-blur-xs text-white text-xs font-mono font-semibold px-2.5 py-1 rounded-md shadow-xs">
@@ -678,10 +678,10 @@ export default function Home({
 							mainEntity: [
 								{
 									"@type": "Question",
-									name: "What is BizBuddy and how does it help my business grow?",
+									name: "What is Bizbuddy Consulting and how does it help my business grow?",
 									acceptedAnswer: {
 										"@type": "Answer",
-										text: "BizBuddy is an all-in-one digital business platform handling everything from social media marketing and websites to tax return filing, GST compliance, and accounting.",
+										text: "Bizbuddy Consulting is an all-in-one digital business platform handling everything from social media marketing and websites to tax return filing, GST compliance, and accounting.",
 									},
 								},
 								{
@@ -726,7 +726,7 @@ export default function Home({
 								},
 								{
 									"@type": "Question",
-									name: "Does BizBuddy file monthly GST returns and EPF filings?",
+									name: "Does Bizbuddy Consulting file monthly GST returns and EPF filings?",
 									acceptedAnswer: {
 										"@type": "Answer",
 										text: "Yes, we handle monthly GSTR-1, GSTR-3B filings, quarterly TDS, and monthly Employees' Provident Fund (EPF) returns.",
@@ -767,7 +767,7 @@ export default function Home({
 					</div>
 					<div className="relative z-10 max-w-2xl mx-auto space-y-4">
 						<h2 className="text-3xl sm:text-4xl font-semibold tracking-tight text-white drop-shadow-md">
-							Ready to scale your business with BizBuddy?
+							Ready to scale your business with Bizbuddy Consulting?
 						</h2>
 						<p className="text-sm sm:text-base text-zinc-300 drop-shadow-sm font-medium">
 							Join 250+ growing businesses. Start your monthly social media
