@@ -2,7 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
-import { MessageSquare, Phone, Mail, MapPin, ArrowUpRight, ShieldCheck, Heart } from "lucide-react";
+import { MessageSquare, Phone, Mail, MapPin, ArrowUpRight, ShieldCheck } from "lucide-react";
 import { ThemeToggle } from "./ThemeToggle";
 
 export const Footer: React.FC = () => {
