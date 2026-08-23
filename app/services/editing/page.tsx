@@ -3,16 +3,20 @@
 import React from "react";
 import { Video, Sparkles, Check, ArrowRight, Play } from "lucide-react";
 import { EDITING_SERVICES } from "../../../lib/data";
+import { useModals } from "../../../components/LayoutWrapper";
 
 interface Props {
 	onOpenLeadModal?: (serviceName?: string, price?: string) => void;
 }
 
 export default function EditingServicesPage({ onOpenLeadModal }: Props) {
+	const modalCtx = useModals();
+
 	const triggerLead = (title: string, price: string) => {
-		if (onOpenLeadModal) {
-			onOpenLeadModal(`Editing Service: ${title}`, price);
-		}
+		(onOpenLeadModal ?? modalCtx.onOpenLeadModal)(
+			`Editing Service: ${title}`,
+			price,
+		);
 	};
 
 	return (

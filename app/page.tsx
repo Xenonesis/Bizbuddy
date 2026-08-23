@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { DeviceMockupHero } from "../components/DeviceMockupHero";
 import { QuoteCalculator } from "../components/QuoteCalculator";
+import { useModals } from "../components/LayoutWrapper";
 import { PORTFOLIO_ITEMS, TESTIMONIALS } from "../lib/data";
 
 import TrustLogoMarquee from "./sections/trust-logo-marquee";
@@ -20,6 +21,7 @@ interface PageProps {
 }
 
 export default function Home({ onOpenConsultation, onOpenLeadModal }: PageProps) {
+	const modalCtx = useModals();
 	const [portfolioCategory, setPortfolioCategory] = useState<string>("All");
 
 	const filteredPortfolio = PORTFOLIO_ITEMS.filter(
@@ -28,11 +30,11 @@ export default function Home({ onOpenConsultation, onOpenLeadModal }: PageProps)
 	);
 
 	const triggerConsultation = () => {
-		if (onOpenConsultation) onOpenConsultation();
+		(onOpenConsultation ?? modalCtx.onOpenConsultation)();
 	};
 
 	const triggerLead = (svc?: string, prc?: string) => {
-		if (onOpenLeadModal) onOpenLeadModal(svc, prc);
+		(onOpenLeadModal ?? modalCtx.onOpenLeadModal)(svc, prc);
 	};
 
 	return (

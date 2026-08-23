@@ -2,7 +2,7 @@ export default function SocialPanel() {
 	return (
 		<div className="space-y-4 animate-in fade-in duration-300">
 			<div className="flex justify-between items-center border-b border-zinc-800 pb-3">
-				<span className="text-sm font-semibold">Social Media Management (Super Plan ₹1,999/mo)</span>
+				<span className="text-sm font-semibold">Social Media Management (Super Plan ₹5,999/mo)</span>
 				<span className="text-xs text-zinc-400 font-mono">15 Posts + 5 Reels Schedule</span>
 			</div>
 			<div className="grid grid-cols-1 sm:grid-cols-3 gap-3">

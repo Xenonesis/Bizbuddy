@@ -9,16 +9,17 @@ import {
 	ArrowRight,
 	Check,
 } from "lucide-react";
+import { useModals } from "../../../components/LayoutWrapper";
 
 interface Props {
 	onOpenLeadModal?: (serviceName?: string, price?: string) => void;
 }
 
 export default function OtherServicesPage({ onOpenLeadModal }: Props) {
+	const modalCtx = useModals();
+
 	const triggerLead = (svc: string) => {
-		if (onOpenLeadModal) {
-			onOpenLeadModal(svc);
-		}
+		(onOpenLeadModal ?? modalCtx.onOpenLeadModal)(svc);
 	};
 
 	const otherList = [

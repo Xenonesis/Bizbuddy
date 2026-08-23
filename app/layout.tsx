@@ -26,7 +26,7 @@ export const metadata: Metadata = {
 		template: "%s | Bizbuddy Consulting",
 	},
 	description:
-		"Bizbuddy Consulting handles everything — social media management from ₹1,499/mo, GST & ITR filing, custom websites from ₹3,999, and reel editing. Trusted by 250+ Indian businesses.",
+		"Bizbuddy Consulting handles everything — social media management from ₹4,999/mo, GST & ITR filing, custom websites from ₹3,999, and reel editing. Trusted by 250+ Indian businesses.",
 	keywords: [
 		"Social Media Management",
 		"GST Return Filing",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
 		title:
 			"Bizbuddy Consulting — Social Media, Tax Filing & Web Development for Indian Businesses",
 		description:
-			"Bizbuddy Consulting handles everything — social media management from ₹1,499/mo, GST & ITR filing, custom websites from ₹3,999, and reel editing.",
+			"Bizbuddy Consulting handles everything — social media management from ₹4,999/mo, GST & ITR filing, custom websites from ₹3,999, and reel editing.",
 		url: siteUrl,
 		images: [
 			{
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
 		title:
 			"Bizbuddy Consulting — Social Media, Tax Filing & Web Development for Indian Businesses",
 		description:
-			"Bizbuddy Consulting handles everything — social media management from ₹1,499/mo, GST & ITR filing, custom websites from ₹3,999, and reel editing.",
+			"Bizbuddy Consulting handles everything — social media management from ₹4,999/mo, GST & ITR filing, custom websites from ₹3,999, and reel editing.",
 	},
 	alternates: {
 		canonical: siteUrl,

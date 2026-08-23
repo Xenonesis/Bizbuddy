@@ -15,7 +15,7 @@ export default function DashboardPage() {
 			id: "L-101",
 			name: "Ankit Mehta",
 			phone: "9876543210",
-			service: "Social Media Super Plan (₹1,999)",
+			service: "Social Media Super Plan (₹5,999)",
 			date: "Today 14:20",
 			status: "New Inquiry",
 		},

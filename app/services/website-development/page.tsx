@@ -12,16 +12,17 @@ import {
 	Sparkles,
 } from "lucide-react";
 import { WEBSITE_PACKAGES } from "../../../lib/data";
+import { useModals } from "../../../components/LayoutWrapper";
 
 interface Props {
 	onOpenLeadModal?: (serviceName?: string, price?: string) => void;
 }
 
 export default function WebsiteDevPage({ onOpenLeadModal }: Props) {
+	const modalCtx = useModals();
+
 	const triggerLead = (pkgName: string, price: string) => {
-		if (onOpenLeadModal) {
-			onOpenLeadModal(`Web Dev: ${pkgName}`, price);
-		}
+		(onOpenLeadModal ?? modalCtx.onOpenLeadModal)(`Web Dev: ${pkgName}`, price);
 	};
 
 	return (

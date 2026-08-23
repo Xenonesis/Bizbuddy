@@ -44,7 +44,7 @@ export default function FaqAccordionSection() {
 								name: "How do I get started with a monthly Social Media plan?",
 								acceptedAnswer: {
 									"@type": "Answer",
-									text: "Choose a plan (Basic ₹1,499, Super ₹1,999, or Premium ₹2,499) and our team will contact you within 2 hours to collect your brand details and preferences.",
+									text: "Choose a plan (Basic ₹4,999, Super ₹5,999, or Premium ₹6,999) and our team will contact you within 2 hours to collect your brand details and preferences.",
 								},
 							},
 							{

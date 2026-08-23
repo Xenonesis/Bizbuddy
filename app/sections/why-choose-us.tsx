@@ -26,7 +26,7 @@ export default function WhyChooseUs() {
 								Built for affordable, measurable business growth.
 							</h2>
 							<p className="text-base sm:text-lg text-[#60646c] dark:text-zinc-400 max-w-lg leading-relaxed">
-								Transparent pricing starting from ₹1,499/mo with zero hidden
+								Transparent pricing starting from ₹4,999/mo with zero hidden
 								setup fees or contracts. Your dedicated account manager scales
 								with you.
 							</p>
@@ -63,7 +63,7 @@ export default function WhyChooseUs() {
 
 							<div className="p-4 rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-[#14161b] space-y-1">
 								<div className="text-2xl sm:text-3xl font-bold font-mono text-[#171717] dark:text-white">
-									₹<AnimatedCounter to={1499} />
+									₹<AnimatedCounter to={4999} />
 								</div>
 								<div className="text-xs text-[#60646c] dark:text-zinc-400 font-medium">
 									Monthly Starter Price

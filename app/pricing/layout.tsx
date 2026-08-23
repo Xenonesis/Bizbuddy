@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Pricing Plans — Social Media & Web Dev (₹1,499–₹14,999)",
+	title: "Pricing Plans — Social Media & Web Dev (₹4,999–₹14,999)",
 	description:
-		"Transparent monthly pricing for social media management (₹1,499–₹2,499), websites (₹3,999–₹14,999), GST filing & reel editing. No hidden fees, cancel anytime.",
+		"Transparent monthly pricing for social media management (₹4,999–₹6,999), websites (₹3,999–₹14,999), GST filing & reel editing. No hidden fees, cancel anytime.",
 	openGraph: {
 		title: "Bizbuddy Consulting Pricing — Social Media, Websites & Tax Plans",
 		description:
-			"Simple monthly plans from ₹1,499/mo. No long-term commitments.",
+			"Simple monthly plans from ₹4,999/mo. No long-term commitments.",
 	},
 };
 

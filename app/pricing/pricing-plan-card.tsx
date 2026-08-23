@@ -1,10 +1,12 @@
-import { Check, ArrowRight } from "lucide-react";
+import { Check, ArrowRight, Crown } from "lucide-react";
 
 interface Plan {
 	id: string;
 	name: string;
 	price: string;
+	period?: string;
 	popular?: boolean;
+	badge?: string;
 	features: string[];
 }
 
@@ -16,30 +18,45 @@ interface PricingPlanCardProps {
 export default function PricingPlanCard({ plan, onSelectPlan }: PricingPlanCardProps) {
 	return (
 		<div
-			className={`p-6 sm:p-8 rounded-xl border flex flex-col justify-between transition-all ${
+			className={`relative p-6 sm:p-8 rounded-xl flex flex-col justify-between transition-all ${
 				plan.popular
-					? "card-dark border-black shadow-xl"
+					? "card-dark border-2 border-emerald-400/70 shadow-[0_0_50px_rgba(16,185,129,0.25)] md:scale-[1.05] md:-translate-y-3 z-10"
 					: "card-surface bg-white dark:bg-[#14161b] border-[#dcdee0] dark:border-[#27272a]"
 			}`}
 		>
+			{plan.popular && plan.badge && (
+				<div className="absolute -top-4 left-1/2 -translate-x-1/2 whitespace-nowrap">
+					<span className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500 px-4 py-1.5 text-[11px] font-bold uppercase tracking-widest text-black shadow-lg">
+						<Crown className="w-3.5 h-3.5 fill-black" />
+						{plan.badge}
+					</span>
+				</div>
+			)}
 			<div className="space-y-6">
 				<div>
-					<h3
-						className={`text-xl font-semibold ${plan.popular ? "text-white" : "text-[#171717] dark:text-[#f4f4f5]"}`}
-					>
-						{plan.name}
-					</h3>
-					<div className="mt-3 flex items-baseline gap-1 font-mono">
+					<div className="flex items-center gap-2">
+						<h3
+							className={`text-xl font-semibold ${plan.popular ? "text-white" : "text-[#171717] dark:text-[#f4f4f5]"}`}
+						>
+							{plan.name}
+						</h3>
+						{plan.popular && (
+							<Crown className="w-5 h-5 text-emerald-400 fill-emerald-400/20" />
+						)}
+					</div>
+					<div className="mt-3 font-mono">
 						<span
 							className={`text-4xl font-bold ${plan.popular ? "text-white" : "text-[#171717] dark:text-[#f4f4f5]"}`}
 						>
 							{plan.price}
 						</span>
-						<span
-							className={`text-xs ${plan.popular ? "text-zinc-400" : "text-[#60646c] dark:text-zinc-400"}`}
-						>
-							/month
-						</span>
+						{plan.period && (
+							<span
+								className={`block mt-1 text-[11px] ${plan.popular ? "text-zinc-400" : "text-[#60646c] dark:text-zinc-400"}`}
+							>
+								{plan.period}
+							</span>
+						)}
 					</div>
 				</div>
 

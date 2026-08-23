@@ -2,16 +2,20 @@
 
 import { Check, ArrowRight } from "lucide-react";
 import { SOCIAL_MEDIA_PLANS } from "../../../lib/data";
+import { useModals } from "../../../components/LayoutWrapper";
 
 interface Props {
 	onOpenLeadModal?: (serviceName?: string, price?: string) => void;
 }
 
 export default function SocialMediaPage({ onOpenLeadModal }: Props) {
+	const modalCtx = useModals();
+
 	const triggerLead = (planName: string, price: string) => {
-		if (onOpenLeadModal) {
-			onOpenLeadModal(`Social Media - ${planName}`, price);
-		}
+		(onOpenLeadModal ?? modalCtx.onOpenLeadModal)(
+			`Social Media - ${planName}`,
+			price,
+		);
 	};
 
 	return (

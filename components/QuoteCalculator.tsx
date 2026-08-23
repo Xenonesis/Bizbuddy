@@ -8,7 +8,7 @@ interface QuoteCalculatorProps {
 }
 
 export const QuoteCalculator: React.FC<QuoteCalculatorProps> = ({ onOpenLeadModal }) => {
-  const [socialPlan, setSocialPlan] = useState<number>(1999);
+  const [socialPlan, setSocialPlan] = useState<number>(4999);
   const [webPackage, setWebPackage] = useState<number>(3999);
   const [selectedAccounts, setSelectedAccounts] = useState<string[]>(["gst"]);
   const [editingPack, setEditingPack] = useState<number>(0);
@@ -90,9 +90,9 @@ export const QuoteCalculator: React.FC<QuoteCalculatorProps> = ({ onOpenLeadModa
             <div className="grid grid-cols-1 sm:grid-cols-4 gap-2">
               {[
                 { label: "None", val: 0 },
-                { label: "Basic (₹1,499)", val: 1499 },
-                { label: "Super (₹1,999)", val: 1999 },
-                { label: "Premium (₹2,499)", val: 2499 }
+                { label: "Basic (₹4,999)", val: 4999 },
+                { label: "Super (₹5,999)", val: 5999 },
+                { label: "Premium (₹6,999)", val: 6999 }
               ].map((item) => (
                 <button
                   key={item.val}

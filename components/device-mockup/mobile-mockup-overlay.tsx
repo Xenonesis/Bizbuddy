@@ -18,7 +18,7 @@ export default function MobileMockupOverlay({ onOpenLeadModal }: MobileMockupOve
 				</div>
 				<div className="bg-zinc-800 p-2 rounded text-[10px] text-zinc-300 flex items-center gap-1.5">
 					<MessageSquare className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
-					<span>New lead via WhatsApp: &quot;Need ₹1,999 Social Media Plan for my salon&quot;</span>
+					<span>New lead via WhatsApp: &quot;Need ₹5,999 Social Media Plan for my salon&quot;</span>
 				</div>
 				<button
 					onClick={() => onOpenLeadModal("Mobile Mockup Quick Connect")}

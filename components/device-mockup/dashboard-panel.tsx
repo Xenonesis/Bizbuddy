@@ -16,7 +16,7 @@ export default function DashboardPanel({ onOpenLeadModal }: DashboardPanelProps)
 				</div>
 				<div className="flex items-center gap-2">
 					<span className="px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-400 text-xs font-mono">
-						Active Plan: Super ₹1,999/mo
+						Active Plan: Super ₹5,999/mo
 					</span>
 				</div>
 			</div>

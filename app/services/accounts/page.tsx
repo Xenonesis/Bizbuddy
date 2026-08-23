@@ -12,19 +12,22 @@ import {
 	X,
 } from "lucide-react";
 import { ACCOUNT_SERVICES, AccountService } from "../../../lib/data";
+import { useModals } from "../../../components/LayoutWrapper";
 
 interface Props {
 	onOpenLeadModal?: (serviceName?: string, price?: string) => void;
 }
 
 export default function AccountsPage({ onOpenLeadModal }: Props) {
+	const modalCtx = useModals();
 	const [selectedDocService, setSelectedDocService] =
 		useState<AccountService | null>(null);
 
 	const triggerLead = (svcTitle: string, pricing: string) => {
-		if (onOpenLeadModal) {
-			onOpenLeadModal(`Accounts: ${svcTitle}`, pricing);
-		}
+		(onOpenLeadModal ?? modalCtx.onOpenLeadModal)(
+			`Accounts: ${svcTitle}`,
+			pricing,
+		);
 	};
 
 	return (
